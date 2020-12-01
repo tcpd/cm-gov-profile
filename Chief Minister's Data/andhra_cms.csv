@@ -1,0 +1,29 @@
+"sl_no","state","name","V4","start_date","end_date","V7","source","days_in_off","delay_apt","Start_Date","Appointment_Year","Assembly_No","Constituency_No","Constituency_Name","Poll_No","pid","tcpd_cm_name","method"
+1,"Andhra Pradesh","Y. S. Jaganmohan Reddy",NA,"30-05-2019","Incumbent",NA,"http://ipr.ap.nic.in/release/ap_cms.asp",NA,1,2019-05-30,"2019",15,129,"PULIVENDLA",0,"AEAP83077","Y S JAGAN MOHAN REDDY","lcs"
+2,"Andhra Pradesh","Chandrababu Naidu",NA,"02-06-2014","29-05-2019",NA,"http://ipr.ap.nic.in/release/ap_cms.asp",1822,0,2014-06-02,"2014",14,175,"KUPPAM",0,"AEAP14475","NARA CHANDRA BABU NAIDU","lcs"
+3,"Andhra Pradesh","President's Rule",NA,"01-03-2014","02-06-2014",NA,"http://ipr.ap.nic.in/release/ap_cms.asp",93,0,2014-03-01,"2014",14,NA,NA,NA,NA,NA,NA
+4,"Andhra Pradesh","Sri. N.Kiran Kumar Reddy",NA,"25-11-2010","01-03-2014",NA,"http://ipr.ap.nic.in/release/ap_cms.asp",1192,1,2010-11-25,"2010",13,282,"PILERU",0,"AEAP17121","NALLARI KIRAN KUMAR REDDY","lcs"
+5,"Andhra Pradesh","Sri. K. Rosaiah",NA,"09-04-2009","24-11-2010",NA,"http://ipr.ap.nic.in/release/ap_cms.asp",594,59,2009-04-09,"2009",13,NA,NA,NA,NA,NA,NA
+6,"Andhra Pradesh","Dr.Y.S. Rajasekhara Reddy",NA,"14-04-2004","09-02-2009",NA,"http://ipr.ap.nic.in/release/ap_cms.asp",1762,0,2004-04-14,"2004",12,160,"PULIVENDLA",0,"AEAP9640","AJASEKHARA REDDY Y S","lcs"
+7,"Andhra Pradesh","Sri N. Chandra Babu Naidu",NA,"09-01-1995","14-04-2004",NA,"http://ipr.ap.nic.in/release/ap_cms.asp",3383,0,1995-01-09,"1995",10,142,"KUPPAM",0,"AEAP14475","NARA CHANDRA BABU NAIDU","lcs"
+8,"Andhra Pradesh","Sri N.T.Rama Rao",NA,"12-12-1994","09-01-1995",NA,"http://ipr.ap.nic.in/release/ap_cms.asp",28,0,1994-12-12,"1994",10,NA,NA,NA,NA,NA,NA
+9,"Andhra Pradesh","Sri K.VijayaBhaskara Reddy",NA,"10-09-1992","12-12-1994",NA,"http://ipr.ap.nic.in/release/ap_cms.asp",823,0,1992-09-10,"1992",9,184,"Panyam",1,"AEAP17377","K.V.B. Reddy","lcs"
+10,"Andhra Pradesh","Sri N.Janardhana Reddy",NA,"17-12-1990","10-09-1992",NA,"http://ipr.ap.nic.in/release/ap_cms.asp",633,0,1990-12-17,"1990",9,134,"VENKATAGIRI",0,"GEAP64950","NEDURUMALLI JANARDHAN REDDY","cosine"
+11,"Andhra Pradesh","Dr.Marri Chenna Reddy",NA,"12-03-1989","17-12-1990",NA,"http://ipr.ap.nic.in/release/ap_cms.asp",645,0,1989-03-12,"1989",9,208,"SANATHNAGAR",0,"AEAP26327","M. CHENNA REDDY","lcs"
+12,"Andhra Pradesh","Sri N.T.Rama Rao",NA,"03-09-1985","12-03-1989",NA,"http://ipr.ap.nic.in/release/ap_cms.asp",1286,0,1985-09-03,"1985",8,NA,NA,NA,NA,NA,NA
+13,"Andhra Pradesh","Sri N.T.Rama Rao",NA,"16-09-1984","03-09-1985",NA,"http://ipr.ap.nic.in/release/ap_cms.asp",352,0,1984-09-16,"1984",7,NA,NA,NA,NA,NA,NA
+14,"Andhra Pradesh","Sri N.Bhaskara rao",NA,"16-08-1984","16-09-1984",NA,"http://ipr.ap.nic.in/release/ap_cms.asp",31,0,1984-08-16,"1984",7,94,"VEMUR",0,"AEAP13877","NADENDLA BHASKARA RAO","lcs"
+15,"Andhra Pradesh","Sri N.T.Rama Rao",NA,"01-09-1983","16-08-1984",NA,"http://ipr.ap.nic.in/release/ap_cms.asp",350,346,1983-09-01,"1983",7,149,"TIRUPATHI",0,"AEAP14941","N. T. RAMA RAO","lcs"
+16,"Andhra Pradesh","Sri Bhavanam Venkataram",NA,"24-02-1982","20-09-1982",NA,"http://ipr.ap.nic.in/release/ap_cms.asp",208,-554,1982-02-24,"1982",6,NA,NA,NA,NA,NA,NA
+17,"Andhra Pradesh","Sri K.Vijaya Bhaskara Reddy",NA,"09-01-1982","01-09-1983",NA,"http://ipr.ap.nic.in/release/ap_cms.asp",600,-46,1982-01-09,"1982",6,NA,NA,NA,NA,NA,NA
+18,"Andhra Pradesh","Sri Tanguturi Anjaiah",NA,"10-11-1980","24-02-1982",NA,"http://ipr.ap.nic.in/release/ap_cms.asp",471,0,1980-11-10,"1980",6,NA,NA,NA,NA,NA,NA
+19,"Andhra Pradesh","Dr Marri Chenna Reddy",NA,"03-06-1978","10-11-1980",NA,"http://ipr.ap.nic.in/release/ap_cms.asp",891,0,1978-06-03,"1978",6,219,"MEDCHAL",0,"AEAP23024","M. CHANNA REDDY","lcs"
+20,"Andhra Pradesh","Sri. Jalagam Vengala Rao",NA,"12-10-1973","03-06-1978",NA,"http://ipr.ap.nic.in/release/ap_cms.asp",1695,0,1973-10-12,"1973",5,271,"VEMSOOR",0,"GEAP30734","JACAGAM VENGALA RAO","lcs"
+21,"Andhra Pradesh","President's rule",NA,"10-10-1973","12-10-1973",NA,"http://ipr.ap.nic.in/release/ap_cms.asp",2,9,1973-10-10,"1973",5,NA,NA,NA,NA,NA,NA
+22,"Andhra Pradesh","Sri P.V.Narasimha Rao",NA,"30-09-1971","01-10-1973",NA,"http://ipr.ap.nic.in/release/ap_cms.asp",732,0,1971-09-30,"1971",4,243,"MANTHANI",0,"AEAP25359","P. V. N. RAO","lcs"
+23,"Andhra Pradesh","Sri Kasu Bramhananda Reddy",NA,"29-02-1964","30-09-1971",NA,"http://ipr.ap.nic.in/release/ap_cms.asp",2770,0,1964-02-29,"1964",3,110,"PHIRANGIPURAM",0,"AEAP25948","KASU BRAHMANANDA REDDI","lcs"
+24,"Andhra Pradesh","Sri (Dr)Neelam Sanjeeva Reddy",NA,"03-12-1962","29-02-1964",NA,"http://ipr.ap.nic.in/release/ap_cms.asp",453,0,1962-12-03,"1962",3,185,"DHONE",0,"AEAP26190","NEELAM SANJEEVA REDDY","lcs"
+25,"Andhra Pradesh","Sri Damodaram Sanjivayya",NA,"01-11-1960","03-12-1962",NA,"http://ipr.ap.nic.in/release/ap_cms.asp",762,0,1960-11-01,"1960",0,NA,NA,NA,NA,NA,NA
+26,"Andhra Pradesh","Sri.Neelam Sanjeeva Reddy",NA,"11-01-1956","01-11-1960",NA,"http://ipr.ap.nic.in/release/ap_cms.asp",1756,-295,1956-01-11,"1956",0,NA,NA,NA,NA,NA,NA
+27,"Andhra Pradesh","Sri Bezawada Gopala Reddy",NA,"28-03-1955","01-11-1956",NA,"http://ipr.ap.nic.in/release/ap_cms.asp",584,1,1955-03-28,"1955",0,NA,NA,NA,NA,NA,NA
+28,"Andhra Pradesh","Sri Tanguturi Prakasam",NA,"01-10-1953","27-03-1955",NA,"http://ipr.ap.nic.in/release/ap_cms.asp",542,NA,1953-10-01,"1953",0,NA,NA,NA,NA,NA,NA

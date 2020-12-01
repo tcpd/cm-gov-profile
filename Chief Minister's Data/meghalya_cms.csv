@@ -1,0 +1,31 @@
+"sl_no","state","name","V4","start_date","end_date","V7","source","days_in_off","delay_apt","Start_Date","Appointment_Year","Assembly_No","Constituency_No","Constituency_Name","Poll_No","pid","tcpd_cm_name","method"
+230,"Meghalaya","Capt. W.A. Sangma",NA,"02-04-1970","21-07-1972",NA,"http://megassembly.gov.in/governors_chiefministers.htm",841,NA,1970-04-02,"1970",0,NA,NA,NA,NA,NA,NA
+231,"Meghalaya","Capt. W.A. Sangma",NA,"21-01-1972","18-03-1972",NA,"http://megassembly.gov.in/governors_chiefministers.htm",57,-182,1972-01-21,"1972",1,NA,NA,NA,NA,NA,NA
+232,"Meghalaya","Capt. W.A. Sangma",NA,"18-03-1972","21-11-1976",NA,"http://megassembly.gov.in/governors_chiefministers.htm",1709,0,1972-03-18,"1972",1,NA,NA,NA,NA,NA,NA
+233,"Meghalaya","Capt. W.A. Sangma",NA,"22-11-1976","03-03-1978",NA,"http://megassembly.gov.in/governors_chiefministers.htm",466,1,1976-11-22,"1976",1,NA,NA,NA,NA,NA,NA
+234,"Meghalaya","Shri D.D. Pugh",NA,"10-03-1978","21-02-1979",NA,"http://megassembly.gov.in/governors_chiefministers.htm",348,7,1978-03-10,"1978",2,20,"MAWKHAR",0,"AEML302","D. D. PUGH","lcs"
+235,"Meghalaya","Shri D.D. Pugh",NA,"21-02-1979","06-05-1979",NA,"http://megassembly.gov.in/governors_chiefministers.htm",74,0,1979-02-21,"1979",2,20,"MAWKHAR",0,"AEML302","D. D. PUGH","lcs"
+236,"Meghalaya","Shri B.B. Lyngdoh",NA,"07-05-1979","07-05-1981",NA,"http://megassembly.gov.in/governors_chiefministers.htm",731,1,1979-05-07,"1979",2,27,"LYNGKYRDEM",0,"AEML333","BRINGTON BUHAI LYNGDOH","lcs"
+237,"Meghalaya","Capt. W.A. Sangma",NA,"07-05-1981","24-02-1983",NA,"http://megassembly.gov.in/governors_chiefministers.htm",658,0,1981-05-07,"1981",2,37,"BAGHMARA",0,"AEML382","WILLIAMSON A. SANGMA","lcs"
+238,"Meghalaya","Shri B.B. Lyngdoh",NA,"02-03-1983","31-03-1983",NA,"http://megassembly.gov.in/governors_chiefministers.htm",29,6,1983-03-02,"1983",3,27,"LYNGKYRDEM",0,"AEML333","B.B. LYNGDOH","lcs"
+239,"Meghalaya","Shri W.A. Sangma",NA,"02-04-1983","05-02-1988",NA,"http://megassembly.gov.in/governors_chiefministers.htm",1770,2,1983-04-02,"1983",3,NA,NA,NA,NA,NA,NA
+240,"Meghalaya","Shri Purno A. Sangma",NA,"06-02-1988","25-03-1990",NA,"http://megassembly.gov.in/governors_chiefministers.htm",778,1,1988-02-06,"1988",4,52,"TURA",0,"AEML1013","PURNO A. SANGMA","lcs"
+241,"Meghalaya","Shri B.B. Lyngdoh",NA,"26-03-1990","10-10-1991",NA,"http://megassembly.gov.in/governors_chiefministers.htm",563,1,1990-03-26,"1990",4,27,"LYNGKYRDEM",0,"AEML333","B.B.LYNGDOH","lcs"
+242,"Meghalaya","Shri D.D. Lapang",NA,"05-02-1992","19-02-1993",NA,"http://megassembly.gov.in/governors_chiefministers.htm",380,118,1992-02-05,"1992",4,10,"NONGPOH",0,"AEML55","D. DETHWELSON LAPANG","lcs"
+243,"Meghalaya","Shri S.C. Marak",NA,"19-02-1993","27-02-1998",NA,"http://megassembly.gov.in/governors_chiefministers.htm",1834,0,1993-02-19,"1993",5,42,"RESUBELPARA",0,"AEML642","SALSENG C. MARAK","lcs"
+244,"Meghalaya","Shri S.C. Marak",NA,"27-02-1998","10-03-1998",NA,"http://megassembly.gov.in/governors_chiefministers.htm",11,0,1998-02-27,"1998",6,42,"RESUBELPARA",0,"AEML642","SALSENG C. MARAK","lcs"
+245,"Meghalaya","Shri B.B. Lyngdoh",NA,"10-03-1998","18-08-1998",NA,"http://megassembly.gov.in/governors_chiefministers.htm",161,0,1998-03-10,"1998",6,27,"LYNGKYRDEM",0,"AEML333","B.B. LYNGDOH","lcs"
+246,"Meghalaya","- do -",NA,"18-08-1998","14-10-1999",NA,"http://megassembly.gov.in/governors_chiefministers.htm",422,0,1998-08-18,"1998",6,NA,NA,NA,NA,NA,NA
+247,"Meghalaya","Shri B.B. Lyngdoh",NA,"14-10-1999","08-03-2000",NA,"http://megassembly.gov.in/governors_chiefministers.htm",146,0,1999-10-14,"1999",6,27,"LYNGKYRDEM",0,"AEML333","B.B. LYNGDOH","lcs"
+248,"Meghalaya","Shri E.K. Mawlong",NA,"08-03-2000","08-12-2001",NA,"http://megassembly.gov.in/governors_chiefministers.htm",640,0,2000-03-08,"2000",6,9,"UMROI",0,"AEML84","E.K. MAWLONG","lcs"
+249,"Meghalaya","Dr. F.A. Khonglam",NA,"08-12-2001","04-03-2003",NA,"http://megassembly.gov.in/governors_chiefministers.htm",451,0,2001-12-08,"2001",6,29,"SOHRA",0,"AEML343","FLINDER ANDERSON KHONGLAM","lcs"
+250,"Meghalaya","Shri D.D. Lapang",NA,"04-03-2003","15-06-2006",NA,"http://megassembly.gov.in/governors_chiefministers.htm",1199,0,2003-03-04,"2003",7,10,"NONGPOH",0,"AEML55","SHRI. D.D.LAPANG","lcs"
+251,"Meghalaya","Shri J. D. Rymbai",NA,"15-06-2006","10-03-2007",NA,"http://megassembly.gov.in/governors_chiefministers.htm",268,0,2006-06-15,"2006",7,11,"JIRANG",0,"AEML519","SHRI. J.DRINGWEL RYMBAI","lcs"
+252,"Meghalaya","Shri D. D. Lapang",NA,"10-03-2007","07-03-2008",NA,"http://megassembly.gov.in/governors_chiefministers.htm",363,0,2007-03-10,"2007",7,10,"NONGPOH",0,"AEML55","SHRI. D.D.LAPANG","lcs"
+253,"Meghalaya","Shri D. D. Lapang",NA,"10-03-2008","19-03-2008",NA,"http://megassembly.gov.in/governors_chiefministers.htm",9,3,2008-03-10,"2008",8,10,"JIRANG",0,"AEML55","DR. D.D. LAPANG","lcs"
+254,"Meghalaya","Dr. Donkupar Roy",NA,"19-03-2008","19-03-2009",NA,"http://megassembly.gov.in/governors_chiefministers.htm",365,0,2008-03-19,"2008",8,30,"MAIRANG",0,"AEML472","DR. DONKUPAR ROY","lcs"
+255,"Meghalaya","PRESIDENT’S RULE",NA,"19-03-2009","13-04-2009",NA,"http://megassembly.gov.in/governors_chiefministers.htm",25,0,2009-03-19,"2009",8,NA,NA,NA,NA,NA,NA
+256,"Meghalaya","Shri D. D. Lapang",NA,"13-03-2009","05-07-2009",NA,"http://megassembly.gov.in/governors_chiefministers.htm",114,-31,2009-03-13,"2009",8,10,"JIRANG",0,"AEML55","DR. D.D. LAPANG","lcs"
+257,"Meghalaya","Shri D. D. Lapang",NA,"06-07-2009","21-10-2009",NA,"http://megassembly.gov.in/governors_chiefministers.htm",107,1,2009-07-06,"2009",8,10,"JIRANG",0,"AEML55","DR. D.D. LAPANG","lcs"
+258,"Meghalaya","Shri D. D. Lapang",NA,"22-10-2009","18-04-2010",NA,"http://megassembly.gov.in/governors_chiefministers.htm",178,1,2009-10-22,"2009",8,10,"JIRANG",0,"AEML55","DR. D.D. LAPANG","lcs"
+259,"Meghalaya","Shri Mukul Sangma",NA,"20-04-2010",NA,NA,"http://megassembly.gov.in/governors_chiefministers.htm",NA,2,2010-04-20,"2010",8,58,"RONGARA SIJU",0,"AEML661","DR. MUKUL SANGMA","lcs"

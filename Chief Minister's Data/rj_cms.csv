@@ -1,0 +1,23 @@
+sl_no,state,name,V4,start_date,end_date,V7,source,days_in_off,delay_apt,Start_Date,Appointment_Year,Assembly_No,Constituency_No,Constituency_Name,Poll_No,pid,tcpd_cm_name,method
+317,Rajasthan,Heera Lal Shastri,NA,07-04-1949,05-01-1951,NA,https://rajassembly.nic.in/CMFormer.aspx,638,NA,07-04-1949,1949,0,NA,NA,NA,NA,NA,NA
+318,Rajasthan,C.S. Venkatachari,NA,06-01-1951,25-04-1951,NA,https://rajassembly.nic.in/CMFormer.aspx,109,1,06-01-1951,1951,0,NA,NA,NA,NA,NA,NA
+319,Rajasthan,Jai Narayan Vyas,NA,26-04-1951,03-03-1952,NA,https://rajassembly.nic.in/CMFormer.aspx,312,1,26-04-1951,1951,0,NA,NA,NA,NA,NA,NA
+320,Rajasthan,Tikaram Paliwal,NA,03-03-1952,31-10-1952,NA,https://rajassembly.nic.in/CMFormer.aspx,242,0,03-03-1952,1952,0,NA,NA,NA,NA,NA,NA
+321,Rajasthan,Jai Narayan Vyas,NA,01-11-1952,12-11-1954,NA,https://rajassembly.nic.in/CMFormer.aspx,741,1,01-11-1952,1952,0,NA,NA,NA,NA,NA,NA
+322,Rajasthan,Mohan Lal Sukhadia,NA,13-11-1954,11-04-1957,NA,https://rajassembly.nic.in/CMFormer.aspx,880,1,13-11-1954,1954,0,NA,NA,NA,NA,NA,NA
+323,Rajasthan,Mohan Lal Sukhadia,NA,11-04-1957,11-03-1962,NA,https://rajassembly.nic.in/CMFormer.aspx,1795,0,11-04-1957,1957,0,NA,NA,NA,NA,NA,NA
+324,Rajasthan,Mohan Lal Sukhadia,NA,12-03-1962,13-03-1967,NA,https://rajassembly.nic.in/CMFormer.aspx,1827,1,12-03-1962,1962,3,108,UDAIPUR,0,AERJ568,MOHANLAL,lcs
+325,Rajasthan,Mohan Lal Sukhadia,NA,26-04-1967,09-07-1971,NA,https://rajassembly.nic.in/CMFormer.aspx,1535,44,26-04-1967,1967,4,33,NEEM KA THANA,0,AERJ1070,M. LAL,lcs
+326,Rajasthan,Barkatullah Khan,NA,09-07-1971,11-10-1973,NA,https://rajassembly.nic.in/CMFormer.aspx,825,0,09-07-1971,1971,4,169,JODHPUR,0,AERJ1717,B. KHAN,lcs
+327,Rajasthan,Hari Dev Joshi,NA,11-10-1973,29-04-1977,NA,https://rajassembly.nic.in/CMFormer.aspx,1296,0,11-10-1973,1973,5,119,BANSWARA,0,AERJ2389,HARIDEO JOSHI,lcs
+328,Rajasthan,Bhairon Singh Shekhawat,NA,22-06-1977,16-02-1980,NA,https://rajassembly.nic.in/CMFormer.aspx,969,54,22-06-1977,1977,6,NA,NA,NA,NA,NA,NA
+329,Rajasthan,Jagannath Pahadia,NA,06-06-1980,13-07-1981,NA,https://rajassembly.nic.in/CMFormer.aspx,402,111,06-06-1980,1980,7,75,WEIR(SC),1,AERJ3391,J.P.PAHARIA,lcs
+330,Rajasthan,Shiv Charan Mathur,NA,14-07-1981,23-02-1985,NA,https://rajassembly.nic.in/CMFormer.aspx,1320,1,14-07-1981,1981,7,154,MANDALGARH,0,AERJ3580,SHIV CHARAN MATHUR,lcs
+331,Rajasthan,Heera Lal Devpura,NA,23-02-1985,10-03-1985,NA,https://rajassembly.nic.in/CMFormer.aspx,15,0,23-02-1985,1985,8,149,KUMBHALGARH,0,AERJ34,HEERA LAL DEOPURA,cosine
+332,Rajasthan,Hari Dev Joshi,NA,10-03-1985,20-01-1988,NA,https://rajassembly.nic.in/CMFormer.aspx,1046,0,10-03-1985,1985,8,131,BANSWARA,0,AERJ2389,HARIDEO JOSHI,lcs
+333,Rajasthan,Shiv Charan Mathur,NA,20-01-1988,04-12-1989,NA,https://rajassembly.nic.in/CMFormer.aspx,684,0,20-01-1988,1988,8,154,MANDALGARH,0,AERJ3580,SHIV CHARAN MATHUR,lcs
+334,Rajasthan,Hari Dev Joshi,NA,04-12-1989,04-03-1990,NA,https://rajassembly.nic.in/CMFormer.aspx,90,0,04-12-1989,1989,8,131,BANSWARA,0,AERJ2389,HARIDEO JOSHI,lcs
+335,Rajasthan,Ashok Gehlot,NA,01-12-1998,08-12-2003,NA,https://rajassembly.nic.in/CMFormer.aspx,1833,3194,01-12-1998,1998,11,82,KHANDAR,0,AERJ12982,ASHOK,cosine
+336,Rajasthan,Smt. Vasundhara Raje,NA,08-12-2003,13-12-2008,NA,https://rajassembly.nic.in/CMFormer.aspx,1832,0,08-12-2003,2003,12,118,JHALRAPATAN,0,AERJ5913,VASUNDHARA RAJE,lcs
+337,Rajasthan,Ashok Gehlot,NA,13-12-2008,13-12-2013,NA,https://rajassembly.nic.in/CMFormer.aspx,1826,0,13-12-2008,2008,13,127,SARDARPURA,0,GERJ27768,ASHOK GEHLOT,lcs
+338,Rajasthan,Smt. Vasundhara Raje,NA,13-12-2013,17-12-2018,NA,https://rajassembly.nic.in/CMFormer.aspx,1830,0,13-12-2013,2013,14,198,JHALRAPATAN,0,AERJ5913,VASUNDHRA RAJE,lcs

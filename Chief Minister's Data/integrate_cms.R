@@ -1,4 +1,4 @@
-setwd("~/github/cm-gov-profile/Chief Minister's Data/")
+setwd("F:/TCPD/cm-gov-profile/Chief Minister's Data")
 library(data.table)
 library(dplyr)
 library(stringdist)
@@ -11,13 +11,16 @@ cms.data$Start_Date = as.Date(cms.data$start_date,format = "DD-MM-YYYY")
 
 unique(cms.data$state)
 
-rj.cms = subset(cms.data,state== "Rajasthan")
+rj.cms = subset(cms.data,state== "Uttar Pradesh")
 
-rj.winners = fread("~/github/tcpd_data/data/AE/Data/Rajasthan/derived/mastersheet.csv",na="") %>% subset(Position==1)
+rj.winners = fread("F:/TCPD/Lokdhaba Data/TCPD_AE_Uttar_Pradesh_2020-11-24.csv",na="") %>% subset(Position==1)
+
+#rj.winners = fread("~/github/tcpd_data/data/AE/Data/Rajasthan/derived/mastersheet.csv",na="") %>% subset(Position==1)
 
 rj.cms$Start_Date = as.Date(rj.cms$start_date,"%d-%m-%Y")
 rj.cms$Appointment_Year = format(rj.cms$Start_Date,"%Y")
 rj.assemblies = unique(subset(rj.winners,Poll_No ==0,select = c("Assembly_No","Year")))
+
 
 rj.cms$Assembly_No = sapply(rj.cms$Appointment_Year, function(x){rj.assemblies$Assembly_No[findInterval(x,rj.assemblies$Year)]})
 #tmp = sapply(rj.cms$Appointment_Year, function(x){findInterval(x,rj.assemblies$Year)})
@@ -32,25 +35,35 @@ str(rj.cms$Assembly_No)
 rj.cms$Constituency_No = NA
 rj.cms$Constituency_Name = NA
 rj.cms$Poll_No =NA
+rj.cms$pid =NA
+rj.cms$tcpd_cm_name =NA
+rj.cms$method =NA 
+mth = "cosine"
 for(i in 1:nrow(rj.cms)){
-  if(rj.cms$Assembly_No[i] != 0){
+  if((rj.cms$Assembly_No[i] || is.na(rj.cms$Assembly_No[i])) != 0 & is.na(rj.cms$pid[i])){
     
     cm = rj.cms$name[i]
     assembly.winners = subset(rj.winners,Assembly_No == rj.cms$Assembly_No[i])
-    
     print(paste("matching chief minister",cm,"in Assembly Number",rj.cms$Assembly_No[i],"Year", rj.cms$Appointment_Year[i]))
-    dists = stringdist(cm,assembly.winners$Candidate,method = "cosine")
-    
-    x = which(dists<=0.1)
+    dists = stringdist(tolower(cm),tolower(assembly.winners$Candidate),method =mth)
+    print(max(dists))
+    print(min(dists))
+    x = which(dists %in% c(head(sort(dists),n=5)))
     if(length(x)==1){
       print("One candidate found")
       print(paste("matched candidate", assembly.winners$Candidate[x],"from",assembly.winners$Party[x],"in",assembly.winners$Constituency_Name[x],", Year",assembly.winners$Year[x]))
+      to_select = readline(prompt = "Press 1 to Merge :")
+      if(to_select == 1){
       rj.cms$Constituency_No[i] = assembly.winners$Constituency_No[x]
       rj.cms$Constituency_Name[i] = assembly.winners$Constituency_Name[x]
-      rj.cms$Poll_No[i] = assembly.winners$CPoll_No[x]
+      rj.cms$Poll_No[i] = assembly.winners$Poll_No[x]
+      rj.cms$pid[i] = assembly.winners$pid[x]
+      rj.cms$tcpd_cm_name[i] = assembly.winners$Candidate[x]
+      rj.cms$method[i] = mth
+      }
     }else if(length(x) > 1){
       print("multiple candidates found")
-      print(assembly.winners[x,c("Assembly_No","Constituency_Name","Candidate","Party","Sex","Poll_No")])
+      print(assembly.winners[x,c("Assembly_No","Constituency_No","Candidate","Party","Sex","Poll_No")])
       to_select = readline(prompt = "select row indices which matches the chief minister :")
       sel = as.integer(strsplit(to_select," ")[[1]]) #pick number of the correct village to map
       if(length(sel) >0){
@@ -58,6 +71,10 @@ for(i in 1:nrow(rj.cms)){
         rj.cms$Constituency_No[i] = assembly.winners$Constituency_No[x[sel]]
         rj.cms$Constituency_Name[i] = assembly.winners$Constituency_Name[x[sel]]
         rj.cms$Poll_No[i] = assembly.winners$Poll_No[x[sel]]
+        rj.cms$pid[i] = assembly.winners$pid[x[sel]]
+        rj.cms$tcpd_cm_name[i] = assembly.winners$Candidate[x[sel]]
+        rj.cms$method[i] = mth
+        
         
       }
     }else{
@@ -66,3 +83,7 @@ for(i in 1:nrow(rj.cms)){
     
   }
 }
+
+write.table(rj.cms, file = "up_cms.csv", sep = ",", row.names = F)
+sum(!is.na(rj.cms$pid) & rj.cms$Assembly_No>0)
+

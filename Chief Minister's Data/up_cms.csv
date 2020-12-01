@@ -1,0 +1,35 @@
+"sl_no","state","name","V4","start_date","end_date","V7","source","days_in_off","delay_apt","Start_Date","Appointment_Year","Assembly_No","Constituency_No","Constituency_Name","Poll_No","pid","tcpd_cm_name","method"
+403,"Uttar Pradesh","Sri Govind Ballabh Pant",NA,"01-04-1946","27-12-1954",NA,"http://up.gov.in/upexcms.aspx",3192,NA,1946-04-01,"1946",0,NA,NA,NA,NA,NA,NA
+404,"Uttar Pradesh","Sri Sampoornananda",NA,"28-12-1954","06-12-1960",NA,"http://up.gov.in/upexcms.aspx",2170,1,1954-12-28,"1954",0,NA,NA,NA,NA,NA,NA
+405,"Uttar Pradesh","Sri Chandrabhanu Gupta",NA,"07-12-1960","14-03-1962",NA,"http://up.gov.in/upexcms.aspx",462,1,1960-12-07,"1960",0,NA,NA,NA,NA,NA,NA
+406,"Uttar Pradesh","Sri Chandrabhanu Gupta",NA,"14-03-1962","01-10-1963",NA,"http://up.gov.in/upexcms.aspx",566,0,1962-03-14,"1962",3,14,"RANIKHET SOUTH",0,"AEUP170913","CHANDRA BHANU GUPTA","lcs"
+407,"Uttar Pradesh","Ms Sucheta Kriplani",NA,"02-10-1963","13-03-1967",NA,"http://up.gov.in/upexcms.aspx",1258,1,1963-10-02,"1963",3,185,"MENDHWAL",0,"AEUP1062","SUCHETA KRIPALANI","lcs"
+408,"Uttar Pradesh","Sri Chandrabhanu Gupta",NA,"14-03-1967","02-04-1967",NA,"http://up.gov.in/upexcms.aspx",19,1,1967-03-14,"1967",4,NA,NA,NA,NA,NA,NA
+409,"Uttar Pradesh","Sri Charan Singh",NA,"03-04-1967","25-02-1968",NA,"http://up.gov.in/upexcms.aspx",328,1,1967-04-03,"1967",4,NA,NA,NA,NA,NA,NA
+410,"Uttar Pradesh","Sri Chandrabhanu Gupta",NA,"26-02-1969","17-02-1970",NA,"http://up.gov.in/upexcms.aspx",356,367,1969-02-26,"1969",5,14,"RANIKHET",0,"AEUP5712","CHANDRA BHANU GUPTA","lcs"
+411,"Uttar Pradesh","Sri Charan Singh",NA,"17-02-1970","01-10-1970",NA,"http://up.gov.in/upexcms.aspx",226,0,1970-02-17,"1970",5,405,"CHAPRAULI",0,"AEUP166820","CHARAN SINGH","lcs"
+412,"Uttar Pradesh","Sri T N Singh",NA,"18-10-1970","03-04-1971",NA,"http://up.gov.in/upexcms.aspx",167,17,1970-10-18,"1970",5,NA,NA,NA,NA,NA,NA
+413,"Uttar Pradesh","Pt. Kamlapati Tripathi",NA,"04-04-1971","12-06-1973",NA,"http://up.gov.in/upexcms.aspx",800,1,1971-04-04,"1971",5,243,"CHANDAULI",0,"AEUP172395","KAMLAPATI","lcs"
+414,"Uttar Pradesh","Sri Hemvati Nandan Bahuguna",NA,"08-11-1973","04-03-1974",NA,"http://up.gov.in/upexcms.aspx",116,149,1973-11-08,"1973",5,NA,NA,NA,NA,NA,NA
+415,"Uttar Pradesh","Sri Hemvati Nandan Bahuguna",NA,"15-03-1974","29-11-1975",NA,"http://up.gov.in/upexcms.aspx",624,11,1974-03-15,"1974",6,269,"BARA",0,"AEUP169224","HEMVATI NANDAN BAHUGUNA","lcs"
+416,"Uttar Pradesh","Sri N.D. Tiwari",NA,"21-01-1976","30-04-1977",NA,"http://up.gov.in/upexcms.aspx",465,53,1976-01-21,"1976",6,NA,NA,NA,NA,NA,NA
+417,"Uttar Pradesh","Sri Ram Naresh yadav",NA,"23-06-1977","27-02-1979",NA,"http://up.gov.in/upexcms.aspx",614,54,1977-06-23,"1977",7,NA,NA,NA,NA,NA,NA
+418,"Uttar Pradesh","Sri Banarasi Das",NA,"28-02-1979","17-02-1980",NA,"http://up.gov.in/upexcms.aspx",354,1,1979-02-28,"1979",7,NA,NA,NA,NA,NA,NA
+419,"Uttar Pradesh","Sri V.P. Singh",NA,"09-06-1980","18-07-1982",NA,"http://up.gov.in/upexcms.aspx",769,113,1980-06-09,"1980",8,318,"TINDWARI",1,"AEUP100433","V.P.SINGH","lcs"
+420,"Uttar Pradesh","Sri Sripati Misra",NA,"19-07-1982","03-08-1984",NA,"http://up.gov.in/upexcms.aspx",746,1,1982-07-19,"1982",8,124,"ISSAULI",0,"AEUP160336","SHREEPAT MISRA","lcs"
+421,"Uttar Pradesh","Sri N.D. Tiwari",NA,"03-08-1984","10-03-1985",NA,"http://up.gov.in/upexcms.aspx",219,0,1984-08-03,"1984",8,189,"PHARENDA",0,"AEUP13863","SHYAM NARAIN TIWARI","lcs"
+422,"Uttar Pradesh","Sri N.D. Tiwari",NA,"11-03-1985","24-09-1985",NA,"http://up.gov.in/upexcms.aspx",197,1,1985-03-11,"1985",9,NA,NA,NA,NA,NA,NA
+423,"Uttar Pradesh","Sri Vir Bahadur Singh",NA,"24-09-1985","24-06-1988",NA,"http://up.gov.in/upexcms.aspx",1004,0,1985-09-24,"1985",9,188,"PANIARA",0,"AEUP6820","BIR BAHADUR SINGH","lcs"
+424,"Uttar Pradesh","Sri N.D. Tiwari",NA,"25-06-1988","05-12-1989",NA,"http://up.gov.in/upexcms.aspx",528,1,1988-06-25,"1988",9,NA,NA,NA,NA,NA,NA
+425,"Uttar Pradesh","Sri Mulayam Singh Yadav",NA,"05-12-1989","24-06-1991",NA,"http://up.gov.in/upexcms.aspx",566,0,1989-12-05,"1989",10,NA,NA,NA,NA,NA,NA
+426,"Uttar Pradesh","Sri Kalyan Singh",NA,"24-06-1991","06-12-1992",NA,"http://up.gov.in/upexcms.aspx",531,0,1991-06-24,"1991",11,NA,NA,NA,NA,NA,NA
+427,"Uttar Pradesh","Sri Mulayam Singh Yadav",NA,"04-12-1993","03-06-1995",NA,"http://up.gov.in/upexcms.aspx",546,363,1993-12-04,"1993",12,305,"JASWANTNAGAR",0,"AEUP172886","MULAYAM SINGH","lcs"
+428,"Uttar Pradesh","Ms. Mayawati",NA,"03-06-1995","17-10-1995",NA,"http://up.gov.in/upexcms.aspx",136,0,1995-06-03,"1995",12,NA,NA,NA,NA,NA,NA
+429,"Uttar Pradesh","Ms. Mayawati",NA,"21-03-1997","21-09-1997",NA,"http://up.gov.in/upexcms.aspx",184,521,1997-03-21,"1997",13,NA,NA,NA,NA,NA,NA
+430,"Uttar Pradesh","Sri Kalyan Singh",NA,"21-09-1997","11-11-1999",NA,"http://up.gov.in/upexcms.aspx",781,0,1997-09-21,"1997",13,372,"ATRAULI",0,"AEUP123873","KALYAN SINGH","lcs"
+431,"Uttar Pradesh","Sri. Ram Prakash Gupta",NA,"12-11-1999","28-10-2000",NA,"http://up.gov.in/upexcms.aspx",351,1,1999-11-12,"1999",13,NA,NA,NA,NA,NA,NA
+432,"Uttar Pradesh","Sri Rajnath Singh",NA,"28-10-2000","07-03-2002",NA,"http://up.gov.in/upexcms.aspx",495,0,2000-10-28,"2000",13,141,"HAIDARGARH",1,"AEUP156645","RAJNATH SINGH","lcs"
+433,"Uttar Pradesh","Ms. Mayawati",NA,"03-05-2002","28-08-2003",NA,"http://up.gov.in/upexcms.aspx",482,57,2002-05-03,"2002",14,NA,NA,NA,NA,NA,NA
+434,"Uttar Pradesh","Sri Mulayam Singh Yadav",NA,"29-08-2003","12-05-2007",NA,"http://up.gov.in/upexcms.aspx",1352,1,2003-08-29,"2003",14,25,"Gunnur",1,"GEUP13257","Mulayam Singh Yadav","lcs"
+435,"Uttar Pradesh","Ms. Mayawati",NA,"13-05-2007","14-03-2012",NA,"http://up.gov.in/upexcms.aspx",1767,1,2007-05-13,"2007",15,NA,NA,NA,NA,NA,NA
+436,"Uttar Pradesh","Sri Akhilesh Yadav",NA,"15-03-2012","19-03-2017",NA,"http://up.gov.in/upexcms.aspx",1830,1,2012-03-15,"2012",16,NA,NA,NA,NA,NA,NA
