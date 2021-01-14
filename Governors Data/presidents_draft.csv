@@ -1,0 +1,16 @@
+name,gender,appointment_begin,appointment_end,term_duration_days,appointment_delay_days,source
+Dr. Rajendra Prasad,M,26/01/1950,13/05/1962,4490,,https://presidentofindia.nic.in/former-presidents.htm
+Dr. Sarvepalli Radhakrishnan,M,13/05/1962,13/05/1967,1826,0,https://presidentofindia.nic.in/former-presidents.htm
+Dr. Zakir Husain,M,13/05/1967,03/05/1969,721,0,https://presidentofindia.nic.in/former-presidents.htm
+Shri Varahagiri Venkata Giri,M,03/05/1969,20/07/1969,78,0,https://presidentofindia.nic.in/former-presidents.htm
+Shri Varahagiri Venkata Giri,M,24/08/1969,24/08/1974,1826,35,https://presidentofindia.nic.in/former-presidents.htm
+Dr. Fakhruddin Ali Ahmed,M,24/08/1974,11/02/1977,902,0,https://presidentofindia.nic.in/former-presidents.htm
+Shri Neelam Sanjiva Reddy,M,25/07/1977,25/07/1982,1826,164,https://presidentofindia.nic.in/former-presidents.htm
+Giani Zail Singh,M,25/07/1982,25/07/1987,1826,0,https://presidentofindia.nic.in/former-presidents.htm
+Shri R Venkataraman,M,25/07/1987,25/07/1992,1827,0,https://presidentofindia.nic.in/former-presidents.htm
+Dr Shankar Dayal Sharma,M,25/07/1992,25/07/1997,1826,0,https://presidentofindia.nic.in/former-presidents.htm
+Shri K. R. Narayanan,M,25/07/1997,25/07/2002,1826,0,https://presidentofindia.nic.in/former-presidents.htm
+DR. A.P.J. Abdul Kalam,M,25/07/2002,25/07/2007,1826,0,https://presidentofindia.nic.in/former-presidents.htm
+Smt Pratibha Devisingh Patil,F,25/07/2007,25/07/2012,1827,0,https://presidentofindia.nic.in/former-presidents.htm
+Shri Pranab Mukherjee,M,25/07/2012,25/07/2017,1826,0,https://presidentofindia.nic.in/former-presidents.htm
+Shri Ram Nath Kovind,M,25/07/2017,-,,0,https://presidentofindia.nic.in/profile.htm
