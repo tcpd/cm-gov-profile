@@ -18,3 +18,12 @@
 N.B. Look at lokdhaba for inspiration I guess.
 - [Plotly](https://plotly.com/python/getting-started/)
 - [Lokdhaba](https://plotly.com/python/getting-started/)
+
+## Phase 2: Making a dashboard
+
+Steps:
+```
+pip install -r requirements.txt
+streamlit run dashboard/app.py
+```
+
