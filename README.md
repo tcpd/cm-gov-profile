@@ -1,8 +1,7 @@
 # cm-gov-profile
 git repository for profiling cms and governors
 
-=======
-# UI
+# UI (Governors' Dataset)
 
 - [X] Correct anomalies esp those related to gender
 - [X] Correct anomalies with respect to Term Duration and related dates (confusion)
@@ -30,9 +29,8 @@ streamlit run dashboard/app.py
 - [ ] Cartogram
 - [ ] Test CM dataset
 
-=======
-# Data cleanaing
+# Data cleaning
 
 - [X] Merges and splits based on assembly terms in CM dataset
 - [ ] Fill in missing dates for CM dataset
-- [ ] Merges in Gov dataset
+- [ ] Merges rows in Gov dataset
