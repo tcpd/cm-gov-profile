@@ -1,447 +1,468 @@
-sl_no,end_date_source,delay_apt,name,state,source,days_in_off,start_date,Administrative_rule,MLC,Appointment_Year,Assembly_No,Constituency_No,Constituency_Name,Poll_No,pid,tcpd_cm_name,month,DelimID,position,gender,party,votes,valid_votes,Constituency_type,N_candidates,turnout_percentage,vote_share_percent,deposit_lost,margin,margin_percent,ENOP,last_poll,contested,last_party,last_constituency,same_party,same_constituency,num_terms,turncoat,incumbent,recontest,method
-1,Incumbent,1,Y. S. Jaganmohan Reddy,Andhra Pradesh,http://ipr.ap.nic.in/release/ap_cms.asp,NA,30-05-2019,no,no,2019,15,129,PULIVENDLA,0,AEAP83077,Y S JAGAN MOHAN REDDY,NA,4,1,MAL,YSRCP,132356,180127,GEN,13,80.5,73.48,no,90110,50.03,1.69,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-2,29-05-2019,0,Chandrababu Naidu,Andhra Pradesh,http://ipr.ap.nic.in/release/ap_cms.asp,1822,02-06-2014,no,no,2014,14,175,KUPPAM,0,AEAP14475,NARA CHANDRA BABU NAIDU,5,4,1,M,TDP,102952,164481,GEN,7,83.97,62.59,no,47121,28.65,1.96,TRUE,8,TDP,KUPPAM,TRUE,TRUE,7,FALSE,TRUE,TRUE,cosine
-3,02-06-2014,1,President's Rule,Andhra Pradesh,http://ipr.ap.nic.in/release/ap_cms.asp,93,01-03-2014,yes,no,2014,14,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-4,28-02-2014,1,Sri. N.Kiran Kumar Reddy,Andhra Pradesh,http://ipr.ap.nic.in/release/ap_cms.asp,1191,25-11-2010,no,no,2010,13,282,PILERU,0,AEAP17121,NALLARI KIRAN KUMAR REDDY,5,4,1,M,INC,53905,150774,GEN,11,79.11,35.75,no,9132,6.06,3.23,TRUE,4,INC,VAYALPAD,TRUE,FALSE,3,FALSE,FALSE,FALSE,cosine
-5,24-11-2010,1,Sri. K. Rosaiah,Andhra Pradesh,http://ipr.ap.nic.in/release/ap_cms.asp,447,03-09-2009,no,yes,2009,13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-6,02-09-2009,1,Dr.Y.S. Rajasekhara Reddy,Andhra Pradesh,http://ipr.ap.nic.in/release/ap_cms.asp,1937,14-05-2004,no,no,2004,12,160,PULIVENDLA,0,AEAP9640,AJASEKHARA REDDY Y S,5,3,1,M,INC,74432,110482,GEN,12,76.47,67.37,no,40777,36.91,1.85,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-7,13-05-2004,1,Sri N. Chandra Babu Naidu,Andhra Pradesh,http://ipr.ap.nic.in/release/ap_cms.asp,3177,01-09-1995,no,no,1995,10,142,KUPPAM,0,AEAP14475,NARA CHANDRA BABU NAIDU,12,3,1,M,TDP,81210,107582,GEN,15,74.44,75.49,no,56588,52.6,1.61,TRUE,4,TDP,KUPPAM,TRUE,TRUE,3,FALSE,TRUE,TRUE,cosine
-8,31-08-1995,1,Sri N.T.Rama Rao,Andhra Pradesh,http://ipr.ap.nic.in/release/ap_cms.asp,262,12-12-1994,no,no,1994,10,3,TEKKALI,0,AEAP14941,N.T. RAMA RAO,12,3,1,M,TDP,66200,93404,GEN,6,69.16,70.87,no,40890,43.78,1.75,FALSE,5,TDP,HINDUPUR,TRUE,FALSE,4,FALSE,TRUE,TRUE,cosine
-9,11-12-1994,1,Sri K.VijayaBhaskara Reddy,Andhra Pradesh,http://ipr.ap.nic.in/release/ap_cms.asp,792,10-10-1992,no,no,1992,9,184,Panyam,1,AEAP17377,K.V.B. Reddy,11,3,1,,INC,67306,103001,GEN,2,71.96,65.34,no,31611,30.69,1.82,TRUE,1,,,,,1,FALSE,FALSE,FALSE,
-10,09-10-1992,10,Sri N.Janardhana Reddy,Andhra Pradesh,http://ipr.ap.nic.in/release/ap_cms.asp,662,17-12-1990,no,no,1990,9,134,VENKATAGIRI,0,GEAP64950,NEDURUMALLI JANARDHAN REDDY,11,3,1,M,INC,62270,107037,GEN,6,76.72,58.18,no,19141,17.88,2,TRUE,2,INC,VENKATAGIRI,TRUE,TRUE,1,FALSE,FALSE,FALSE,cosine
-11,07-12-1990,1,Dr.Marri Chenna Reddy,Andhra Pradesh,http://ipr.ap.nic.in/release/ap_cms.asp,369,03-12-1989,no,no,1989,9,208,SANATHNAGAR,0,AEAP26327,M. CHENNA REDDY,11,3,1,M,INC,47988,82873,GEN,12,59.3,57.91,no,16899,20.39,2.08,TRUE,2,INC,TANDUR,TRUE,FALSE,2,FALSE,FALSE,FALSE,
-12,02-12-1989,0,Sri N.T.Rama Rao,Andhra Pradesh,http://ipr.ap.nic.in/release/ap_cms.asp,1551,03-09-1985,no,no,1985,8,164,HINDUPUR,0,AEAP14941,"N, T. RAMARAO",5,3,1,M,TDP,56599,74827,GEN,7,63.93,75.64,no,40529,54.16,1.61,TRUE,2,IND,TIRUPATHI,FALSE,FALSE,2,FALSE,TRUE,TRUE,cosine
-13,03-09-1985,0,Sri N.T.Rama Rao,Andhra Pradesh,http://ipr.ap.nic.in/release/ap_cms.asp,352,16-09-1984,no,no,1984,7,149,TIRUPATHI,0,AEAP14941,N. T. RAMA RAO,5,3,1,M,IND,64688,83997,GEN,5,69.87,77.01,no,46879,55.81,1.59,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-14,16-09-1984,0,Sri N.Bhaskara rao,Andhra Pradesh,http://ipr.ap.nic.in/release/ap_cms.asp,31,16-08-1984,no,no,1984,7,94,VEMUR,0,AEAP13877,NADENDLA BHASKARA RAO,5,3,1,M,IND,48268,75615,GEN,14,69.21,63.83,no,24645,32.59,1.96,TRUE,1,,,,,1,FALSE,FALSE,FALSE,
-15,16-08-1984,1,Sri N.T.Rama Rao,Andhra Pradesh,http://ipr.ap.nic.in/release/ap_cms.asp,585,09-01-1983,no,no,1983,7,149,TIRUPATHI,0,AEAP14941,N. T. RAMA RAO,5,3,1,M,IND,64688,83997,GEN,5,69.87,77.01,no,46879,55.81,1.59,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-16,08-01-1983,0,Sri K.Vijaya Bhaskara Reddy,Andhra Pradesh,http://ipr.ap.nic.in/release/ap_cms.asp,110,20-09-1982,no,no,1982,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-17,20-09-1982,0,Sri Bhavanam Venkataram,Andhra Pradesh,http://ipr.ap.nic.in/release/ap_cms.asp,208,24-02-1982,no,yes,1982,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-18,24-02-1982,1,Sri Tanguturi Anjaiah,Andhra Pradesh,http://ipr.ap.nic.in/release/ap_cms.asp,501,11-10-1980,no,yes,1980,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-19,10-10-1980,1,Dr Marri Chenna Reddy,Andhra Pradesh,http://ipr.ap.nic.in/release/ap_cms.asp,949,06-03-1978,no,no,1978,6,219,MEDCHAL,0,AEAP23024,M. CHANNA REDDY,2,3,1,M,INC(I),42680,74715,GEN,6,69.58,57.12,no,23178,31.02,2.5,TRUE,1,,,,,1,FALSE,FALSE,FALSE,
-20,05-03-1978,59,Sri. Jalagam Vengala Rao,Andhra Pradesh,http://ipr.ap.nic.in/release/ap_cms.asp,1546,10-12-1973,no,no,1973,5,271,VEMSOOR,0,GEAP30734,JACAGAM VENGALA RAO,3,2,1,M,INC,47173,58792,GEN,3,68.98,80.24,no,38072,64.76,1.52,TRUE,2,INC,VEMSOOR,TRUE,TRUE,2,FALSE,FALSE,FALSE,cosine
-21,12-10-1973,265,President's rule,Andhra Pradesh,http://ipr.ap.nic.in/release/ap_cms.asp,2,10-10-1973,yes,no,1973,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-22,18-01-1973,0,Sri P.V.Narasimha Rao,Andhra Pradesh,http://ipr.ap.nic.in/release/ap_cms.asp,476,30-09-1971,no,no,1971,5,243,MANTHANI,0,AEAP24287,P V NARSIMHA RAO,3,2,1,M,INC,35532,38683,GEN,2,45.69,91.85,no,32381,83.71,1.18,TRUE,1,,,,,1,FALSE,FALSE,FALSE,
-23,30-09-1971,1,Sri Kasu Bramhananda Reddy,Andhra Pradesh,http://ipr.ap.nic.in/release/ap_cms.asp,2770,29-02-1964,no,no,1964,3,110,PHIRANGIPURAM,0,AEAP25948,KASU BRAHMANANDA REDDI,2,1,1,M,INC,27494,54485,GEN,2,75.79,50.46,no,503,0.92,2,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-24,28-02-1964,1,Sri (Dr)Neelam Sanjeeva Reddy,Andhra Pradesh,http://ipr.ap.nic.in/release/ap_cms.asp,718,12-03-1962,no,no,1962,3,185,DHONE,0,AEAP26190,NEELAM SANJEEVA REDDY,2,1,1,M,INC,33201,38025,GEN,6,57.09,87.31,no,31372,82.5,1.32,FALSE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-25,11-03-1962,1,Sri Damodaram Sanjivayya,Andhra Pradesh,http://ipr.ap.nic.in/release/ap_cms.asp,790,11-01-1960,no,no,1960,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-26,10-01-1960,0,Sri.Neelam Sanjeeva Reddy,Andhra Pradesh,http://ipr.ap.nic.in/release/ap_cms.asp,1165,01-11-1956,no,no,1956,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-27,01-11-1956,1,Sri Bezawada Gopala Reddy,Andhra Pradesh,http://ipr.ap.nic.in/release/ap_cms.asp,584,28-03-1955,no,no,1955,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-28,27-03-1955,NA,Sri Tanguturi Prakasam,Andhra Pradesh,http://ipr.ap.nic.in/release/ap_cms.asp,542,01-10-1953,no,no,1953,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-29,06-09-1979,NA,P.K. Thungon,Arunachal Pradesh,http://www.arunachalipr.gov.in/?page_id=329,1482,16-08-1975,no,no,1975,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-30,03-11-1979,12,Late Tomo Riba,Arunachal Pradesh,http://www.arunachalipr.gov.in/?page_id=329,46,18-09-1979,no,no,1979,1,17,BASAR,0,AEAR82212,TOMO RIBA,2,3,1,M,PPA,4109,6856,GEN,2,87.26,59.93,no,1362,19.87,1.92,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-31,18-01-1999,76,Gegong Apang,Arunachal Pradesh,http://www.arunachalipr.gov.in/?page_id=329,6940,18-01-1980,no,no,1980,2,19,YINGKIONG PANGIN,0,AEAR82126,GEGONG APANG,3,3,1,M,INC(I),4799,8484,GEN,3,72.61,56.57,no,2615,30.82,2.38,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-32,02-08-2003,1,Mukut Mithi,Arunachal Pradesh,http://www.arunachalipr.gov.in/?page_id=329,1656,19-01-1999,no,no,1999,6,43,ROING,0,AEAR81558,MUKUT MITHI,10,3,1,M,INC,0,0,ST,1,0,NA,no,0,NA,NA,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-33,09-04-2007,1,Gegong Apang,Arunachal Pradesh,http://www.arunachalipr.gov.in/?page_id=329,1345,03-08-2003,no,no,2003,6,34,TUTING-YINKGKIONG,0,AEAR81536,GEGONG APANG,10,3,1,M,AC,4591,7569,ST,2,70.89,60.66,no,1613,21.31,1.92,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-34,31-10-2011,1,Dorjee Khandu,Arunachal Pradesh,http://www.arunachalipr.gov.in/?page_id=329,1665,10-04-2007,no,no,2007,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-35,19-09-1938,NA,Maulavi Saiyid Sir Muhammad Saadulla,Assam,http://assamassembly.gov.in/cm-list.html,536,01-04-1937,no,no,1937,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-36,17-11-1939,0,Gopinath Bordoloi,Assam,http://assamassembly.gov.in/cm-list.html,424,19-09-1938,no,no,1938,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-37,24-12-1941,0,Maulavi Saiyid Sir Muhammad Saadulla,Assam,http://assamassembly.gov.in/cm-list.html,768,17-11-1939,no,no,1939,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-38,11-02-1946,244,Maulavi Saiyid Sir Muhammad Saadulla,Assam,http://assamassembly.gov.in/cm-list.html,1266,25-08-1942,no,no,1942,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-39,06-08-1950,0,Gopinath Bordoloi,Assam,http://assamassembly.gov.in/cm-list.html,1637,11-02-1946,no,no,1946,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-40,27-12-1957,3,Bishnu Ram Medhi,Assam,http://assamassembly.gov.in/cm-list.html,2697,09-08-1950,no,no,1950,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-41,06-11-1970,1,B.P. Chaliha,Assam,http://assamassembly.gov.in/cm-list.html,4696,28-12-1957,no,no,1957,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-42,30-01-1972,5,Mohendra Mohan Choudhury,Assam,http://assamassembly.gov.in/cm-list.html,445,11-11-1970,no,no,1970,4,58,GAUHATI EAST,0,AEAS197026,M.M. CHOUDHURY,2,2,1,M,INC,15056,25640,GEN,4,51.89,58.72,no,7721,30.11,2.33,TRUE,1,NA,NA,NA,NA,1,FALSE,FALSE,FALSE,cosine
-43,12-03-1978,1,Shri Sarat Chandra Sinha,Assam,http://assamassembly.gov.in/cm-list.html,2232,31-01-1972,no,no,1972,5,39,KOKRAJHAR EAST,0,AEAS196428,SARAT CHANDRA SINHA,3,2,1,M,INC,32649,40581,GEN,2,72.29,80.45,no,24717,60.91,1.45,TRUE,1,NA,NA,NA,NA,1,FALSE,FALSE,FALSE,cosine
-44,04-09-1979,0,Shri Golap Borbora,Assam,http://assamassembly.gov.in/cm-list.html,541,12-03-1978,no,no,1978,6,122,TINSUKIA,0,AEAS196297,GOLAP BORBORAH,2,3,1,M,JNP,18477,36878,GEN,12,58.07,50.1,no,10577,28.68,3.03,TRUE,1,NA,NA,NA,NA,1,FALSE,FALSE,FALSE,cosine
-45,11-12-1979,5,Shri Jogendra Nath Hazarika,Assam,http://assamassembly.gov.in/cm-list.html,93,09-09-1979,no,no,1979,6,118,DULIAJAN,0,AEAS196262,JOGEN HAZARIKA,2,3,1,M,JNP,7981,34898,GEN,9,56.22,22.87,no,1118,3.2,6.67,TRUE,1,NA,NA,NA,NA,1,FALSE,FALSE,FALSE,cosine
-46,30-06-1981,361,Shrimati Anowara Taimur,Assam,http://assamassembly.gov.in/cm-list.html,206,06-12-1980,no,no,1980,6,68,DALGAON,0,AEAS195878,SYEDA ANWARA TAIMUR,2,3,1,F,INC(I),23028,43361,GEN,7,68.39,53.11,no,9206,21.23,2.63,TRUE,1,NA,NA,NA,NA,1,FALSE,FALSE,FALSE,cosine
-47,19-03-1982,197,Shri Kesab Chandra Gogoi,Assam,http://assamassembly.gov.in/cm-list.html,65,13-01-1982,no,no,1982,6,116,DIBRUGARH,0,AEAS196243,KESHAB CHANDRA GOGOI,2,3,1,M,JNP,22003,38040,GEN,9,63.91,57.84,no,11930,31.36,2.5,TRUE,1,NA,NA,NA,NA,1,FALSE,FALSE,FALSE,cosine
-48,23-12-1985,345,Shri Hiteswar Saikia,Assam,http://assamassembly.gov.in/cm-list.html,1030,27-02-1983,no,no,1983,7,104,NAZIRA,0,AEAS195303,HITESWAR SAIKIA,2,3,1,M,INC,9005,13065,GEN,4,20.74,68.92,no,6545,50.1,1.92,TRUE,1,NA,NA,NA,NA,1,FALSE,FALSE,FALSE,cosine
-49,27-11-1990,1,Shri Prafulla Kumar Mahanta,Assam,http://assamassembly.gov.in/cm-list.html,1799,24-12-1985,no,no,1985,8,86,NOWGONG,0,AEAS194490,PRAFULLA KUMAR MAHANTA,12,3,1,M,IND,36369,66263,GEN,9,76.68,54.89,no,14370,21.69,2.38,TRUE,1,NA,NA,NA,NA,1,FALSE,FALSE,FALSE,cosine
-50,22-04-1996,215,Shri Hiteswar Saikia,Assam,http://assamassembly.gov.in/cm-list.html,1758,30-06-1991,no,no,1991,9,104,NAZIRA,0,AEAS193472,HITESHWAR SAIKIA,5,3,1,M,INC,34533,51760,GEN,10,64.92,66.72,no,28170,54.42,2.04,TRUE,1,NA,NA,NA,NA,1,FALSE,FALSE,FALSE,cosine
-51,14-05-1996,0,Dr. Bhumidhar Barman,Assam,http://assamassembly.gov.in/cm-list.html,22,22-04-1996,no,no,1996,10,60,BARKHETRY,0,AEAS191555,BHUMIDHAR BARMAN,4,3,2,M,INC,40166,89569,GEN,5,81.14,44.84,no,38023,42.45,2.13,TRUE,1,,,,,0,FALSE,FALSE,FALSE,
-52,17-05-2001,1,Shri Prafulla Kumar Mahanta,Assam,http://assamassembly.gov.in/cm-list.html,1828,15-05-1996,no,no,1996,10,87,BARHAMPUR,0,AEAS191779,PRAFULLA KUMAR MAHANTA,4,3,1,M,AGP,48377,77816,GEN,8,70.67,62.17,no,26344,33.85,2.13,TRUE,1,NA,NA,NA,NA,1,FALSE,FALSE,FALSE,cosine
-53,,0,Shri Tarun Gogoi,Assam,http://assamassembly.gov.in/cm-list.html,-37028,17-05-2001,no,no,2001,11,100,TITABAR(SC),1,AEAS190641,TARUN GOGOI,5,3,1,M,INC,55445,72487,GEN,4,69.39,76.49,no,45250,62.42,1.64,TRUE,1,NA,NA,NA,NA,1,FALSE,FALSE,FALSE,cosine
-54,,NA,Shri Sarbananda Sonowal,Assam,http://assamassembly.gov.in/cm-list.html,-42514,24-05-2016,no,no,2016,14,99,MAJULI,0,AEAS187641,SARBANANDA SONOWAL,5,4,1,M,BJP,49602,97761,ST,4,85.33,50.74,no,18923,19.36,2.56,TRUE,1,NA,NA,NA,NA,1,FALSE,FALSE,FALSE,cosine
-55,27-03-1990,NA,Shri Pratapsingh R. Rane,Goa,https://www.dip.goa.gov.in/list-of-past-chief-ministers-of-goa.php,77,09-01-1990,no,no,1990,1,18,PORIEM,0,NA,RANE PRATAPSING RAOJI,11,3,1,M,INC,7231,12470,GEN,3,77.14,57.99,no,2105,16.88,1.96,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,cosine
-56,14-04-1990,0,Shri Churchill Alemao,Goa,https://www.dip.goa.gov.in/list-of-past-chief-ministers-of-goa.php,18,27-03-1990,no,no,1990,1,28,BENAULIM,0,NA,ALIMNO CHURCHIL BRAZ,11,3,1,M,INC,9196,13055,GEN,4,74.5,70.44,no,5554,42.54,1.72,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,cosine
-57,14-12-1990,0,Dr. Luis Proto Barbosa,Goa,https://www.dip.goa.gov.in/list-of-past-chief-ministers-of-goa.php,244,14-04-1990,no,no,1990,1,27,LOUTOLIM,0,NA,BARBOSA LUIS PROTO ALEIXO,11,3,1,M,INC,4073,10890,GEN,5,67.7,37.4,no,115,1.06,3.03,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,cosine
-58,18-05-1993,42,Shri Ravi S. Naik,Goa,https://www.dip.goa.gov.in/list-of-past-chief-ministers-of-goa.php,844,25-01-1991,no,no,1991,1,22,MARCAIM,0,NA,NAIK RAVI SITARAM,11,3,1,M,MAG,6561,15154,GEN,12,75.08,43.3,no,1651,10.89,3.03,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,cosine
-59,02-04-1994,0,Dr. Wilfred de Souza,Goa,https://www.dip.goa.gov.in/list-of-past-chief-ministers-of-goa.php,319,18-05-1993,no,no,1993,1,8,SALIGAO,0,NA,DE SOUZA WILFRED TITO FERMINO,11,3,1,M,INC,6229,12218,GEN,4,75.86,50.98,no,427,3.49,2.04,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,cosine
-60,08-04-1994,0,Shri Ravi S. Naik,Goa,https://www.dip.goa.gov.in/list-of-past-chief-ministers-of-goa.php,6,02-04-1994,no,no,1994,2,22,MARCAIM,0,,NAIK RAVI SITARAM,11,3,2,M,INC,7075,17179,GEN,5,78.21,41.18,no,6879,40.04,2.04,,,,,,,,,,,
-61,16-12-1994,0,Dr. Wilfred de Souza,Goa,https://www.dip.goa.gov.in/list-of-past-chief-ministers-of-goa.php,252,08-04-1994,no,no,1994,2,8,SALIGAO,0,NA,D'SOUZA WILFRED ANTHONY,11,3,1,M,INC,6479,14238,GEN,6,75.36,45.5,no,1295,9.1,2.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,cosine
-62,29-07-1998,0,Shri Pratapsingh R. Rane,Goa,https://www.dip.goa.gov.in/list-of-past-chief-ministers-of-goa.php,1321,16-12-1994,no,no,1994,2,18,PORIEM,0,NA,RANE PRATAPSINGH RAOJIRAO,11,3,1,M,INC,7268,14271,GEN,5,78.91,50.93,no,1428,10.01,2.33,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,cosine
-63,23-11-1998,0,Dr. Wilfred de Souza,Goa,https://www.dip.goa.gov.in/list-of-past-chief-ministers-of-goa.php,117,29-07-1998,no,no,1998,2,8,SALIGAO,0,NA,D'SOUZA WILFRED ANTHONY,11,3,1,M,INC,6479,14238,GEN,6,75.36,45.5,no,1295,9.1,2.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,cosine
-64,08-02-1999,3,Shri Luizinho Faleiro,Goa,https://www.dip.goa.gov.in/list-of-past-chief-ministers-of-goa.php,74,26-11-1998,no,no,1998,2,32,NAVELIM,0,NA,LUIZINHO FALEIRO,11,3,1,M,INC,8178,15733,GEN,10,67.48,51.98,no,2882,18.32,2.63,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,cosine
-65,09-06-1999,2,President?s Rule,Goa,https://www.dip.goa.gov.in/list-of-past-chief-ministers-of-goa.php,119,10-02-1999,yes,no,1999,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-66,24-11-1999,0,Shri Luizinho Faleiro,Goa,https://www.dip.goa.gov.in/list-of-past-chief-ministers-of-goa.php,168,09-06-1999,no,no,1999,3,32,NAVELIM,0,NA,FALEIRO LUIZINHO,6,3,1,M,INC,12054,15970,GEN,5,56.3,75.48,no,9761,61.12,1.67,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,cosine
-67,23-10-2000,0,Shri Francisco Sardinha,Goa,https://www.dip.goa.gov.in/list-of-past-chief-ministers-of-goa.php,334,24-11-1999,no,no,1999,3,31,CURTORIM,0,NA,SARDINHA FRANCISCO CAITANO,6,3,1,M,INC,10843,12961,GEN,3,59,83.66,no,9550,73.68,1.41,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,cosine
-68,02-02-2005,1,Shri Manohar Parrikar,Goa,https://www.dip.goa.gov.in/list-of-past-chief-ministers-of-goa.php,1562,24-10-2000,no,no,2000,3,10,PANAJI,0,NA,PARRIKAR PRABHU MANOHAR,6,3,1,M,BJP,5396,10471,GEN,7,56.27,51.53,no,2749,26.25,2.86,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,cosine
-69,04-03-2005,1,Shri Pratapsingh R. Rane,Goa,https://www.dip.goa.gov.in/list-of-past-chief-ministers-of-goa.php,29,03-02-2005,no,no,2005,4,18,PORIEM,0,NA,RANE PRATAPSING RAOJI,6,3,1,M,INC,9126,16360,GEN,3,77.11,55.78,no,2569,15.7,2.13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,cosine
-70,06-06-2005,0,President?s Rule,Goa,https://www.dip.goa.gov.in/list-of-past-chief-ministers-of-goa.php,94,04-03-2005,yes,no,2005,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-71,07-06-2007,1,Shri Pratapsingh R. Rane,Goa,https://www.dip.goa.gov.in/list-of-past-chief-ministers-of-goa.php,730,07-06-2005,no,no,2005,4,18,PORIEM,0,NA,RANE PRATAPSING RAOJI,6,3,1,M,INC,9126,16360,GEN,3,77.11,55.78,no,2569,15.7,2.13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,cosine
-72,08-03-2012,1,Shri Digambar Kamat,Goa,https://www.dip.goa.gov.in/list-of-past-chief-ministers-of-goa.php,1735,08-06-2007,no,no,2007,5,30,MARGAO,0,NA,KAMAT DIGAMBAR,6,3,1,M,INC,9198,17455,GEN,5,62.03,52.7,no,2028,11.62,2.22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,cosine
-73,08-11-2014,1,Shri Manohar Parrikar,Goa,https://www.dip.goa.gov.in/list-of-past-chief-ministers-of-goa.php,974,09-03-2012,no,no,2012,6,11,PANAJI,0,NA,MANOHAR PARRIKAR,3,4,1,M,BJP,11086,16763,GEN,5,78.5,66.13,no,6068,36.2,1.89,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,cosine
-74,11-03-2017,0,Shri Laxmikant Parsekar,Goa,https://www.dip.goa.gov.in/list-of-past-chief-ministers-of-goa.php,854,08-11-2014,no,no,2014,6,1,MANDREM,0,NA,LAXMIKANT PARSEKAR,3,4,1,M,BJP,11955,25928,GEN,6,88.3,46.11,no,3435,13.25,2.86,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,cosine
-75,Till date,3,Shri Manohar Parrikar,Goa,https://www.dip.goa.gov.in/list-of-past-chief-ministers-of-goa.php,NA,14-03-2017,no,no,2017,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-76,,0,Dr. Jivraj Narayan Mehta,Gujarat,https://gujaratindia.gov.in/about-gujarat/history-2.htm,0,,no,no,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-77,,0,Shri Balwantray Mehta,Gujarat,https://gujaratindia.gov.in/about-gujarat/history-2.htm,0,,no,no,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-78,,0,Shri Hitendra K. Desai,Gujarat,https://gujaratindia.gov.in/about-gujarat/history-2.htm,0,,no,no,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-79,,0,Shri Ghanshyambhai C. Oza,Gujarat,https://gujaratindia.gov.in/about-gujarat/history-2.htm,0,,no,no,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-80,,0,Shri Chimanbhai J. Patel,Gujarat,https://gujaratindia.gov.in/about-gujarat/history-2.htm,0,,no,no,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-81,,0,Shri Babubhai J. Patel,Gujarat,https://gujaratindia.gov.in/about-gujarat/history-2.htm,0,,no,no,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-82,,0,Shri Madhavsinh F. Solanki,Gujarat,https://gujaratindia.gov.in/about-gujarat/history-2.htm,0,,no,no,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-83,,0,Shri Amarsinh Chaudhary,Gujarat,https://gujaratindia.gov.in/about-gujarat/history-2.htm,0,,no,no,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-84,,0,Shri Chhabildas Mehta,Gujarat,https://gujaratindia.gov.in/about-gujarat/history-2.htm,0,,no,no,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-85,,0,Shri Keshubhai Savdasbhai Patel,Gujarat,https://gujaratindia.gov.in/about-gujarat/history-2.htm,0,,no,no,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-86,,0,Shri Sureshchandra Rupshanker Mehta,Gujarat,https://gujaratindia.gov.in/about-gujarat/history-2.htm,0,,no,no,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-87,,0,Shri Shankersinhji Laxmansinhji Vaghela,Gujarat,https://gujaratindia.gov.in/about-gujarat/history-2.htm,0,,no,no,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-88,,0,Shri Dilipbhai Ramanbhai Parikh,Gujarat,https://gujaratindia.gov.in/about-gujarat/history-2.htm,0,,no,no,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-89,,0,Shri Narendra Modi,Gujarat,https://gujaratindia.gov.in/about-gujarat/history-2.htm,0,,no,no,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-90,,0,Smt. Anandiben Patel,Gujarat,https://gujaratindia.gov.in/about-gujarat/history-2.htm,0,,no,no,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-91,,0,Shri Vijaybhai R. Rupani,Gujarat,https://gujaratindia.gov.in/about-gujarat/history-2.htm,0,,no,no,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-92,10-03-1967,NA,Shri Bhagwat Dayal Sharma,Haryana,https://haryanacmoffice.gov.in/previous-chief-minister-of-haryana,129,01-11-1966,no,no,1966,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-93,23-03-1967,1,Shri Bhagwat Dayal Sharma,Haryana,https://haryanacmoffice.gov.in/previous-chief-minister-of-haryana,12,11-03-1967,no,no,1967,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-94,15-07-1967,1,Rao Birender Singh,Haryana,https://haryanacmoffice.gov.in/previous-chief-minister-of-haryana,113,24-03-1967,no,no,1967,1,55,PATAUDI,0,AEHR307,B. SINGH,2,2,1,M,INC,22517,44812,GEN,3,76.45,50.25,no,986,2.2,2.08,TRUE,1,,,,,1,FALSE,FALSE,FALSE,
-95,20-11-1967,1,Rao Birender Singh,Haryana,https://haryanacmoffice.gov.in/previous-chief-minister-of-haryana,127,16-07-1967,no,no,1967,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-96,14-03-1972,183,SHRI BANSI LAL,Haryana,https://haryanacmoffice.gov.in/previous-chief-minister-of-haryana,1393,21-05-1968,no,no,1968,2,66,TOSHAM,0,AEHR792,BANSI LAL,5,2,1,M,INC,9109,30423,GEN,7,56.41,29.94,no,1249,4.11,4.35,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-97,30-11-1975,0,SHRI BANSI LAL,Haryana,https://haryanacmoffice.gov.in/previous-chief-minister-of-haryana,1356,14-03-1972,no,no,1972,3,66,TOSHAM,0,AEHR792,BANSI LAL,3,2,1,M,INC,30934,43462,GEN,4,72.92,71.17,no,20494,47.15,1.75,TRUE,2,INC,TOSHAM,TRUE,TRUE,2,FALSE,TRUE,TRUE,cosine
-98,30-04-1977,1,Shri Banarsi Das Gupta,Haryana,https://haryanacmoffice.gov.in/previous-chief-minister-of-haryana,516,01-12-1975,no,no,1975,3,67,BHIWANI,0,AEHR799,BANARSI DASS,3,2,1,M,INC,16144,43718,GEN,7,71.75,36.93,no,2494,5.7,3.23,TRUE,2,INC,BHIWANI,TRUE,TRUE,2,FALSE,TRUE,TRUE,cosine
-99,28-06-1979,52,Chaudhary Devi Lal,Haryana,https://haryanacmoffice.gov.in/previous-chief-minister-of-haryana,737,21-06-1977,no,no,1977,4,73,BHATTU KALAN,0,AEHR1791,DEVI LAL,10,3,1,M,JNP,27491,41959,GEN,4,68.09,65.52,no,13760,32.79,1.85,FALSE,1,,,,,1,FALSE,FALSE,FALSE,
-100,23-05-1982,0,Shri Bhajan Lal,Haryana,https://haryanacmoffice.gov.in/previous-chief-minister-of-haryana,1060,28-06-1979,no,no,1979,4,79,ADAMPUR,0,AEHR828,BHAJAN LAL,10,3,1,M,JNP,33193,48893,GEN,7,71.54,67.89,no,20803,42.55,1.92,TRUE,3,INC,ADAMPUR,FALSE,TRUE,3,TRUE,TRUE,TRUE,cosine
-101,04-06-1986,0,Shri Bhajan Lal,Haryana,https://haryanacmoffice.gov.in/previous-chief-minister-of-haryana,1473,23-05-1982,no,no,1982,5,79,ADAMPUR,0,AEHR828,BHAJAN LAL,5,3,1,M,INC,42227,62040,GEN,8,76.64,68.06,no,24712,39.83,1.85,TRUE,4,JNP,ADAMPUR,FALSE,TRUE,4,TRUE,TRUE,TRUE,cosine
-102,20-06-1987,1,SHRI BANSI LAL,Haryana,https://haryanacmoffice.gov.in/previous-chief-minister-of-haryana,380,05-06-1986,no,no,1986,5,67,TOSHAM,1,AEHR100316,B.LAL,5,3,1,M,INC,81298,82809,GEN,10,99.28,98.18,no,80819,97.6,1.04,TRUE,1,,,,,1,FALSE,FALSE,FALSE,
-103,02-12-1989,0,Chaudhary Devi Lal,Haryana,https://haryanacmoffice.gov.in/previous-chief-minister-of-haryana,896,20-06-1987,no,no,1987,6,31,MEHAM,0,AEHR2267,DEVI LAL,6,3,1,M,LKD,45576,67837,GEN,12,70.24,67.18,no,25981,38.3,1.89,TRUE,2,LKD,MEHAM,TRUE,TRUE,2,FALSE,FALSE,TRUE,
-104,22-05-1990,0,Shri Om Parkash Chautala,Haryana,https://haryanacmoffice.gov.in/previous-chief-minister-of-haryana,171,02-12-1989,no,no,1989,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-105,12-07-1990,1,Shri Banarsi Das Gupta,Haryana,https://haryanacmoffice.gov.in/previous-chief-minister-of-haryana,50,23-05-1990,no,no,1990,6,66,BHIWANI,0,AEHR3969,BANARSI DASS GUPTA,6,3,1,M,LKD,51137,69129,GEN,23,73.28,73.97,no,35191,50.91,1.67,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-106,17-07-1990,0,Shri Om Parkash Chautala,Haryana,https://haryanacmoffice.gov.in/previous-chief-minister-of-haryana,5,12-07-1990,no,no,1990,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-107,22-03-1991,0,Shri Hukam Singh,Haryana,https://haryanacmoffice.gov.in/previous-chief-minister-of-haryana,248,17-07-1990,no,no,1990,6,64,DADRI,0,AEHR353,HUKAM SINGH,6,3,1,M,LKD,25677,60045,GEN,16,64.1,42.76,no,9432,15.71,3.33,TRUE,4,LKD,DADRI,TRUE,TRUE,3,FALSE,TRUE,TRUE,cosine
-108,05-04-1991,0,Shri Om Parkash Chautala,Haryana,https://haryanacmoffice.gov.in/previous-chief-minister-of-haryana,14,22-03-1991,no,no,1991,7,33,BERI,0,AEHR2289,OM PARKASH,5,3,1,M,INC,25077,58489,GEN,13,60.63,42.87,no,5556,9.5,3.03,TRUE,3,LKD(A),BERI,FALSE,TRUE,2,TRUE,FALSE,TRUE,cosine
-109,10-05-1996,79,Shri Bhajan Lal,Haryana,https://haryanacmoffice.gov.in/previous-chief-minister-of-haryana,1783,23-06-1991,no,no,1991,7,79,ADAMPUR,0,AEHR5955,BHAJAN SINGH,5,3,1,M,INC,48117,73243,GEN,18,71.14,65.7,no,31596,43.14,2.04,TRUE,1,,,,,1,FALSE,FALSE,FALSE,
-110,21-07-1999,1,SHRI BANSI LAL,Haryana,https://haryanacmoffice.gov.in/previous-chief-minister-of-haryana,1166,11-05-1996,no,no,1996,8,67,TOSHAM,0,AEHR792,BANSI LAL,5,3,1,M,HVP,47274,88194,GEN,40,72.39,53.6,no,12802,14.52,2.27,TRUE,5,HVP,TOSHAM,TRUE,TRUE,4,FALSE,TRUE,TRUE,cosine
-111,02-03-2000,3,Shri Om Parkash Chautala,Haryana,https://haryanacmoffice.gov.in/previous-chief-minister-of-haryana,222,24-07-1999,no,no,1999,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-112,05-03-2005,0,Shri Om Parkash Chautala,Haryana,https://haryanacmoffice.gov.in/previous-chief-minister-of-haryana,1829,02-03-2000,no,no,2000,9,45,NARWANA,0,AEHR2416,OM PARKASH CHAUTALA,2,3,1,M,INLD,41923,87088,GEN,9,77.35,48.14,no,2194,2.52,2.27,TRUE,5,SAP,RORI,FALSE,FALSE,3,TRUE,TRUE,TRUE,cosine
-113,25-10-2009,0,Shri Bhupinder Singh Hooda,Haryana,https://haryanacmoffice.gov.in/previous-chief-minister-of-haryana,1695,05-03-2005,no,no,2005,10,29,Kiloi,1,AEHR2236,Bhupendra Singh,2,3,1,M,INC,106698,110363,GEN,6,87.27,96.68,no,103635,93.9,1.08,TRUE,4,INC,KILOI,TRUE,FALSE,2,FALSE,FALSE,TRUE,
-114,25-10-2014,0,Shri Bhupinder Singh Hooda,Haryana,https://haryanacmoffice.gov.in/previous-chief-minister-of-haryana,1826,25-10-2009,no,no,2009,11,61,GARHI SAMPLA-KILOI,0,AEHR2236,BHUPINDER SINGH,10,4,1,M,INC,89849,112577,GEN,10,68.62,79.81,no,72100,64.05,1.52,TRUE,5,INC,Kiloi,TRUE,FALSE,3,FALSE,TRUE,TRUE,cosine
-115,05-03-1948,NA,Mehr Chand Mahajan,Jammu and Kashmir,https://jkgad.nic.in/PDF/cmarchive.PDF,142,15-10-1947,no,no,1947,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-116,09-08-1953,0,Sheikh Mohammad Abdullah,Jammu and Kashmir,https://jkgad.nic.in/PDF/cmarchive.PDF,1983,05-03-1948,no,no,1948,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-117,12-10-1963,0,Bakshi Ghulam Mohammad,Jammu and Kashmir,https://jkgad.nic.in/PDF/cmarchive.PDF,3716,09-08-1953,no,no,1953,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-118,29-02-1964,0,Khwaja Shamsuddin,Jammu and Kashmir,https://jkgad.nic.in/PDF/cmarchive.PDF,140,12-10-1963,no,no,1963,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-119,30-03-1965,0,Ghulam Mohammed Sadiq,Jammu and Kashmir,https://jkgad.nic.in/PDF/cmarchive.PDF,395,29-02-1964,no,no,1964,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-120,12-12-1971,0,Shri Ghulam Mohammed Sadiq,Jammu and Kashmir,https://jkgad.nic.in/PDF/cmarchive.PDF,2448,30-03-1965,no,no,1965,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-121,25-02-1975,0,Syed Mir Qasim,Jammu and Kashmir,https://jkgad.nic.in/PDF/cmarchive.PDF,1171,12-12-1971,no,no,1971,2,41,VERINAG,0,AEMD105571,M. QASIM,2,2,1,M,INC,0,0,GEN,1,0,NA,no,0,NA,NA,TRUE,1,NA,NA,NA,NA,1,FALSE,FALSE,FALSE,cosine
-122,26-03-1977,0,Sheikh Mohammad Abdullah,Jammu and Kashmir,https://jkgad.nic.in/PDF/cmarchive.PDF,760,25-02-1975,no,yes,1975,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-123,09-07-1977,0,Governor's Rule (Lakshmi Kanth Jha),Jammu and Kashmir,https://jkgad.nic.in/PDF/cmarchive.PDF,105,26-03-1977,yes,no,1977,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-124,08-09-1982,0,Sheikh Mohammad Abdullah,Jammu and Kashmir,https://jkgad.nic.in/PDF/cmarchive.PDF,1887,09-07-1977,no,no,1977,4,15,GANDERBAL,0,AEMD104791,SHEIKH MOHAMMAD ABDULLAH,7,3,1,M,JKN,26162,29671,GEN,2,84.49,88.17,no,22653,76.35,1.27,TRUE,1,NA,NA,NA,NA,1,FALSE,FALSE,FALSE,cosine
-125,02-07-1984,0,Dr Farooq Abdullah,Jammu and Kashmir,https://jkgad.nic.in/PDF/cmarchive.PDF,663,08-09-1982,no,no,1982,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-126,06-03-1986,0,Shri Ghulam Mohammad Shah,Jammu and Kashmir,https://jkgad.nic.in/PDF/cmarchive.PDF,612,02-07-1984,no,yes,1984,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-127,07-11-1986,0,Governor's Rule (Shri Jagmohan),Jammu and Kashmir,https://jkgad.nic.in/PDF/cmarchive.PDF,246,06-03-1986,yes,no,1986,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-128,19-01-1990,0,Dr Farooq Abdullah,Jammu and Kashmir,https://jkgad.nic.in/PDF/cmarchive.PDF,1169,07-11-1986,no,no,1986,5,15,GANDERBAL,0,AEMD104281,FAROOQ ABDULLAH,5,3,1,M,JKN,32331,33745,GEN,4,84.85,95.81,no,31096,92.15,1.09,TRUE,1,NA,NA,NA,NA,1,FALSE,FALSE,FALSE,cosine
-129,09-10-1996,0,Governor's Rule (Shri Jagmohan),Jammu and Kashmir,https://jkgad.nic.in/PDF/cmarchive.PDF,2455,19-01-1990,yes,no,1990,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-130,18-10-2002,0,Dr Farooq Abdullah,Jammu and Kashmir,https://jkgad.nic.in/PDF/cmarchive.PDF,2200,09-10-1996,no,no,1996,7,17,GANDERBAL,0,AEMD103192,FAROOQ ABDULLAH,7,3,1,M,JKN,16440,23403,GEN,4,47.22,70.25,no,12823,54.79,1.92,TRUE,1,NA,NA,NA,NA,1,FALSE,FALSE,FALSE,cosine
-131,02-11-2005,15,Mufti Mohammad Sayeed,Jammu and Kashmir,https://jkgad.nic.in/PDF/cmarchive.PDF,1096,02-11-2002,no,no,2002,8,46,Pahalgam,1,AEMD102668,MUFTI MOHAMMAD SAYEED,10,3,1,,JKPDP,9056,13875,GEN,4,21.64,65.27,no,5174,37.29,1.96,TRUE,1,NA,NA,NA,NA,1,FALSE,FALSE,FALSE,cosine
-132,11-07-2008,0,Shri Ghulam Nabi Azad,Jammu and Kashmir,https://jkgad.nic.in/PDF/cmarchive.PDF,982,02-11-2005,no,no,2005,8,54,Bhaderwah,1,,Sh. Ghulam Nabi Azad,10,3,1,M,,62072,66129,GEN,2,NA,93.87,no,58015,87.73,1.14,TRUE,NA,NA,NA,NA,NA,NA,NA,FALSE,FALSE,cosine
-133,05-01-2009,0,Governor's Rule (Shri N N Vora),Jammu and Kashmir,https://jkgad.nic.in/PDF/cmarchive.PDF,178,11-07-2008,yes,no,2008,9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-134,08-01-2015,0,Shri Omar Abdullah,Jammu and Kashmir,https://jkgad.nic.in/PDF/cmarchive.PDF,2194,05-01-2009,no,no,2009,9,17,GANDERBAL,0,AEMD101186,OMAR ABDULLAH,12,4,1,M,JKN,16519,39818,GEN,12,51.73,41.49,no,8215,20.63,4,TRUE,1,NA,NA,NA,NA,1,FALSE,FALSE,FALSE,cosine
-135,07-01-2016,54,Mufti Mohammad Sayeed 0,Jammu and Kashmir,https://jkgad.nic.in/PDF/cmarchive.PDF,310,03-03-2015,no,no,2015,10,40,ANANTNAG,0,AEMD100495,MUFTI MOHD SAYEED,12,4,1,M,JKPDP,16983,33171,GEN,8,39.67,51.2,no,6028,18.17,2.63,FALSE,1,NA,NA,NA,NA,1,FALSE,FALSE,FALSE,cosine
-136,03-04-2016,1,Governor's Rule (Shri N N Vora),Jammu and Kashmir,https://jkgad.nic.in/PDF/cmarchive.PDF,86,08-01-2016,yes,no,2016,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-137,19-06-2018,1,Ms Mehbooba Mufti,Jammu and Kashmir,https://jkgad.nic.in/PDF/cmarchive.PDF,806,04-04-2016,no,no,2016,10,40,ANANTNAG,1,AEMD100503,Mehbooba Mufti (E),12,4,1,,JPDP,17701,28093,GEN,8,33.6,63.01,no,12085,43.02,2.22,TRUE,1,NA,NA,NA,NA,1,FALSE,FALSE,FALSE,cosine
-138,31-10-2019,65,Governor's Rule (Shri Satya Pal Malik),Jammu and Kashmir,https://jkgad.nic.in/PDF/cmarchive.PDF,434,23-08-2018,yes,no,2018,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-139,05-08-2020,0,Lt. Governor's Rule (Shri Girish Chandra Murmu),Jammu and Kashmir,https://jkgad.nic.in/PDF/cmarchive.PDF,279,31-10-2019,yes,no,2019,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-140,30-03-1952,NA,Sri K.CHENGALARAYA REDDY,Karnataka,http://www.kla.kar.nic.in/prevcms.htm,1618,25-10-1947,no,no,1947,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-141,19-08-1956,0,Sri K.HANUMANTHAIAH,Karnataka,http://www.kla.kar.nic.in/prevcms.htm,1603,30-03-1952,no,no,1952,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-142,31-10-1956,0,Sri KADIDAL MANJAPPA,Karnataka,http://www.kla.kar.nic.in/prevcms.htm,73,19-08-1956,no,no,1956,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-143,16-05-1958,1,Sri S.NIJALINGAPPA,Karnataka,http://www.kla.kar.nic.in/prevcms.htm,561,01-11-1956,no,no,1956,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-144,09-03-1962,0,Sri B.D.JATTI,Karnataka,http://www.kla.kar.nic.in/prevcms.htm,1393,16-05-1958,no,no,1958,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-145,20-06-1962,5,Sri S.R.KANTHI,Karnataka,http://www.kla.kar.nic.in/prevcms.htm,98,14-03-1962,no,no,1962,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-146,28-05-1968,1,Sri S.NIJALINGAPPA,Karnataka,http://www.kla.kar.nic.in/prevcms.htm,2168,21-06-1962,no,no,1962,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-147,18-03-1971,1,Sri VEERENDRA PATIL,Karnataka,http://www.kla.kar.nic.in/prevcms.htm,1023,29-05-1968,no,no,1968,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-148,20-03-1972,1,PRESIDENT`S RULE,Karnataka,http://www.kla.kar.nic.in/prevcms.htm,367,19-03-1971,yes,no,1971,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-149,31-12-1977,0,Sri D.DEVRAJ URS,Karnataka,http://www.kla.kar.nic.in/prevcms.htm,2112,20-03-1972,no,no,1972,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-150,28-02-1978,0,PRESIDENTS RULE,Karnataka,http://www.kla.kar.nic.in/prevcms.htm,59,31-12-1977,yes,no,1977,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-151,07-01-1980,0,Sri D.DEVARAJ URS,Karnataka,http://www.kla.kar.nic.in/prevcms.htm,678,28-02-1978,no,no,1978,1,123,HUNSUR,0,AEKA107930,D.DEVARAJ URS,2,3,1,M,INC(I),36766,66551,GEN,4,80.4,55.24,no,12055,18.11,2.22,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-152,06-01-1983,5,Sri R.GUNDU RAO,Karnataka,http://www.kla.kar.nic.in/prevcms.htm,1090,12-01-1980,no,no,1980,1,128,SOMWARPET,0,AEKA106140,R. GUNDA RAO,2,3,1,M,INC(I),31588,61611,GEN,4,78.01,51.27,no,3606,5.85,2.13,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-153,29-12-1984,4,Sri RAMAKRISHNA HEGDE,Karnataka,http://www.kla.kar.nic.in/prevcms.htm,719,10-01-1983,no,no,1983,2,171,ANKOLA,0,AEKA13379,HEGDE SHRIPAD RAMAKRISHNA,5,3,1,M,INC,16379,48008,GEN,4,62.52,34.12,no,2900,6.04,3.57,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-154,13-02-1986,69,Sri RAMAKRISHNA HEGDE,Karnataka,http://www.kla.kar.nic.in/prevcms.htm,342,08-03-1985,no,no,1985,3,82,BASAVANAGUDI,0,AEKA10205,RAMAKRISHNA HEGDE,5,3,1,M,JNP,61018,79917,GEN,9,61.48,76.35,no,42780,53.53,1.59,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-155,10-08-1988,3,Sri RAMAKRISHNA HEGDE,Karnataka,http://www.kla.kar.nic.in/prevcms.htm,906,16-02-1986,no,no,1986,3,82,BASAVANAGUDI,0,AEKA10205,RAMAKRISHNA HEGDE,5,3,1,M,JNP,61018,79917,GEN,9,61.48,76.35,no,42780,53.53,1.59,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-156,21-04-1989,3,Sri S.R.BOMMAI,Karnataka,http://www.kla.kar.nic.in/prevcms.htm,251,13-08-1988,no,no,1988,3,177,HUBLI RURAL,0,AEKA10869,S. R. BOMMAI,5,3,1,M,JNP,32175,75801,GEN,7,64.35,42.45,no,1488,1.96,2.86,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-157,30-11-1989,0,PRESIDENT`S RULE,Karnataka,http://www.kla.kar.nic.in/prevcms.htm,223,21-04-1989,yes,no,1989,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-158,10-10-1990,0,Sri VEERENDRA PATIL,Karnataka,http://www.kla.kar.nic.in/prevcms.htm,314,30-11-1989,no,no,1989,4,7,CHINCHOLI,0,AEKA107272,VEERENDRA PATIL,11,3,1,M,INC,29762,72629,GEN,7,62.5,40.98,no,2045,2.82,2.94,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-159,17-10-1990,0,PRESIDENT`S RULE,Karnataka,http://www.kla.kar.nic.in/prevcms.htm,7,10-10-1990,yes,no,1990,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-160,19-11-1992,0,Sri S.BANGARAPPA,Karnataka,http://www.kla.kar.nic.in/prevcms.htm,764,17-10-1990,no,no,1990,4,166,SORAB,0,AEKA107071,S. BANGARAPPA,11,3,1,M,INC,41648,76171,GEN,6,75.55,54.68,no,14541,19.09,2.33,TRUE,5,INC,SORAB,TRUE,TRUE,4,FALSE,TRUE,TRUE,cosine
-161,11-12-1994,0,Sri VEERAPPA MOILY,Karnataka,http://www.kla.kar.nic.in/prevcms.htm,752,19-11-1992,no,no,1992,4,150,KARKAL,0,AEKA106234,M. VEERAPPA MOILY,11,3,1,M,INC,41171,72482,GEN,6,66.55,56.8,no,18780,25.91,2.33,TRUE,4,INC,KARKAL,TRUE,TRUE,4,FALSE,TRUE,TRUE,cosine
-162,31-05-1996,0,Sri H.D.DEVEGOWDA,Karnataka,http://www.kla.kar.nic.in/prevcms.htm,537,11-12-1994,no,no,1994,5,94,RAMANAGARAM,0,AEKA106161,H.D. DEVEGOWDA,11,3,1,M,JD,47986,110955,GEN,9,77.85,43.25,no,9594,8.65,2.86,FALSE,7,JNP(JP),HOLENARASIPUR,FALSE,FALSE,4,TRUE,FALSE,TRUE,cosine
-163,07-10-1999,0,Sri J.H.PATEL,Karnataka,http://www.kla.kar.nic.in/prevcms.htm,1224,31-05-1996,no,no,1996,5,158,CHANNAGIRI,0,GENA18881,J.H. PATEL,11,3,1,M,JD,38178,93222,GEN,11,72.31,40.95,no,19131,20.52,3.57,TRUE,5,JD,CHANNAGIRI,TRUE,TRUE,4,FALSE,FALSE,TRUE,cosine
-164,28-05-2004,4,Sri S.M.KRISHNA,Karnataka,http://www.kla.kar.nic.in/prevcms.htm,1691,11-10-1999,no,no,1999,6,102,MADDUR,0,AEKA107872,SM KRISHNA,10,3,1,M,INC,56907,96130,GEN,3,72.94,59.2,no,29459,30.64,2.22,TRUE,3,INC,MADDUR,TRUE,TRUE,2,FALSE,FALSE,TRUE,cosine
-165,02-02-2006,0,Sri DHARAM SINGH,Karnataka,http://www.kla.kar.nic.in/prevcms.htm,615,28-05-2004,no,no,2004,7,15,JEWARGI,0,AEKA108,DHARAMSINGH,5,3,1,M,INC,45235,103929,GEN,9,58.05,43.52,no,2731,2.63,2.7,TRUE,7,INC,JEWARGI,TRUE,TRUE,7,FALSE,TRUE,TRUE,cosine
-166,08-10-2007,1,Sri H.D.KUMARA SWAMY,Karnataka,http://www.kla.kar.nic.in/prevcms.htm,612,03-02-2006,no,no,2006,7,94,RAMANAGARAM,0,GEKA3026,KUMARASWAMY H D,5,3,1,M,JD(S),69554,128454,GEN,8,65.46,54.15,no,24916,19.4,2.38,TRUE,2,JD(S),SATHANUR,TRUE,FALSE,1,FALSE,FALSE,TRUE,cosine
-167,12-11-2007,0,PRESIDENT`S RULE,Karnataka,http://www.kla.kar.nic.in/prevcms.htm,35,08-10-2007,yes,no,2007,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-168,19-11-2007,0,Sri B.S.YEDDYURAPPA,Karnataka,http://www.kla.kar.nic.in/prevcms.htm,7,12-11-2007,no,no,2007,7,167,SHIKARIPUR,0,AEKA2060,YEDIYURAPPA BS,5,3,1,M,BJP,64972,117068,GEN,9,74.72,55.5,no,19953,17.04,2.17,TRUE,6,BJP,SHIKARIPUR,TRUE,TRUE,5,FALSE,FALSE,TRUE,cosine
-169,29-05-2008,1,PRESIDENT`S RULE,Karnataka,http://www.kla.kar.nic.in/prevcms.htm,191,20-11-2007,yes,no,2007,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-170,04-08-2011,1,Dr B.S.YEDDYURAPPA,Karnataka,http://www.kla.kar.nic.in/prevcms.htm,1161,30-05-2008,no,no,2008,8,115,SHIKARIPURA,0,AEKA2060,B.S.YEDDYURAPPA,5,4,1,M,BJP,83491,126077,GEN,9,78.38,66.22,no,45927,36.43,1.89,TRUE,7,BJP,SHIKARIPUR,TRUE,FALSE,6,FALSE,TRUE,TRUE,cosine
-171,11-07-2012,1,Sri D.V.SADANANDA GOWDA,Karnataka,http://www.kla.kar.nic.in/prevcms.htm,341,05-08-2011,no,yes,2011,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-172,TILL DATE,1,Sri JAGADISH SHETTAR,Karnataka,http://www.kla.kar.nic.in/prevcms.htm,NA,12-07-2012,no,no,2012,8,73,HUBLI-DHARWAD-CENTRAL,0,AEKA1493,JAGADISH SHETTAR,5,4,1,M,BJP,58747,107301,GEN,12,58.37,54.75,no,26009,24.24,2.5,TRUE,4,BJP,HUBLI RURAL,TRUE,FALSE,4,FALSE,TRUE,TRUE,cosine
-173,31-07-1959,NA,Shri. E. M. S. Namboodiripad,Kerela,https://kerala.gov.in/chief-ministers-since-1957,847,05-04-1957,no,no,1957,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-174,26-09-1962,206,Shri. Pattom A. Thanu Pillai,Kerela,https://kerala.gov.in/chief-ministers-since-1957,947,22-02-1960,no,no,1960,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-175,10-09-1964,0,?Shri. R. Sankar,Kerela,https://kerala.gov.in/chief-ministers-since-1957,715,26-09-1962,no,no,1962,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-176,01-11-1969,907,?Shri. E. M. S. Namboodiripad,Kerela,https://kerala.gov.in/chief-ministers-since-1957,971,06-03-1967,no,no,1967,4,37,PATTAMBI,0,AEKL110006,E.M.S.NAMBOODIRIPAD,2,2,1,M,CPM,23955,40024,GEN,3,64.23,59.85,no,12117,30.27,2.17,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-177,01-08-1970,0,?Shri. C. Achutha Menon,Kerela,https://kerala.gov.in/chief-ministers-since-1957,273,01-11-1969,no,no,1969,5,111,KOTTARAKARA,1,AEKL109803,A.MEMON,9,2,1,,CPI,44472,66536,GEN,7,81.74,66.84,no,26063,39.17,1.89,TRUE,1,,,,,1,FALSE,FALSE,FALSE,
-178,25-03-1977,64,?Shri. C. Achutha Menon,Kerela,https://kerala.gov.in/chief-ministers-since-1957,2364,04-10-1970,no,no,1970,5,56,KODAKARA,0,AEKL109569,C. ACHUTHA MENON,9,2,1,M,CPI,23926,53327,GEN,5,74.32,44.87,no,3151,5.91,2.7,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-179,25-04-1977,0,?Shri. K. Karunakaran,Kerela,https://kerala.gov.in/chief-ministers-since-1957,31,25-03-1977,no,no,1977,6,62,MALA,0,AEKL105660,K. KARUNAKARAN,3,3,1,M,INC,34699,61469,GEN,5,78.83,56.45,no,9466,15.4,2.04,TRUE,4,INC,MALA,TRUE,TRUE,4,FALSE,TRUE,TRUE,cosine
-180,27-10-1978,2,?Shri. A. K. Antony,Kerela,https://kerala.gov.in/chief-ministers-since-1957,548,27-04-1977,no,no,1977,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-181,07-10-1979,2,?Shri. P. K. Vasudevan Nair,Kerela,https://kerala.gov.in/chief-ministers-since-1957,343,29-10-1978,no,no,1978,6,100,ALLEPPEY,0,GEKL16737,P. K. VASUDEVAN NAIR,3,3,1,M,CPI,35301,60932,GEN,2,74.41,57.94,no,9670,15.87,1.92,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-182,01-12-1979,5,?Shri. C. H. Mohammed Koya,Kerela,https://kerala.gov.in/chief-ministers-since-1957,50,12-10-1979,no,no,1979,6,34,MALAPPURAM,0,AEKL108285,C. H. MOHAMMED KOYA,3,3,1,M,MUL,39362,55086,GEN,2,67.47,71.46,no,23638,42.91,1.69,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-183,20-10-1981,55,?Shri. E. K. Nayanar,Kerela,https://kerala.gov.in/chief-ministers-since-1957,634,25-01-1980,no,no,1980,7,48,MALAMPUZHA,0,AEKL108333,E. K. NAYANAR,1,3,1,M,CPM,35333,57339,GEN,4,64.62,61.62,no,15557,27.13,2,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-184,17-03-1982,69,?Shri. K. Karunakaran,Kerela,https://kerala.gov.in/chief-ministers-since-1957,79,28-12-1981,no,no,1981,7,62,MALA,0,AEKL105660,K. KARUNAKARAN,1,3,1,M,INC(I),35964,69452,GEN,4,79.6,51.78,no,3402,4.9,2.04,TRUE,5,INC,MALA,FALSE,TRUE,5,TRUE,TRUE,TRUE,cosine
-185,25-03-1987,68,?Shri. K. Karunakaran,Kerela,https://kerala.gov.in/chief-ministers-since-1957,1766,24-05-1982,no,no,1982,8,62,MALA,0,AEKL105660,K. KARUNAKARAN,5,3,1,M,INC,35138,68785,GEN,4,75.46,51.08,no,3410,4.96,2.13,TRUE,6,INC(I),MALA,FALSE,TRUE,6,TRUE,TRUE,TRUE,cosine
-186,17-06-1991,1,?Shri. E. K. Nayanar,Kerela,https://kerala.gov.in/chief-ministers-since-1957,1544,26-03-1987,no,no,1987,9,5,TRIKKARPUR,0,AEKL108333,E. K. NAYANAR,3,3,1,M,CPM,56037,111715,GEN,8,85.28,50.16,no,6417,5.74,2.22,TRUE,3,CPM,MALAMPUZHA,TRUE,FALSE,3,FALSE,TRUE,TRUE,cosine
-187,16-03-1995,7,?Shri. K. Karunakaran,Kerela,https://kerala.gov.in/chief-ministers-since-1957,1361,24-06-1991,no,no,1991,10,62,MALA,0,AEKL105660,K. KARUNAKARAN,5,3,1,M,INC,50966,103205,GEN,6,76.24,49.38,no,2474,2.4,2.17,TRUE,9,INC,MALA,TRUE,TRUE,8,FALSE,TRUE,TRUE,cosine
-188,09-05-1996,6,?Shri. A. K. Antony,Kerela,https://kerala.gov.in/chief-ministers-since-1957,414,22-03-1995,no,no,1995,10,36,Thirurangadi,1,,A.K.Antony,5,3,1,,,,,GEN,1,,,no,0,,,TRUE,,,,,,,,FALSE,FALSE,
-189,13-05-2001,11,?Shri. E. K. Nayanar,Kerela,https://kerala.gov.in/chief-ministers-since-1957,1819,20-05-1996,no,no,1996,11,12,Tellicherry,1,AEKL108333,E.K. Nayanar,6,3,1,M,CPM,60841,107325,GEN,4,75.29,56.69,no,24501,22.83,2.27,TRUE,5,CPM,TRIKKARPUR,TRUE,FALSE,5,FALSE,FALSE,TRUE,cosine
-190,29-08-2004,4,?Shri. A. K. Antony,Kerela,https://kerala.gov.in/chief-ministers-since-1957,1200,17-05-2001,no,no,2001,12,98,SHERTHALAI,0,AEKL103901,A K ANTONY,5,3,1,M,INC,59661,115208,GEN,6,81.64,51.79,no,6860,5.95,2.08,TRUE,3,INC,SHERTHALAI,TRUE,TRUE,3,FALSE,TRUE,TRUE,cosine
-191,12-05-2006,2,?Shri. Oommen Chandy,Kerela,https://kerala.gov.in/chief-ministers-since-1957,619,31-08-2004,no,no,2004,12,92,PUTHUPPALLY,0,AEKL109684,OOMMEN CHANDY,5,3,1,M,INC,58531,110735,GEN,4,75.34,52.86,no,12575,11.36,2.22,TRUE,7,INC,PUTHUPPALLY,TRUE,TRUE,7,FALSE,TRUE,TRUE,cosine
-192,14-05-2011,6,?Shri. V. S. Achuthanandan,Kerela,https://kerala.gov.in/chief-ministers-since-1957,1822,18-05-2006,no,no,2006,13,48,MALAMPUZHA,0,AEKL105902,V.S. ACHUTHANANDAN,5,3,1,M,CPI(M),64775,116824,GEN,10,76.7,55.45,no,20017,17.13,2.17,TRUE,6,CPM,MALAMPUZHA,FALSE,TRUE,4,TRUE,TRUE,TRUE,cosine
-193,20-05-2016,4,?Shri. Oommen Chandy,Kerela,https://kerala.gov.in/chief-ministers-since-1957,1829,18-05-2011,no,no,2011,14,98,PUTHUPPALLY,0,AEKL109684,OOMMEN CHANDY,5,4,1,M,INC,69922,117035,GEN,5,74.44,59.74,no,33255,28.41,2.17,TRUE,9,INC,PUTHUPPALLY,TRUE,TRUE,9,FALSE,TRUE,TRUE,cosine
-194,,5,?Shri. Pinarayi Vijayan,Kerela,https://kerala.gov.in/chief-ministers-since-1957,-42515,25-05-2016,no,no,2016,15,12,DHARMADAM,0,AEKL105418,PINARAYI VIJAYAN,5,4,1,M,CPM,87329,153627,GEN,6,83.3,56.84,no,36905,24.02,2.27,TRUE,5,CPM,PAYYANNUR,TRUE,FALSE,5,FALSE,FALSE,FALSE,cosine
-195,31-12-1956,NA,Shri Ravishankar Shukla,Madhya Pradesh,https://www.mpinfo.org/MPinfoStatic/English/whoiswho/cmlist.asp,60,01-11-1956,no,no,1956,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-196,30-01-1957,1,Shri Bhagwantrao Mandloi,Madhya Pradesh,https://www.mpinfo.org/MPinfoStatic/English/whoiswho/cmlist.asp,29,01-01-1957,no,no,1957,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-197,14-04-1957,1,Dr. Kailashnath Katju,Madhya Pradesh,https://www.mpinfo.org/MPinfoStatic/English/whoiswho/cmlist.asp,73,31-01-1957,no,no,1957,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-198,11-03-1962,1,Dr. Kailashnath Katju,Madhya Pradesh,https://www.mpinfo.org/MPinfoStatic/English/whoiswho/cmlist.asp,1791,15-04-1957,no,no,1957,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-199,29-09-1963,1,Shri Bhagwantrao Mandloi,Madhya Pradesh,https://www.mpinfo.org/MPinfoStatic/English/whoiswho/cmlist.asp,566,12-03-1962,no,no,1962,3,258,KHANDWA,0,AEMP1231,BHAGWANT RAO,2,1,1,M,INC,20408,32359,GEN,3,61.27,63.07,no,10484,32.4,2.04,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-200,08-03-1967,1,Shri Dwarka Prasad Mishra,Madhya Pradesh,https://www.mpinfo.org/MPinfoStatic/English/whoiswho/cmlist.asp,1255,30-09-1963,no,no,1963,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-201,29-07-1967,1,Shri Dwarka Prasad Mishra,Madhya Pradesh,https://www.mpinfo.org/MPinfoStatic/English/whoiswho/cmlist.asp,142,09-03-1967,no,no,1967,4,174,KATANGI,0,AEMP2313,D. P. MISRA,2,2,1,M,INC,22778,32981,GEN,3,61.17,69.06,no,13280,40.27,1.79,FALSE,1,,,,,1,FALSE,FALSE,FALSE,
-202,12-03-1969,1,Shri Govindnarayan Singh,Madhya Pradesh,https://www.mpinfo.org/MPinfoStatic/English/whoiswho/cmlist.asp,591,30-07-1967,no,no,1967,4,48,RAMPUR BHAGHELAN,0,AEMP1664,G. N. SINGH,2,2,1,M,INC,18300,47723,GEN,5,62.62,38.35,no,3566,7.47,3.12,TRUE,1,,,,,1,FALSE,FALSE,FALSE,
-203,25-03-1969,1,Shri Raja Nareshchandra Singh,Madhya Pradesh,https://www.mpinfo.org/MPinfoStatic/English/whoiswho/cmlist.asp,12,13-03-1969,no,no,1969,4,87,PUSSOUR,0,AEMP1877,N. C. SINGH,2,2,1,M,INC,19670,32415,GEN,4,46.27,60.68,no,13687,42.22,2.38,TRUE,1,,,,,1,FALSE,FALSE,FALSE,
-204,28-01-1972,1,Shri Shyamacharan Shukla,Madhya Pradesh,https://www.mpinfo.org/MPinfoStatic/English/whoiswho/cmlist.asp,1038,26-03-1969,no,no,1969,4,121,RAJIM,0,AEMP2052,S. SHUKLI,2,2,1,M,INC,21691,34224,GEN,3,55.12,63.38,no,10751,31.41,2,TRUE,1,,,,,1,FALSE,FALSE,FALSE,
-205,22-03-1972,1,Shri Prakash Chandra Sethi,Madhya Pradesh,https://www.mpinfo.org/MPinfoStatic/English/whoiswho/cmlist.asp,53,29-01-1972,no,no,1972,5,245,UJJAIN NORTH,0,GEMP19195,PRAKASH CHAND SETHI,3,2,1,M,INC,36195,59076,GEN,3,70.25,61.27,no,15119,25.59,1.96,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-206,22-12-1975,1,Shri Prakash Chandra Sethi??,Madhya Pradesh,https://www.mpinfo.org/MPinfoStatic/English/whoiswho/cmlist.asp,1369,23-03-1972,no,no,1972,5,245,UJJAIN NORTH,0,GEMP19195,PRAKASH CHAND SETHI,3,2,1,M,INC,36195,59076,GEN,3,70.25,61.27,no,15119,25.59,1.96,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-207,29-04-1977,1,Shri Shyamacharan Shukla,Madhya Pradesh,https://www.mpinfo.org/MPinfoStatic/English/whoiswho/cmlist.asp,493,23-12-1975,no,no,1975,5,121,RAJIM,0,AEMP631,SHYAMCHARAN SHUKLA,3,2,1,M,INC,23373,40890,GEN,6,60.06,57.16,no,11230,27.46,2.38,TRUE,2,INC,RAJIM,TRUE,TRUE,2,FALSE,FALSE,FALSE,cosine
-208,25-06-1977,1,President?s Rule,Madhya Pradesh,https://www.mpinfo.org/MPinfoStatic/English/whoiswho/cmlist.asp,56,30-04-1977,yes,no,1977,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-209,17-01-1978,1,Shri Kailsh Chandra Joshi??,Madhya Pradesh,https://www.mpinfo.org/MPinfoStatic/English/whoiswho/cmlist.asp,205,26-06-1977,no,no,1977,6,279,BAGLI,0,AEMP6173,KAILASH CHANDRA JOSHI,10,3,1,M,JNP,27601,39448,GEN,3,62.64,69.97,no,16638,42.18,1.75,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-210,19-01-1980,1,Shri Virendra Kumar Sakhlecha,Madhya Pradesh,https://www.mpinfo.org/MPinfoStatic/English/whoiswho/cmlist.asp,731,18-01-1978,no,no,1978,6,320,JAWAD,0,AEMP4304,VIRENDRA KUMAR SAKHLECHA,10,3,1,M,JNP,37801,59318,GEN,4,69.87,63.73,no,18476,31.15,1.92,TRUE,2,BJS,JAWAD,FALSE,TRUE,1,TRUE,FALSE,TRUE,cosine
-211,17-02-1980,1,Shri Sunderlal Patwa,Madhya Pradesh,https://www.mpinfo.org/MPinfoStatic/English/whoiswho/cmlist.asp,28,20-01-1980,no,no,1980,7,237,SEHORE,0,AEMP7811,SUNDER LAL PATWA,5,3,1,M,BJP,19833,43249,GEN,6,61.83,45.86,no,176,0.41,2.38,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-212,08-06-1980,1,President?s Rule,Madhya Pradesh,https://www.mpinfo.org/MPinfoStatic/English/whoiswho/cmlist.asp,111,18-02-1980,yes,no,1980,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-213,10-03-1985,1,Shri Arjun Singh,Madhya Pradesh,https://www.mpinfo.org/MPinfoStatic/English/whoiswho/cmlist.asp,1735,09-06-1980,no,no,1980,7,73,CHURAHAT,0,AEMP4869,ARJUN SINGH,5,3,1,M,INC(I),32999,47732,GEN,10,57.95,69.13,no,24213,50.73,1.96,TRUE,2,INC,CHURAHAT,FALSE,TRUE,2,TRUE,TRUE,TRUE,cosine
-214,12-03-1985,1,Shri Arjun Singh,Madhya Pradesh,https://www.mpinfo.org/MPinfoStatic/English/whoiswho/cmlist.asp,1,11-03-1985,no,no,1985,8,73,CHURAHAT,0,AEMP4869,ARJUN SINGH,2,3,1,M,INC,41028,56618,GEN,13,60.55,72.46,no,35595,62.87,1.82,FALSE,3,INC(I),CHURAHAT,FALSE,TRUE,3,TRUE,TRUE,TRUE,cosine
-215,13-02-1988,1,Shri Motilal Vora,Madhya Pradesh,https://www.mpinfo.org/MPinfoStatic/English/whoiswho/cmlist.asp,1067,13-03-1985,no,no,1985,8,162,DURG,0,AEMP3657,MOTILAL VORA,2,3,1,M,INC,53754,74101,GEN,10,51.16,72.54,no,38464,51.91,1.75,FALSE,4,INC(I),DURG,FALSE,TRUE,4,TRUE,TRUE,TRUE,cosine
-216,24-01-1989,1,Shri Arjun Singh,Madhya Pradesh,https://www.mpinfo.org/MPinfoStatic/English/whoiswho/cmlist.asp,345,14-02-1988,no,no,1988,8,73,CHURAHAT,0,AEMP4869,ARJUN SINGH,2,3,1,M,INC,41028,56618,GEN,13,60.55,72.46,no,35595,62.87,1.82,FALSE,3,INC(I),CHURAHAT,FALSE,TRUE,3,TRUE,TRUE,TRUE,cosine
-217,08-12-1989,1,Shri Motilal Vora,Madhya Pradesh,https://www.mpinfo.org/MPinfoStatic/English/whoiswho/cmlist.asp,317,25-01-1989,no,no,1989,8,162,DURG,0,AEMP3657,MOTILAL VORA,2,3,1,M,INC,53754,74101,GEN,10,51.16,72.54,no,38464,51.91,1.75,FALSE,4,INC(I),DURG,FALSE,TRUE,4,TRUE,TRUE,TRUE,cosine
-218,04-03-1990,1,Shri Shyamacharan Shukla,Madhya Pradesh,https://www.mpinfo.org/MPinfoStatic/English/whoiswho/cmlist.asp,85,09-12-1989,no,no,1989,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-219,15-12-1992,1,Shri Sunderlal Patwa,Madhya Pradesh,https://www.mpinfo.org/MPinfoStatic/English/whoiswho/cmlist.asp,1016,05-03-1990,no,no,1990,9,145,DHAMTARI,0,AEMP17107,KRIPARAM HIRALAL SAHU,2,3,1,M,BJP,42660,87925,GEN,17,70.39,48.52,no,2617,2.98,2.22,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-220,06-12-1993,1,President?s Rule,Madhya Pradesh,https://www.mpinfo.org/MPinfoStatic/English/whoiswho/cmlist.asp,355,16-12-1992,yes,no,1992,9,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-221,01-12-1998,1,Shri Digvijay Singh,Madhya Pradesh,https://www.mpinfo.org/MPinfoStatic/English/whoiswho/cmlist.asp,1820,07-12-1993,no,no,1993,10,30,Chachora,1,AEMP100526,Digvijay Singh,11,3,1,,INC,53621,68348,GEN,2,57.62,78.45,no,38894,56.91,1.49,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-222,08-12-2003,0,Shri Digvijay Singh,Madhya Pradesh,https://www.mpinfo.org/MPinfoStatic/English/whoiswho/cmlist.asp,1833,01-12-1998,no,no,1998,11,31,RAGHOGARH,0,AEMP84686,DIGVIJAY SINGH,11,3,1,M,INC,67442,81501,GEN,5,57.82,82.75,no,54161,66.45,1.41,TRUE,4,INC(I),RAGHOGARH,FALSE,TRUE,3,TRUE,FALSE,FALSE,cosine
-223,23-08-2004,0,Sushri Uma Bharti,Madhya Pradesh,https://www.mpinfo.org/MPinfoStatic/English/whoiswho/cmlist.asp,259,08-12-2003,no,no,2003,12,47,MALEHRA,0,AEMP21726,UMA BHARTI,12,3,1,F,BJP,61283,123199,GEN,10,67.42,49.74,no,31698,25.73,2.94,FALSE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-224,29-11-2005,0,Shri Babulal Gaur,Madhya Pradesh,https://www.mpinfo.org/MPinfoStatic/English/whoiswho/cmlist.asp,463,23-08-2004,no,no,2004,12,148,GOVINDPURA,0,AEMP7817,BABULAL GOUR,12,3,1,M,BJP,123513,208894,GEN,16,60.49,59.13,no,64212,30.74,2.33,TRUE,5,BJP,GOVINDPURA,TRUE,TRUE,5,FALSE,TRUE,TRUE,cosine
-225,12-12-2008,0,Shri Shivraj Singh Chouhan,Madhya Pradesh,https://www.mpinfo.org/MPinfoStatic/English/whoiswho/cmlist.asp,1109,29-11-2005,no,no,2005,12,144,Budhni,1,AEMP100740,Shivraj Singh,12,3,1,M,BJP,66689,112889,GEN,16,64.57,59.07,no,36525,32.35,2.38,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-226,13-12-2013,0,Shri Shivraj Singh Chouhan,Madhya Pradesh,https://www.mpinfo.org/MPinfoStatic/English/whoiswho/cmlist.asp,2192,12-12-2008,no,no,2008,13,156,BUDHNI,0,AEMP13961,SHIV RAJ SHINGH,12,4,1,M,BJP,75828,122007,GEN,13,72.59,62.15,no,41525,34.03,2.13,TRUE,2,BJP,BUDHNI,TRUE,TRUE,2,FALSE,FALSE,FALSE,cosine
-227,16-12-2018,-364,Shri Shivraj Singh Chouhan,Madhya Pradesh,https://www.mpinfo.org/MPinfoStatic/English/whoiswho/cmlist.asp,1828,14-12-2013,no,no,2013,14,156,BUDHNI,0,AEMP28651,SHIVRAJ SINGH CHOUHAN,12,4,1,M,BJP,128730,183939,GEN,11,80.18,69.99,no,84805,46.1,1.82,TRUE,3,BJP,VIDISHA,TRUE,FALSE,1,FALSE,FALSE,FALSE,cosine
-228,22-03-2020,1,Shri Kamal Nath,Madhya Pradesh,https://www.mpinfo.org/MPinfoStatic/English/whoiswho/cmlist.asp,461,17-12-2018,no,no,2018,15,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-229,,1,Shri Shivraj Singh Chouhan,Madhya Pradesh,https://www.mpinfo.org/MPinfoStatic/English/whoiswho/cmlist.asp,-43913,23-03-2020,no,no,2020,15,156,BUDHNI,0,AEMP28651,SHIVRAJ SINGH CHOUHAN,12,4,1,M,BJP,123492,204950,GEN,15,83.7,60.25,no,58999,28.79,2.17,TRUE,4,BJP,BUDHNI,TRUE,TRUE,2,FALSE,TRUE,TRUE,cosine
-230,21-01-1972,NA,Capt. W.A. Sangma,Meghalaya,http://megassembly.gov.in/governors_chiefministers.htm,841,02-04-1970,no,no,1970,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-231,18-03-1972,0,Capt. W.A. Sangma,Meghalaya,http://megassembly.gov.in/governors_chiefministers.htm,57,21-01-1972,no,no,1972,1,41,SIJU,0,AEML151,WILLIAMSON SANGMA (UNCONTESTED),3,2,1,M,AHL,0,0,ST,1,0,,no,0,,,TRUE,1,,,,,1,FALSE,FALSE,FALSE,
-232,21-11-1976,0,Capt. W.A. Sangma,Meghalaya,http://megassembly.gov.in/governors_chiefministers.htm,1709,18-03-1972,no,no,1972,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-233,03-03-1978,1,Capt. W.A. Sangma,Meghalaya,http://megassembly.gov.in/governors_chiefministers.htm,466,22-11-1976,no,no,1976,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-234,21-02-1979,7,Shri D.D. Pugh,Meghalaya,http://megassembly.gov.in/governors_chiefministers.htm,348,10-03-1978,no,no,1978,2,20,MAWKHAR,0,AEML302,D. D. PUGH,2,3,1,M,AHL,1730,5646,ST,7,66.77,30.64,no,453,8.02,5,TRUE,2,AHL,NONGSHKEN,TRUE,FALSE,2,FALSE,TRUE,TRUE,cosine
-235,06-05-1979,0,Shri D.D. Pugh,Meghalaya,http://megassembly.gov.in/governors_chiefministers.htm,74,21-02-1979,no,no,1979,2,20,MAWKHAR,0,AEML302,D. D. PUGH,2,3,1,M,AHL,1730,5646,ST,7,66.77,30.64,no,453,8.02,5,TRUE,2,AHL,NONGSHKEN,TRUE,FALSE,2,FALSE,TRUE,TRUE,cosine
-236,07-05-1981,1,Shri B.B. Lyngdoh,Meghalaya,http://megassembly.gov.in/governors_chiefministers.htm,731,07-05-1979,no,no,1979,2,27,LYNGKYRDEM,0,AEML333,BRINGTON BUHAI LYNGDOH,2,3,1,M,AHL,2591,7113,ST,4,66.17,36.43,no,479,6.73,3.57,TRUE,2,AHL,NONGTHYMMAI,TRUE,FALSE,2,FALSE,TRUE,TRUE,cosine
-237,24-02-1983,0,Capt. W.A. Sangma,Meghalaya,http://megassembly.gov.in/governors_chiefministers.htm,658,07-05-1981,no,no,1981,2,37,BAGHMARA,0,AEML382,WILLIAMSON A. SANGMA,2,3,1,M,INC,3573,4993,ST,3,55.76,71.56,no,2658,53.23,1.82,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-238,31-03-1983,6,Shri B.B. Lyngdoh,Meghalaya,http://megassembly.gov.in/governors_chiefministers.htm,29,02-03-1983,no,no,1983,3,27,LYNGKYRDEM,0,AEML333,B.B. LYNGDOH,2,3,1,M,AHL,3071,8283,ST,4,67.84,37.08,no,547,6.6,3.23,TRUE,3,AHL,LYNGKYRDEM,TRUE,TRUE,3,FALSE,TRUE,TRUE,cosine
-239,05-02-1988,2,Shri W.A. Sangma,Meghalaya,http://megassembly.gov.in/governors_chiefministers.htm,1770,02-04-1983,no,no,1983,3,37,BAGHMARA,0,AEML382,WILLIAMSON A. SANGMA,2,3,1,M,INC,4970,6635,ST,4,67.01,74.91,no,3784,57.03,1.69,TRUE,2,INC,BAGHMARA,TRUE,TRUE,2,FALSE,TRUE,TRUE,cosine
-240,25-03-1990,1,Shri Purno A. Sangma,Meghalaya,http://megassembly.gov.in/governors_chiefministers.htm,778,06-02-1988,no,no,1988,4,52,TURA,0,AEML1013,PURNO A. SANGMA,2,3,1,M,INC,7003,14406,ST,3,71.49,48.61,no,1509,10.47,2.44,FALSE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-241,10-10-1991,1,Shri B.B. Lyngdoh,Meghalaya,http://megassembly.gov.in/governors_chiefministers.htm,563,26-03-1990,no,no,1990,4,27,LYNGKYRDEM,0,AEML333,B.B.LYNGDOH,2,3,1,M,HPU,6100,10765,ST,3,71.76,56.67,no,2121,19.7,2.17,TRUE,4,AHL,LYNGKYRDEM,FALSE,TRUE,4,TRUE,TRUE,TRUE,cosine
-242,19-02-1993,118,Shri D.D. Lapang,Meghalaya,http://megassembly.gov.in/governors_chiefministers.htm,380,05-02-1992,no,no,1992,4,10,NONGPOH,0,AEML55,D. DETHWELSON LAPANG,2,3,1,M,INC,4758,10549,ST,3,77.28,45.1,no,1182,11.2,2.86,TRUE,4,INC,NONGPOH,TRUE,TRUE,4,FALSE,TRUE,TRUE,cosine
-243,27-02-1998,0,Shri S.C. Marak,Meghalaya,http://megassembly.gov.in/governors_chiefministers.htm,1834,19-02-1993,no,no,1993,5,42,RESUBELPARA,0,AEML642,SALSENG C. MARAK,2,3,1,M,INC,7538,11551,ST,2,75.04,65.26,no,3525,30.52,1.82,TRUE,5,INC,RESUBELPARA,TRUE,TRUE,5,FALSE,TRUE,TRUE,cosine
-244,10-03-1998,0,Shri S.C. Marak,Meghalaya,http://megassembly.gov.in/governors_chiefministers.htm,11,27-02-1998,no,no,1998,6,42,RESUBELPARA,0,AEML642,SALSENG C. MARAK,2,3,1,M,INC,6526,13182,ST,3,72.8,49.51,no,282,2.14,2.13,TRUE,6,INC,RESUBELPARA,TRUE,TRUE,6,FALSE,TRUE,TRUE,cosine
-245,18-08-1998,0,Shri B.B. Lyngdoh,Meghalaya,http://megassembly.gov.in/governors_chiefministers.htm,161,10-03-1998,no,no,1998,6,27,LYNGKYRDEM,0,AEML333,B.B. LYNGDOH,2,3,1,M,UDP,4843,11727,ST,4,61.81,41.3,no,817,6.97,2.86,TRUE,6,HPU,LYNGKYRDEM,FALSE,TRUE,6,TRUE,TRUE,TRUE,cosine
-246,14-10-1999,0,- do -,Meghalaya,http://megassembly.gov.in/governors_chiefministers.htm,422,18-08-1998,no,no,1998,6,27,LYNGKYRDEM,0,AEML333,B.B. LYNGDOH,2,3,1,M,UDP,4843,11727,ST,4,61.81,41.3,no,817,6.97,2.86,TRUE,6,HPU,LYNGKYRDEM,FALSE,TRUE,6,TRUE,TRUE,TRUE,
-247,08-03-2000,0,Shri B.B. Lyngdoh,Meghalaya,http://megassembly.gov.in/governors_chiefministers.htm,146,14-10-1999,no,no,1999,6,27,LYNGKYRDEM,0,AEML333,B.B. LYNGDOH,2,3,1,M,UDP,4843,11727,ST,4,61.81,41.3,no,817,6.97,2.86,TRUE,6,HPU,LYNGKYRDEM,FALSE,TRUE,6,TRUE,TRUE,TRUE,cosine
-248,08-12-2001,0,Shri E.K. Mawlong,Meghalaya,http://megassembly.gov.in/governors_chiefministers.htm,640,08-03-2000,no,no,2000,6,9,UMROI,0,AEML84,E.K. MAWLONG,2,3,1,M,UDP,8607,17019,ST,4,73.36,50.57,no,3078,18.09,2.63,TRUE,6,HPSD,UMROI,FALSE,TRUE,5,TRUE,TRUE,TRUE,cosine
-249,04-03-2003,0,Dr. F.A. Khonglam,Meghalaya,http://megassembly.gov.in/governors_chiefministers.htm,451,08-12-2001,no,no,2001,6,29,SOHRA,0,AEML343,FLINDER ANDERSON KHONGLAM,2,3,1,M,IND,4221,10889,ST,4,67.74,38.76,no,1104,10.14,3.45,TRUE,5,IND,SOHRA,TRUE,TRUE,3,FALSE,TRUE,TRUE,
-250,15-06-2006,0,Shri D.D. Lapang,Meghalaya,http://megassembly.gov.in/governors_chiefministers.htm,1199,04-03-2003,no,no,2003,7,10,NONGPOH,0,AEML55,SHRI. D.D.LAPANG,3,3,1,M,INC,7808,15269,ST,4,65.25,51.14,no,1708,11.19,2.38,TRUE,7,INC,NONGPOH,TRUE,TRUE,6,FALSE,TRUE,TRUE,cosine
-251,10-03-2007,0,Shri J. D. Rymbai,Meghalaya,http://megassembly.gov.in/governors_chiefministers.htm,268,15-06-2006,no,no,2006,7,11,JIRANG,0,AEML519,SHRI. J.DRINGWEL RYMBAI,3,3,1,M,INC,3888,13942,ST,10,61.79,27.89,no,1201,8.61,6.25,TRUE,5,INC,JIRANG,TRUE,TRUE,4,FALSE,TRUE,TRUE,cosine
-252,07-03-2008,0,Shri D. D. Lapang,Meghalaya,http://megassembly.gov.in/governors_chiefministers.htm,363,10-03-2007,no,no,2007,7,10,NONGPOH,0,AEML55,SHRI. D.D.LAPANG,3,3,1,M,INC,7808,15269,ST,4,65.25,51.14,no,1708,11.19,2.38,TRUE,7,INC,NONGPOH,TRUE,TRUE,6,FALSE,TRUE,TRUE,cosine
-253,19-03-2008,3,Shri D. D. Lapang,Meghalaya,http://megassembly.gov.in/governors_chiefministers.htm,9,10-03-2008,no,no,2008,8,10,JIRANG,0,AEML55,DR. D.D. LAPANG,3,4,1,M,INC,10974,21654,ST,3,90.74,50.68,no,720,3.33,2.08,TRUE,8,INC,NONGPOH,TRUE,FALSE,7,FALSE,TRUE,TRUE,cosine
-254,19-03-2009,0,Dr. Donkupar Roy,Meghalaya,http://megassembly.gov.in/governors_chiefministers.htm,365,19-03-2008,no,no,2008,8,30,MAIRANG,0,AEML472,DR. DONKUPAR ROY,3,4,1,M,UDP,4238,10122,ST,3,89.99,41.87,no,939,9.28,2.78,TRUE,5,UDP,SHELLA,TRUE,FALSE,5,FALSE,TRUE,TRUE,cosine
-255,13-04-2009,0,PRESIDENT?S RULE,Meghalaya,http://megassembly.gov.in/governors_chiefministers.htm,25,19-03-2009,yes,no,2009,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-256,05-07-2009,30,Shri D. D. Lapang,Meghalaya,http://megassembly.gov.in/governors_chiefministers.htm,114,13-05-2009,no,no,2009,8,10,JIRANG,0,AEML55,DR. D.D. LAPANG,3,4,1,M,INC,10974,21654,ST,3,90.74,50.68,no,720,3.33,2.08,TRUE,8,INC,NONGPOH,TRUE,FALSE,7,FALSE,TRUE,TRUE,cosine
-257,21-10-2009,1,Shri D. D. Lapang,Meghalaya,http://megassembly.gov.in/governors_chiefministers.htm,107,06-07-2009,no,no,2009,8,10,JIRANG,0,AEML55,DR. D.D. LAPANG,3,4,1,M,INC,10974,21654,ST,3,90.74,50.68,no,720,3.33,2.08,TRUE,8,INC,NONGPOH,TRUE,FALSE,7,FALSE,TRUE,TRUE,cosine
-258,18-04-2010,1,Shri D. D. Lapang,Meghalaya,http://megassembly.gov.in/governors_chiefministers.htm,178,22-10-2009,no,no,2009,8,10,JIRANG,0,AEML55,DR. D.D. LAPANG,3,4,1,M,INC,10974,21654,ST,3,90.74,50.68,no,720,3.33,2.08,TRUE,8,INC,NONGPOH,TRUE,FALSE,7,FALSE,TRUE,TRUE,cosine
-259,,2,Shri Mukul Sangma,Meghalaya,http://megassembly.gov.in/governors_chiefministers.htm,NA,20-04-2010,no,no,2010,8,58,RONGARA SIJU,0,AEML661,DR. MUKUL SANGMA,3,4,1,M,INC,10626,19156,ST,4,90.53,55.47,no,2966,15.48,2.13,TRUE,4,INC,AMPATIGIRI,TRUE,FALSE,4,FALSE,TRUE,TRUE,cosine
-260,10-05-1977,NA,Ch Chhunga,Mizoram,https://rajbhavan.mizoram.gov.in/page/chief-ministers-of-mizoram,1833,03-05-1972,no,no,1972,1,27,KOLASIB,0,AEMZ1851,CH CHHUNGA,4,2,1,M,IND,2290,5090,GEN,4,73.29,44.99,no,913,17.94,3.23,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-261,01-06-1978,1,President's Rule,Mizoram,https://rajbhavan.mizoram.gov.in/page/chief-ministers-of-mizoram,386,11-05-1977,yes,no,1977,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-262,10-11-1978,1,Brig T Sailo,Mizoram,https://rajbhavan.mizoram.gov.in/page/chief-ministers-of-mizoram,161,02-06-1978,no,no,1978,2,27,AIZAWL NORTH,0,AEMZ1695,THZNGPHUNGA SAILO,5,3,1,M,PPC,3115,6416,ST,5,71.01,48.55,no,807,12.58,2.63,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-263,07-05-1979,1,President's Rule,Mizoram,https://rajbhavan.mizoram.gov.in/page/chief-ministers-of-mizoram,177,11-11-1978,yes,no,1978,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-264,04-05-1984,1,Brig T Sailo,Mizoram,https://rajbhavan.mizoram.gov.in/page/chief-ministers-of-mizoram,1823,08-05-1979,no,no,1979,3,27,AIZAWL NORTH,0,AEMZ1695,THENPHUNGA SAILO,4,3,1,M,PPC,2951,7830,GEN,5,74.47,37.69,no,149,1.9,3.23,TRUE,2,PPC,AIZAWL NORTH,TRUE,TRUE,2,FALSE,TRUE,TRUE,cosine
-265,20-08-1986,1,Lal Thanhawla,Mizoram,https://rajbhavan.mizoram.gov.in/page/chief-ministers-of-mizoram,837,05-05-1984,no,no,1984,4,24,SERCHHIP,0,AEMZ1843,LAL THANHAWLA,4,3,1,M,INC,2456,5349,GEN,4,80.61,45.92,no,270,5.05,2.56,TRUE,4,INC(I),CHAMPHAI,FALSE,FALSE,3,TRUE,TRUE,TRUE,cosine
-266,19-02-1987,1,Laldenga,Mizoram,https://rajbhavan.mizoram.gov.in/page/chief-ministers-of-mizoram,182,21-08-1986,no,no,1986,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-267,07-10-1988,1,Laldenga,Mizoram,https://rajbhavan.mizoram.gov.in/page/chief-ministers-of-mizoram,595,20-02-1987,no,no,1987,5,29,SATEEK,0,AEMZ1217,LALDENGA,2,3,1,M,IND,3219,5672,ST,4,79.64,56.75,no,1621,28.58,2.44,FALSE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-268,23-01-1989,1,President's Rule,Mizoram,https://rajbhavan.mizoram.gov.in/page/chief-ministers-of-mizoram,107,08-10-1988,yes,no,1988,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-269,07-12-1993,1,Lal Thanhawla,Mizoram,https://rajbhavan.mizoram.gov.in/page/chief-ministers-of-mizoram,1778,24-01-1989,no,no,1989,6,25,LOKICHERRA,0,AEMZ1843,LALTHANHAWLA,11,3,1,M,INC,2817,6018,ST,4,88.31,46.81,no,142,2.36,2.33,TRUE,6,INC,SERCHHIP,TRUE,FALSE,5,FALSE,TRUE,TRUE,cosine
-270,03-12-1998,1,Lal Thanhawla,Mizoram,https://rajbhavan.mizoram.gov.in/page/chief-ministers-of-mizoram,1821,08-12-1993,no,no,1993,7,30,SERCHHIP,0,AEMZ1843,LAL THANHAWLA,12,3,1,M,INC,5267,9248,ST,2,81.38,56.95,no,1286,13.91,1.96,TRUE,8,INC,SERCHHIP,TRUE,TRUE,6,FALSE,TRUE,TRUE,cosine
-271,(NA),1,Zoramthanga,Mizoram,https://rajbhavan.mizoram.gov.in/page/chief-ministers-of-mizoram,NA,04-12-1998,no,no,1998,8,14,KHAWBUNG,0,AEMZ1159,ZORAMTHANGA,11,3,1,M,MNF,2879,8502,ST,8,79.44,33.86,no,834,9.81,4.17,TRUE,4,MNF,CHAMPHAI,TRUE,FALSE,4,FALSE,TRUE,TRUE,cosine
-272,09-12-2008,NA,Zoramthanga,Mizoram,https://rajbhavan.mizoram.gov.in/page/chief-ministers-of-mizoram,37788,25-06-1905,no,no,1905,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-273,11-12-2013,1,Lal Thanhawla,Mizoram,https://rajbhavan.mizoram.gov.in/page/chief-ministers-of-mizoram,1827,10-12-2008,no,no,2008,10,26,SERCHHIP,0,AEMZ1843,LAL THANHAWLA,12,4,1,M,INC,4744,11956,ST,4,87.51,39.68,no,952,7.96,2.94,TRUE,12,INC,SERCHHIP,TRUE,TRUE,8,FALSE,TRUE,TRUE,cosine
-274,14-12-2018,1,Lal Thanhawla,Mizoram,https://rajbhavan.mizoram.gov.in/page/chief-ministers-of-mizoram,1828,12-12-2013,no,no,2013,11,26,SERCHHIP,0,AEMZ1843,LAL THANHAWLA,12,4,1,M,INC,5719,13788,ST,4,85.97,41.48,no,734,5.32,2.94,TRUE,14,INC,SOUTH TUIPUI,TRUE,FALSE,9,FALSE,TRUE,TRUE,cosine
-275,Till-Date,1,Zoramthanga,Mizoram,https://rajbhavan.mizoram.gov.in/page/chief-ministers-of-mizoram,NA,15-12-2018,no,no,2018,12,13,AIZAWL EAST - I,0,AEMZ76266,ZORAMTHANGA,12,4,1,M,MNF,8358,19551,GEN,6,NA,42.75,no,2504,12.81,3.03,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-276,14-08-1966,NA,?P.Shilu Ao,Nagaland,https://www.nagaland.gov.in/portal/portal/StatePortal/Government/ChiefMinister,987,01-12-1963,no,no,1963,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-277,22-02-1969,0,?T.N. Angami,Nagaland,https://www.nagaland.gov.in/portal/portal/StatePortal/Government/ChiefMinister,923,14-08-1966,no,no,1966,1,6,WESTREN ANGAMI,0,AENL245,SHRI T.N. ANGAMI,1,2,1,M,IND,1756,2666,GEN,2,70.72,65.87,no,846,31.73,1.82,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-278,26-02-1974,0,?Hokishe Sema,Nagaland,https://www.nagaland.gov.in/portal/portal/StatePortal/Government/ChiefMinister,1830,22-02-1969,no,no,1969,2,30,AKULUTO,0,AENL57,HOKISE SEMA,2,2,1,M,NNO,1647,3493,GEN,3,82.56,47.15,no,588,16.83,2.78,TRUE,2,IND,AKULUTO,FALSE,TRUE,2,FALSE,TRUE,TRUE,cosine
-279,10-03-1975,0,?Vizol Angami,Nagaland,https://www.nagaland.gov.in/portal/portal/StatePortal/Government/ChiefMinister,377,26-02-1974,no,no,1974,3,15,SOUTHERN ANGAMI-II,0,AENL1117,VIZOL,2,3,1,M,UDF,2410,3791,GEN,3,74.19,63.57,no,1476,38.93,2.13,TRUE,2,IND,SOUTHERN ANGAMI I I,FALSE,FALSE,2,FALSE,FALSE,FALSE,cosine
-280,20-03-1975,0,?John Bosco? ?Jasokie,Nagaland,https://www.nagaland.gov.in/portal/portal/StatePortal/Government/ChiefMinister,10,10-03-1975,no,no,1975,3,9,KOHIMA TOWN,0,AENL16,JOHN BOSCO JASOKIE,2,3,1,M,NNO,2776,4240,GEN,3,43.95,65.47,no,1951,46.01,2.04,TRUE,3,NNO,KOHIMA TOWN,TRUE,TRUE,3,FALSE,TRUE,TRUE,cosine
-281,25-11-1977,0,?President's? ?rule,Nagaland,https://www.nagaland.gov.in/portal/portal/StatePortal/Government/ChiefMinister,981,20-03-1975,yes,no,1975,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-282,18-04-1980,0,?Vizol? ?Angami[2],Nagaland,https://www.nagaland.gov.in/portal/portal/StatePortal/Government/ChiefMinister,875,25-11-1977,no,no,1977,4,15,SOUTHERN ANGAMI-II,0,AENL1117,VIZOL,11,3,1,M,UDF,0,0,GEN,1,0,NA,no,0,NA,NA,TRUE,3,UDF,SOUTHERN ANGAMI-II,TRUE,TRUE,3,FALSE,TRUE,TRUE,cosine
-283,04-06-1980,0,?S.C. Jamir,Nagaland,https://www.nagaland.gov.in/portal/portal/StatePortal/Government/ChiefMinister,47,18-04-1980,no,no,1980,4,26,AONGLENDEN,0,AENL526,S. C. JAMIR,11,3,1,M,UDF,2688,4274,GEN,2,81.74,62.89,no,1102,25.78,1.85,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-284,18-11-1982,1,?John Bosco? Jasokie[2],Nagaland,https://www.nagaland.gov.in/portal/portal/StatePortal/Government/ChiefMinister,896,05-06-1980,no,no,1980,4,9,KOHIMA TOWN,0,AENL16,J. B. JASKIE,11,3,1,M,INC,3262,5966,GEN,2,61.57,54.68,no,558,9.35,1.96,TRUE,4,NNO,KOHIMA TOWN,FALSE,TRUE,4,TRUE,TRUE,TRUE,
-285,28-10-1986,0,?S.C. Jamir[2],Nagaland,https://www.nagaland.gov.in/portal/portal/StatePortal/Government/ChiefMinister,1440,18-11-1982,no,no,1982,5,26,AONGLENDEN,0,AENL526,S. C. JAMIR,11,3,1,M,INC,3212,5520,ST,2,64.87,58.19,no,904,16.38,1.96,TRUE,2,UDF,AONGLENDEN,FALSE,TRUE,2,TRUE,TRUE,TRUE,cosine
-286,07-08-1988,1,?Hokishe Sema[2],Nagaland,https://www.nagaland.gov.in/portal/portal/StatePortal/Government/ChiefMinister,648,29-10-1986,no,no,1986,5,4,GHASPANI-I,0,AENL449,SHIKIHO SEMA,11,3,1,M,INC,3665,13488,ST,8,59.23,27.17,no,984,7.3,5.56,TRUE,2,IND,GHASPANI-I,FALSE,TRUE,2,FALSE,TRUE,TRUE,cosine
-287,25-01-1989,0,?President's? ?rule,Nagaland,https://www.nagaland.gov.in/portal/portal/StatePortal/Government/ChiefMinister,171,07-08-1988,yes,no,1988,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-288,10-05-1990,0,?S.C. Jamir[3],Nagaland,https://www.nagaland.gov.in/portal/portal/StatePortal/Government/ChiefMinister,470,25-01-1989,no,no,1989,7,27,MOKOKCHUNG TOWN,0,AENL526,S. C. JAMIR,11,3,1,M,INC,2017,2428,ST,2,87.28,83.07,no,1606,66.14,1.39,TRUE,3,INC,AONGLENDEN,TRUE,FALSE,3,FALSE,FALSE,FALSE,cosine
-289,19-06-1990,6,?K.L. Chishi,Nagaland,https://www.nagaland.gov.in/portal/portal/StatePortal/Government/ChiefMinister,34,16-05-1990,no,no,1990,7,32,ATOIZU,0,AENL279,KIYEZHE (K. L. CHISHI),11,3,1,M,NPC,3016,5855,ST,2,87.94,51.51,no,177,3.02,1.96,TRUE,4,INC,ATOIZU,FALSE,TRUE,4,TRUE,TRUE,TRUE,cosine
-290,02-04-1992,0,?Vamuzo Phesao,Nagaland,https://www.nagaland.gov.in/portal/portal/StatePortal/Government/ChiefMinister,653,19-06-1990,no,no,1990,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-291,22-02-1993,0,?President's? ?rule,Nagaland,https://www.nagaland.gov.in/portal/portal/StatePortal/Government/ChiefMinister,326,02-04-1992,yes,no,1992,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-292,06-03-2003,0,?S.C. Jamir[4],Nagaland,https://www.nagaland.gov.in/portal/portal/StatePortal/Government/ChiefMinister,3664,22-02-1993,no,no,1993,8,27,MOKOKCHUNG TOWN,0,AENL526,S. C. JAMIR,2,3,1,M,INC,4580,4666,ST,2,97.33,98.16,no,4494,96.31,1.04,TRUE,4,INC,MOKOKCHUNG TOWN,TRUE,TRUE,4,FALSE,TRUE,TRUE,cosine
-293,03-01-2008,0,?Neiphiu Rio,Nagaland,https://www.nagaland.gov.in/portal/portal/StatePortal/Government/ChiefMinister,1764,06-03-2003,no,no,2003,10,11,NORTHERN ANGAMI-II,0,AENL104,SHRI: NEIPHI-U RIO,3,3,1,M,NPF,9882,14619,ST,4,87.07,67.6,no,6067,41.5,1.89,TRUE,5,INC,NORTHERN ANGAMI-II,FALSE,TRUE,4,TRUE,TRUE,TRUE,cosine
-294,12-03-2008,0,?President's? ?rule,Nagaland,https://www.nagaland.gov.in/portal/portal/StatePortal/Government/ChiefMinister,69,03-01-2008,yes,no,2008,11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-295,23-05-2014,0,?Neiphiu Rio [2],Nagaland,https://www.nagaland.gov.in/portal/portal/StatePortal/Government/ChiefMinister,2263,12-03-2008,no,no,2008,11,11,NORTHERN ANGAMI-II,0,AENL104,NEIPHIU RIO,3,4,1,M,NPF,13641,16521,ST,2,83.41,82.57,no,10761,65.14,1.41,TRUE,6,NPF,NORTHERN ANGAMI-II,TRUE,TRUE,5,FALSE,TRUE,TRUE,cosine
-296,19-02-2017,1,?T.R. Zeliang,Nagaland,https://www.nagaland.gov.in/portal/portal/StatePortal/Government/ChiefMinister,1002,24-05-2014,no,no,2014,12,7,PEREN,0,AENL71,T.R.ZELIANG,2,4,1,M,NPF,13627,24618,ST,2,87.64,55.35,no,2636,10.71,1.96,TRUE,2,NPF,PEREN,TRUE,TRUE,2,FALSE,TRUE,TRUE,cosine
-297,18-07-2017,3,?Dr.Shurhozelie? Liezietsu,Nagaland,https://www.nagaland.gov.in/portal/portal/StatePortal/Government/ChiefMinister,146,22-02-2017,no,no,2017,12,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-298,07-03-2018,1,?T.R. Zeliang,Nagaland,https://www.nagaland.gov.in/portal/portal/StatePortal/Government/ChiefMinister,231,19-07-2017,no,no,2017,12,7,PEREN,0,AENL71,T.R.ZELIANG,2,4,1,M,NPF,13627,24618,ST,2,87.64,55.35,no,2636,10.71,1.96,TRUE,2,NPF,PEREN,TRUE,TRUE,2,FALSE,TRUE,TRUE,cosine
-299,Present,1,?Neiphiu Rio,Nagaland,https://www.nagaland.gov.in/portal/portal/StatePortal/Government/ChiefMinister,NA,08-03-2018,no,no,2018,13,11,NORTHERN ANGAMI-II,0,AENL104,NEIPHIU RIO,3,4,1,M,NDPP,0,0,ST,1,0,NA,no,0,NA,NA,TRUE,8,NPF,NORTHERN ANGAMI-II,FALSE,TRUE,7,TRUE,FALSE,TRUE,cosine
-300,30-06-1944,NA,Captain Krishna Chandra Gajapati Narayan Deo,Odisha,https://cm.odisha.gov.in/former-cms,949,24-11-1941,no,no,1941,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-301,12-05-1950,662,Dr. Harekrushna Mahtab,Odisha,https://cm.odisha.gov.in/former-cms,1480,23-04-1946,no,no,1946,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-302,19-10-1956,0,Shri Nabakrushna Choudhury,Odisha,https://cm.odisha.gov.in/former-cms,2352,12-05-1950,no,no,1950,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-303,25-02-1961,0,Dr. Harekrushna Mahtab,Odisha,https://cm.odisha.gov.in/former-cms,1590,19-10-1956,no,no,1956,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-304,21-02-1965,949,Shri Biren Mitra,Odisha,https://cm.odisha.gov.in/former-cms,508,02-10-1963,no,no,1963,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-305,08-03-1967,0,Shri Sadasiva Tripathy,Odisha,https://cm.odisha.gov.in/former-cms,745,21-02-1965,no,no,1965,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-306,09-01-1971,0,Shri Rajendra Narayan Singh Deo,Odisha,https://cm.odisha.gov.in/former-cms,1403,08-03-1967,no,no,1967,4,103,BOLANGIR,0,AEOD11198,M.R.N.S.DEO,2,2,1,M,SWA,21932,29258,GEN,3,47.39,74.96,no,15927,54.44,1.67,TRUE,1,,,,,1,FALSE,FALSE,FALSE,
-307,14-06-1972,84,Shri Biswanath Das,Odisha,https://cm.odisha.gov.in/former-cms,438,03-04-1971,no,no,1971,5,125,ROURKELA,1,AEOD10658,B.DAS,3,2,1,,IND,21308,50833,GEN,7,48.06,41.92,no,1852,3.64,2.94,TRUE,1,,,,,1,FALSE,FALSE,FALSE,
-308,16-12-1976,0,Smt. Nandini Satapathy,Odisha,https://cm.odisha.gov.in/former-cms,1646,14-06-1972,no,no,1972,5,41,CUTTACK,1,AEOD10177,N.SATPATHY,3,2,1,,INC,28283,46846,GEN,5,62.99,60.37,no,10791,23.04,2,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-309,30-04-1977,13,Shri Binayak Acharya,Odisha,https://cm.odisha.gov.in/former-cms,122,29-12-1976,no,no,1976,6,75,BERHAMPUR,0,AEOD10342,BINAYAK ACHARYA,2,3,1,M,INC,26112,45175,GEN,4,55.19,57.8,no,8518,18.86,2.08,TRUE,2,INC,BERHAMPUR,TRUE,TRUE,2,FALSE,TRUE,TRUE,cosine
-310,17-02-1980,57,Shri Nilamani Routray,Odisha,https://cm.odisha.gov.in/former-cms,966,26-06-1977,no,no,1977,7,22,BASUDEVPUR,0,AEOD8671,NILAMONI ROUTRAY,10,3,1,M,JNP,28646,53385,GEN,2,59.2,53.66,no,3907,7.32,2,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-311,07-12-1989,113,Shri Janaki Ballav Patnaik,Odisha,https://cm.odisha.gov.in/former-cms,3468,09-06-1980,no,no,1980,8,47,ATHGARH,1,AEOD8061,J.B.PATNAIK,6,3,1,,INC(I),48489,60725,GEN,7,60.58,79.85,no,39282,64.69,1.52,TRUE,1,,,,,1,FALSE,FALSE,FALSE,
-312,04-03-1990,0,Shri Hemananda Biswal,Odisha,https://cm.odisha.gov.in/former-cms,87,07-12-1989,no,no,1989,9,131,LAIKERA,0,GEODGEOD70941,HEMANANDA BISWAL,5,3,1,M,INC,26745,39160,ST,5,41.18,68.3,no,20345,51.95,1.96,TRUE,5,INC(I),LAIKERA,FALSE,TRUE,3,TRUE,TRUE,TRUE,cosine
-313,15-03-1995,1,Shri Biju Patnaik,Odisha,https://cm.odisha.gov.in/former-cms,1836,05-03-1990,no,no,1990,10,50,BHUBANESWAR,0,AEOD10214,BIJU PATNAIK,2,3,1,M,JD,76022,94832,GEN,10,42.67,80.16,no,61836,65.21,1.52,TRUE,7,JNP,BHUBANESWAR,FALSE,TRUE,3,TRUE,TRUE,TRUE,cosine
-314,17-02-1999,0,Shri Janaki Ballav Patnaik,Odisha,https://cm.odisha.gov.in/former-cms,1435,15-03-1995,no,no,1995,11,6,Begunia,1,AEOD8061,J.B. Patnaik,3,3,1,,INC,70223,117459,ST,2,89.05,59.79,no,22987,19.57,1.92,TRUE,2,INC(I),ATHGARH,FALSE,FALSE,2,TRUE,FALSE,FALSE,
-315,06-12-1999,0,Dr. Giridhar Gamang,Odisha,https://cm.odisha.gov.in/former-cms,292,17-02-1999,no,no,1999,11,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-316,05-03-2000,0,Shri Hemananda Biswal,Odisha,https://cm.odisha.gov.in/former-cms,90,06-12-1999,no,no,1999,11,131,LAIKERA,0,GEODGEOD70941,HEMANAND BISWAL,3,3,1,M,INC,52655,94315,ST,4,71.86,55.83,no,19031,20.18,2.22,TRUE,7,INC,LAIKERA,TRUE,TRUE,5,FALSE,TRUE,TRUE,cosine
-317,05-01-1951,NA,Heera Lal Shastri,Rajasthan,https://rajassembly.nic.in/CMFormer.aspx,638,07-04-1949,no,no,1949,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-318,25-04-1951,1,C.S. Venkatachari,Rajasthan,https://rajassembly.nic.in/CMFormer.aspx,109,06-01-1951,no,no,1951,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-319,03-03-1952,1,Jai Narayan Vyas,Rajasthan,https://rajassembly.nic.in/CMFormer.aspx,312,26-04-1951,no,no,1951,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-320,31-10-1952,0,Tikaram Paliwal,Rajasthan,https://rajassembly.nic.in/CMFormer.aspx,242,03-03-1952,no,no,1952,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-321,12-11-1954,1,Jai Narayan Vyas,Rajasthan,https://rajassembly.nic.in/CMFormer.aspx,741,01-11-1952,no,no,1952,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-322,11-04-1957,1,Mohan Lal Sukhadia,Rajasthan,https://rajassembly.nic.in/CMFormer.aspx,880,13-11-1954,no,no,1954,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-323,11-03-1962,0,Mohan Lal Sukhadia,Rajasthan,https://rajassembly.nic.in/CMFormer.aspx,1795,11-04-1957,no,no,1957,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-324,13-03-1967,1,Mohan Lal Sukhadia,Rajasthan,https://rajassembly.nic.in/CMFormer.aspx,1827,12-03-1962,no,no,1962,3,108,UDAIPUR,0,AERJ568,MOHANLAL,2,1,1,M,INC,21844,32761,GEN,3,59.87,66.68,no,11402,34.8,1.85,TRUE,1,,,,,1,FALSE,FALSE,FALSE,
-325,09-07-1971,44,Mohan Lal Sukhadia,Rajasthan,https://rajassembly.nic.in/CMFormer.aspx,1535,26-04-1967,no,no,1967,4,130,UDAIPUR,0,AERJ568,M. L. SUKHADIA,2,2,1,M,INC,24272,46375,GEN,3,65.21,52.34,no,3431,7.4,2.13,TRUE,2,INC,UDAIPUR,TRUE,TRUE,2,FALSE,TRUE,TRUE,cosine
-326,11-10-1973,0,Barkatullah Khan,Rajasthan,https://rajassembly.nic.in/CMFormer.aspx,825,09-07-1971,no,no,1971,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-327,29-04-1977,0,Hari Dev Joshi,Rajasthan,https://rajassembly.nic.in/CMFormer.aspx,1296,11-10-1973,no,no,1973,5,119,BANSWARA,0,AERJ2389,HARIDEO JOSHI,3,2,1,M,INC,33903,43881,GEN,3,56.63,77.26,no,25208,57.45,1.56,TRUE,2,INC,GHATOL,TRUE,FALSE,2,FALSE,FALSE,FALSE,cosine
-328,16-02-1980,54,Bhairon Singh Shekhawat,Rajasthan,https://rajassembly.nic.in/CMFormer.aspx,969,22-06-1977,no,no,1977,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-329,13-07-1981,111,Jagannath Pahadia,Rajasthan,https://rajassembly.nic.in/CMFormer.aspx,402,06-06-1980,no,no,1980,7,75,WEIR(SC),1,AERJ3391,J.P.PAHARIA,5,3,1,,INC(I),61553,65673,SC,10,85.16,93.73,no,58879,89.65,1.14,TRUE,1,,,,,1,FALSE,FALSE,FALSE,
-330,23-02-1985,1,Shiv Charan Mathur,Rajasthan,https://rajassembly.nic.in/CMFormer.aspx,1320,14-07-1981,no,no,1981,7,154,MANDALGARH,0,AERJ3580,SHIV CHARAN MATHUR,5,3,1,M,INC(I),23106,40869,GEN,5,44.48,56.54,no,13131,32.13,2.5,TRUE,3,INC,MANDALGARH,FALSE,TRUE,2,TRUE,FALSE,TRUE,cosine
-331,10-03-1985,0,Heera Lal Devpura,Rajasthan,https://rajassembly.nic.in/CMFormer.aspx,15,23-02-1985,no,no,1985,8,149,KUMBHALGARH,0,AERJ34,HEERA LAL DEOPURA,5,3,1,M,INC,30097,56994,GEN,5,52.59,52.81,no,13468,23.63,2.56,TRUE,7,INC(I),KUMBHALGARH,FALSE,TRUE,4,TRUE,TRUE,TRUE,cosine
-332,20-01-1988,0,Hari Dev Joshi,Rajasthan,https://rajassembly.nic.in/CMFormer.aspx,1046,10-03-1985,no,no,1985,8,131,BANSWARA,0,AERJ2389,HARIDEO JOSHI,5,3,1,M,INC,38485,46566,GEN,2,51.31,82.65,no,30404,65.29,1.41,TRUE,5,INC(I),BANSWARA,FALSE,TRUE,5,TRUE,TRUE,TRUE,cosine
-333,04-12-1989,0,Shiv Charan Mathur,Rajasthan,https://rajassembly.nic.in/CMFormer.aspx,684,20-01-1988,no,no,1988,8,154,MANDALGARH,0,AERJ3580,SHIV CHARAN MATHUR,5,3,1,M,INC,30841,54919,GEN,7,50.12,56.16,no,13435,24.46,2.38,TRUE,4,INC(I),MANDALGARH,FALSE,TRUE,3,TRUE,TRUE,TRUE,cosine
-334,04-03-1990,0,Hari Dev Joshi,Rajasthan,https://rajassembly.nic.in/CMFormer.aspx,90,04-12-1989,no,no,1989,8,131,BANSWARA,0,AERJ2389,HARIDEO JOSHI,5,3,1,M,INC,38485,46566,GEN,2,51.31,82.65,no,30404,65.29,1.41,TRUE,5,INC(I),BANSWARA,FALSE,TRUE,5,TRUE,TRUE,TRUE,cosine
-335,08-12-2003,3194,Ashok Gehlot,Rajasthan,https://rajassembly.nic.in/CMFormer.aspx,1833,01-12-1998,no,no,1998,11,82,KHANDAR,0,AERJ12982,ASHOK,11,3,1,M,INC,32956,70035,SC,9,48.85,47.06,no,16957,24.21,3.12,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-336,13-12-2008,0,Smt. Vasundhara Raje,Rajasthan,https://rajassembly.nic.in/CMFormer.aspx,1832,08-12-2003,no,no,2003,12,118,JHALRAPATAN,0,AERJ5913,VASUNDHARA RAJE,12,3,1,F,BJP,72760,122914,GEN,4,71.39,59.2,no,27375,22.27,2.04,TRUE,3,BJP,DHOLPUR,TRUE,FALSE,2,FALSE,FALSE,FALSE,cosine
-337,13-12-2013,0,Ashok Gehlot,Rajasthan,https://rajassembly.nic.in/CMFormer.aspx,1826,13-12-2008,no,no,2008,13,127,SARDARPURA,0,GERJ27768,ASHOK GEHLOT,12,4,1,M,INC,55516,100180,GEN,13,55.46,55.42,no,15340,15.31,2.13,TRUE,2,INC,SARDARPURA,TRUE,TRUE,2,FALSE,TRUE,TRUE,cosine
-338,17-12-2018,0,Smt. Vasundhara Raje,Rajasthan,https://rajassembly.nic.in/CMFormer.aspx,1830,13-12-2013,no,no,2013,14,198,JHALRAPATAN,0,AERJ5913,VASUNDHRA RAJE,12,4,1,F,BJP,114384,181157,GEN,7,79.12,63.14,no,60896,33.62,2.04,TRUE,5,BJP,JHALRAPATAN,TRUE,TRUE,4,FALSE,TRUE,TRUE,cosine
-339,Present,0,Prem Singh Tamang,Sikkim,https://www.oneindia.com/list-of-chief-ministers-of-sikkim/,NA,27-05-2019,no,no,2019,8,28,UPPER BURTUK,0,AESK83131,PREM SINGH TAMANG,5,4,1,M,SKM,5272,10393,GEN,4,81.42,50.73,no,573,5.51,2.17,FALSE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-340,27-05-2019,0,Pawan Kumar Chamling,Sikkim,https://www.oneindia.com/list-of-chief-ministers-of-sikkim/,1832,21-05-2014,no,no,2014,8,11,NAMCHI-SINGHITHANG,0,AESK83059,PAWAN CHAMLING,5,4,1,M,SDF,4774,8668,GEN,3,79.87,55.08,no,1084,12.51,2.08,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-341,21-05-2014,0,Pawan Kumar Chamling,Sikkim,https://www.oneindia.com/list-of-chief-ministers-of-sikkim/,1827,20-05-2009,no,no,2009,7,10,POKLOK-KAMRANG,0,AESK83199,PAWAN CHAMLING,5,4,1,M,SDF,7379,9146,GEN,6,86.32,80.68,no,5956,65.12,1.49,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-342,20-05-2009,0,Pawan Kumar Chamling,Sikkim,https://www.oneindia.com/list-of-chief-ministers-of-sikkim/,1825,21-05-2004,no,no,2004,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-343,21-05-2004,0,Pawan Kumar Chamling,Sikkim,https://www.oneindia.com/list-of-chief-ministers-of-sikkim/,1694,01-10-1999,no,no,1999,5,13,DAMTHANG,0,AESK83452,PAWAN KUMAR CHAMLING,10,3,1,M,SDF,4952,6853,GEN,3,81.34,72.26,no,3086,45.03,1.69,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-344,01-10-1999,0,Pawan Kumar Chamling,Sikkim,https://www.oneindia.com/list-of-chief-ministers-of-sikkim/,1754,12-12-1994,no,no,1994,4,13,DAMTHANG,0,AESK83578,PAWAN KUMAR CHAMLING,11,3,1,M,SDF,3904,5556,GEN,4,78.76,70.27,no,2441,43.93,1.79,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-345,12-12-1994,0,Sanchaman Limboo,Sikkim,https://www.oneindia.com/list-of-chief-ministers-of-sikkim/,178,17-06-1994,no,no,1994,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-346,17-06-1994,0,Nar Bahadur Bhandari,Sikkim,https://www.oneindia.com/list-of-chief-ministers-of-sikkim/,1660,30-11-1989,no,no,1989,3,8,SOREONG,0,AESK83554,NAR BAHADUR BHANDARI,11,3,1,M,SSP,4712,5148,GEN,3,69.99,91.53,no,4312,83.76,1.18,TRUE,2,SSP,SOREONG,TRUE,TRUE,2,FALSE,TRUE,TRUE,cosine
-347,30-11-1989,0,Nar Bahadur Bhandari,Sikkim,https://www.oneindia.com/list-of-chief-ministers-of-sikkim/,1728,08-03-1985,no,no,1985,2,8,SOREONG,0,AESK83554,NAR BAHADUR BHANDARI,5,3,1,M,SSP,2964,3683,GEN,5,65.56,80.48,no,2331,63.29,1.47,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-348,08-03-1985,0,President's rule,Sikkim,https://www.oneindia.com/list-of-chief-ministers-of-sikkim/,287,25-05-1984,yes,no,1984,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-349,25-05-1984,0,B. B. Gurung,Sikkim,https://www.oneindia.com/list-of-chief-ministers-of-sikkim/,14,11-05-1984,no,no,1984,1,7,CHAKUNG,0,AESK84064,B.B. GURUNG,12,3,1,M,SCR,1605,2444,GEN,6,69.65,65.67,no,1227,50.2,2.17,FALSE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-350,11-05-1984,0,Nar Bahadur Bhandari,Sikkim,https://www.oneindia.com/list-of-chief-ministers-of-sikkim/,1667,18-10-1979,no,no,1979,1,8,SOREONG,0,AESK84073,NAR BAHADUR BHANDARI,12,3,1,M,SJP,1833,2609,GEN,7,59.47,70.26,no,1458,55.88,1.96,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-351,18-10-1979,0,President's rule,Sikkim,https://www.oneindia.com/list-of-chief-ministers-of-sikkim/,61,18-08-1979,yes,no,1979,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-352,18-08-1979,NA,Kazi Lhendup Dorjee,Sikkim,https://www.oneindia.com/list-of-chief-ministers-of-sikkim/,1555,16-05-1975,no,no,1975,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-353,11-07-1921,NA,Thiru A Subbarayalu,Tamil Nadu,http://www.assembly.tn.gov.in/history/cmlist.htm,206,17-12-1920,no,no,1920,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-354,03-12-1926,0,Thiru Panagal Raja,Tamil Nadu,http://www.assembly.tn.gov.in/history/cmlist.htm,1971,11-07-1921,no,no,1921,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-355,27-10-1930,1,Dr. P Subbarayan,Tamil Nadu,http://www.assembly.tn.gov.in/history/cmlist.htm,1423,04-12-1926,no,no,1926,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-356,04-11-1932,0,Thiru P Munuswamy Naidu,Tamil Nadu,http://www.assembly.tn.gov.in/history/cmlist.htm,739,27-10-1930,no,no,1930,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-357,04-04-1936,1,"Thiru Ramakrishna Ranga Rao, Raja of Bobbili",Tamil Nadu,http://www.assembly.tn.gov.in/history/cmlist.htm,1246,05-11-1932,no,no,1932,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-358,24-08-1936,0,Thiru P T Rajan,Tamil Nadu,http://www.assembly.tn.gov.in/history/cmlist.htm,142,04-04-1936,no,no,1936,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-359,01-04-1937,0,"Thiru Ramakrishna Ranga Rao, Raja of Bobbili",Tamil Nadu,http://www.assembly.tn.gov.in/history/cmlist.htm,220,24-08-1936,no,no,1936,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-360,14-07-1937,0,Thiru Kurma Venkata Reddy Naidu,Tamil Nadu,http://www.assembly.tn.gov.in/history/cmlist.htm,104,01-04-1937,no,no,1937,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-361,29-10-1939,0,Thiru C Rajagopalachari,Tamil Nadu,http://www.assembly.tn.gov.in/history/cmlist.htm,837,14-07-1937,no,no,1937,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-362,23-03-1947,2375,Thiru Tanguturi Prakasam,Tamil Nadu,http://www.assembly.tn.gov.in/history/cmlist.htm,327,30-04-1946,no,no,1946,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-363,06-04-1949,0,Thiru O P Ramaswamy Reddiyar,Tamil Nadu,http://www.assembly.tn.gov.in/history/cmlist.htm,745,23-03-1947,no,no,1947,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-364,09-04-1952,0,Thiru P S??Kumaraswamy Raja,Tamil Nadu,http://www.assembly.tn.gov.in/history/cmlist.htm,1099,06-04-1949,no,no,1949,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-365,13-04-1954,1,Thiru C??Rajagopalachari,Tamil Nadu,http://www.assembly.tn.gov.in/history/cmlist.htm,733,10-04-1952,no,no,1952,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-366,02-10-1963,0,Thiru K Kamaraj,Tamil Nadu,http://www.assembly.tn.gov.in/history/cmlist.htm,3459,13-04-1954,no,no,1954,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-367,06-03-1967,0,Thiru M Bakthavatsalam,Tamil Nadu,http://www.assembly.tn.gov.in/history/cmlist.htm,1251,02-10-1963,no,no,1963,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-368,03-02-1969,0,Dr. C.N. Annadurai,Tamil Nadu,http://www.assembly.tn.gov.in/history/cmlist.htm,700,06-03-1967,no,yes,1967,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-369,04-01-1971,7,Dr. Kalaignar M Karunanidhi,Tamil Nadu,http://www.assembly.tn.gov.in/history/cmlist.htm,693,10-02-1969,no,no,1969,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-370,31-01-1976,70,Dr. Kalaignar M Karunanidhi,Tamil Nadu,http://www.assembly.tn.gov.in/history/cmlist.htm,1783,15-03-1971,no,no,1971,1,12,SAIDAPET,0,AETN189483,M KARUNANIDHI,3,2,1,M,DMK,63334,116290,GEN,5,65.61,54.46,no,12511,10.76,2.04,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,cosine
-371,17-02-1980,516,Dr. M G Ramachandran,Tamil Nadu,http://www.assembly.tn.gov.in/history/cmlist.htm,962,30-06-1977,no,no,1977,2,204,ARUPPUKOTTAI,0,AETN211897,M.G. RAMACHANDRAN,10,3,1,M,ADK,43065,76582,GEN,12,67.91,56.23,no,29378,38.36,2.7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,cosine
-372,15-11-1984,113,Dr. M G Ramachandran,Tamil Nadu,http://www.assembly.tn.gov.in/history/cmlist.htm,1620,09-06-1980,no,no,1980,3,142,MADURAI WEST,0,AETN211897,"RAMACHANDRAN, M. G.",6,3,1,M,ADK,57019,95646,GEN,7,62.61,59.61,no,21066,22.02,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,cosine
-373,24-12-1987,87,Dr. M G Ramachandran,Tamil Nadu,http://www.assembly.tn.gov.in/history/cmlist.htm,1047,10-02-1985,no,no,1985,4,135,ANDIPATTI,0,AETN211897,M.G. RAMACHANDRAN,12,3,1,M,ADK,60510,89781,GEN,7,67.45,67.4,no,32484,36.18,1.82,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,cosine
-374,30-01-1988,14,Thirumathi Janaki Ramachandran,Tamil Nadu,http://www.assembly.tn.gov.in/history/cmlist.htm,23,07-01-1988,no,no,1988,4,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-375,30-01-1991,363,Dr. Kalaignar M Karunanidhi,Tamil Nadu,http://www.assembly.tn.gov.in/history/cmlist.htm,733,27-01-1989,no,no,1989,5,2,HARBOUR,0,AETN189483,M. KARUNANIDHI,1,3,1,M,DMK,41632,69669,GEN,26,65.54,59.76,no,31991,45.92,2.5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,cosine
-376,12-05-1996,145,Dr. Selvi J Jayalalithaa,Tamil Nadu,http://www.assembly.tn.gov.in/history/cmlist.htm,1784,24-06-1991,no,no,1991,6,78,BARGUR,0,AETN192262,J. JAYALALITHA,2,3,1,F,ADK,67680,103841,GEN,16,65.73,65.18,no,37215,35.84,1.96,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,cosine
-377,13-05-2001,1,Dr. Kalaignar M Karunanidhi,Tamil Nadu,http://www.assembly.tn.gov.in/history/cmlist.htm,1826,13-05-1996,no,no,1996,7,11,CHEPAUK,0,AETN198445,M.KARUNA NIDHI,2,3,1,M,DMK,46097,59827,GEN,23,60.25,77.05,no,35784,59.81,1.61,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,cosine
-378,21-09-2001,1,Dr. Selvi J Jayalalithaa,Tamil Nadu,http://www.assembly.tn.gov.in/history/cmlist.htm,130,14-05-2001,no,no,2001,8,135,ANDIPATTI,1,AETN192262,JAYALALITHAA J.,5,3,1,F,AIADMK,78437,134734,GEN,24,64.6,58.22,no,41201,30.58,2.38,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,cosine
-379,01-03-2002,0,Thiru O. Panneerselvam,Tamil Nadu,http://www.assembly.tn.gov.in/history/cmlist.htm,161,21-09-2001,no,no,2001,8,131,PERIYAKULAM,0,AETN189985,PANNEER SELVAM O,5,3,1,M,ADMK,62125,114463,GEN,6,56.12,54.28,no,17920,15.66,2.27,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,cosine
-380,12-05-2006,1,Dr. Selvi J Jayalalithaa,Tamil Nadu,http://www.assembly.tn.gov.in/history/cmlist.htm,1532,02-03-2002,no,no,2002,8,135,ANDIPATTI,1,AETN192262,JAYALALITHAA J.,5,3,1,F,AIADMK,78437,134734,GEN,24,64.6,58.22,no,41201,30.58,2.38,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,cosine
-381,15-05-2011,1,Dr. Kalaignar M. Karunanidhi,Tamil Nadu,http://www.assembly.tn.gov.in/history/cmlist.htm,1828,13-05-2006,no,no,2006,9,11,CHEPAUK,0,AETN189483,KARUNANIDHI M.,5,3,1,M,DMK,34188,67082,GEN,20,63.73,50.96,no,8526,12.71,2.44,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,cosine
-382,27-09-2014,1,Dr. Selvi J Jayalalithaa,Tamil Nadu,http://www.assembly.tn.gov.in/history/cmlist.htm,1230,16-05-2011,no,no,2011,10,139,SRIRANGAM,0,AETN192262,J JAYALALITHAA,5,4,1,F,AIADMK,105328,178547,GEN,23,80.73,58.99,no,41848,23.44,2.08,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,cosine
-383,22-05-2015,2,Thiru O. Panneerselvam,Tamil Nadu,http://www.assembly.tn.gov.in/history/cmlist.htm,235,29-09-2014,no,no,2014,10,200,BODINAYAKANUR,0,AETN189985,PANNEERSELVAM O,5,4,1,M,AIADMK,95235,167998,GEN,25,81,56.69,no,29906,17.8,2.13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,cosine
-384,21-05-2016,1,Dr. Selvi J Jayalalithaa,Tamil Nadu,http://www.assembly.tn.gov.in/history/cmlist.htm,364,23-05-2015,no,no,2015,10,11,DR. RADHAKRISHNAN NAGAR,1,AETN192262,Jayalalithaa (E),5,4,1,,AIADMK,160432,179044,GEN,28,91.73,89.6,no,150722,84.18,1.25,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,cosine
-385,05-12-2016,2,Dr. Selvi J Jayalalithaa,Tamil Nadu,http://www.assembly.tn.gov.in/history/cmlist.htm,196,23-05-2016,no,no,2016,11,11,DR. RADHAKRISHNAN NAGAR,0,AETN192262,JAYALALITHAA J,5,4,1,F,ADMK,97218,174015,GEN,45,68.36,55.87,no,39545,22.73,2.38,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,cosine
-386,15-02-2017,1,Thiru O. Panneerselvam,Tamil Nadu,http://www.assembly.tn.gov.in/history/cmlist.htm,71,06-12-2016,no,no,2016,11,200,BODINAYAKANUR,0,AETN189985,O. PANNEERSELVAM,5,4,1,M,ADMK,99531,201579,GEN,23,78.28,49.38,no,15608,7.74,2.44,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,cosine
-387,01-11-1971,NA,Sachindra Lal Singh,Tripura,https://tripurainfo.com/AboutTripura/Tripura_CMs.htm,3045,01-07-1963,no,no,1963,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-388,20-03-1972,0,Vacant,Tripura,https://tripurainfo.com/AboutTripura/Tripura_CMs.htm,140,01-11-1971,yes,no,1971,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-389,,NA,(President's rule),Tripura,https://tripurainfo.com/AboutTripura/Tripura_CMs.htm,0,,yes,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-390,31-03-1977,0,Sukhamoy Sen Gupta,Tripura,https://tripurainfo.com/AboutTripura/Tripura_CMs.htm,1837,20-03-1972,no,no,1972,2,7,AGARTALA TOWN I I I,0,AETR12,SUKHAMOY SEN GUPTA,3,2,1,M,INC,4415,8930,GEN,5,58.8,49.44,no,1452,16.26,2.78,TRUE,2,IND,AGARTALA SADAR III,FALSE,FALSE,1,FALSE,FALSE,TRUE,cosine
-391,25-07-1977,1,Prafulla Kumar Das,Tripura,https://tripurainfo.com/AboutTripura/Tripura_CMs.htm,115,01-04-1977,no,no,1977,3,3,BAMUTIA,0,AETR97,PARFULLA KUMAR DAS,12,3,2,M,TCD,5276,12465,SC,4,82.04,42.33,no,4698,37.69,2.33,TRUE,3,INC,BAMUTIA,FALSE,TRUE,2,TRUE,TRUE,TRUE,
-392,04-11-1977,1,Radhika Ranjan Gupta,Tripura,https://tripurainfo.com/AboutTripura/Tripura_CMs.htm,101,26-07-1977,no,no,1977,3,51,FATIKROY,0,AETR2595,RADHIKA RANJAN GUPTA,12,3,3,M,JNP,2958,13700,GEN,5,81.55,21.59,no,1686,12.31,3.12,TRUE,3,INC,FATIKROY,FALSE,TRUE,2,TRUE,TRUE,TRUE,
-393,05-01-1978,1,Vacant,Tripura,https://tripurainfo.com/AboutTripura/Tripura_CMs.htm,61,05-11-1977,yes,no,1977,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-394,,NA,(President's rule),Tripura,https://tripurainfo.com/AboutTripura/Tripura_CMs.htm,0,,yes,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-395,05-02-1988,0,Nripen Chakraborty,Tripura,https://tripurainfo.com/AboutTripura/Tripura_CMs.htm,3683,05-01-1978,no,no,1978,3,26,ASHARAMBARI,0,AETR1112,NRIPEN CHAKRABARTY,12,3,1,M,CPM,8786,15273,ST,6,80.92,57.53,no,6221,40.73,2.63,TRUE,3,CPM,ASHARAMBARI,TRUE,TRUE,2,FALSE,TRUE,TRUE,cosine
-396,19-02-1992,0,Sudhir Ranjan Majumdar,Tripura,https://tripurainfo.com/AboutTripura/Tripura_CMs.htm,1475,05-02-1988,no,no,1988,5,8,TOWN BORDOWALI,0,AETR664,SUDHIR RANJAN MAJUMDAR,2,3,1,M,INC,10308,18076,GEN,4,80.31,57.03,no,2677,14.81,1.96,TRUE,2,INC,KHAYERPUR,TRUE,FALSE,2,FALSE,TRUE,TRUE,cosine
-397,10-03-1993,0,Samir Ranjan Barman,Tripura,https://tripurainfo.com/AboutTripura/Tripura_CMs.htm,385,19-02-1992,no,no,1992,5,16,BISHALGARH,0,AETR157,SAMIR RANJAN BARMAN,2,3,1,M,INC,10068,18313,GEN,3,86.96,54.98,no,1882,10.28,2,TRUE,4,INC,BISHALGARH,TRUE,TRUE,2,FALSE,FALSE,TRUE,cosine
-398,10-04-1993,1,Vacant,Tripura,https://tripurainfo.com/AboutTripura/Tripura_CMs.htm,30,11-03-1993,no,no,1993,6,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-399,,NA,(President's rule),Tripura,https://tripurainfo.com/AboutTripura/Tripura_CMs.htm,0,,yes,no,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-400,11-03-1998,0,Dasarath Deb,Tripura,https://tripurainfo.com/AboutTripura/Tripura_CMs.htm,1796,10-04-1993,no,no,1993,6,23,DHANPUR,0,AETR438,DASHARATH DEB,2,3,1,M,CPM,12790,16285,ST,5,83.25,78.54,no,10416,63.96,1.56,TRUE,4,CPM,DHANPUR,TRUE,TRUE,4,FALSE,TRUE,TRUE,cosine
-401,09-03-2018,0,Manik Sarkar,Tripura,https://tripurainfo.com/AboutTripura/Tripura_CMs.htm,7303,11-03-1998,no,no,1998,7,22,SONAMURA,0,AETR1069,MANIK SARKAR,3,3,1,M,CPM,12771,23692,GEN,3,84.46,53.9,no,3103,13.1,2.17,TRUE,4,CPM,AGARTALA,TRUE,FALSE,3,FALSE,FALSE,FALSE,cosine
-402,,0,Biplab Kumar Deb,Tripura,https://tripurainfo.com/AboutTripura/Tripura_CMs.htm,NA,09-03-2018,no,no,2018,11,9,BANAMALIPUR,0,AETR153,BIPLAB KUMAR DEB,3,4,1,M,BJP,21755,35332,GEN,8,87.79,61.57,no,9549,27.03,2,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-403,27-12-1954,NA,Sri Govind Ballabh Pant,Uttar Pradesh,http://up.gov.in/upexcms.aspx,3192,01-04-1946,no,no,1946,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-404,06-12-1960,1,Sri Sampoornananda,Uttar Pradesh,http://up.gov.in/upexcms.aspx,2170,28-12-1954,no,no,1954,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-405,14-03-1962,1,Sri Chandrabhanu Gupta,Uttar Pradesh,http://up.gov.in/upexcms.aspx,462,07-12-1960,no,no,1960,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-406,01-10-1963,0,Sri Chandrabhanu Gupta,Uttar Pradesh,http://up.gov.in/upexcms.aspx,566,14-03-1962,no,no,1962,3,14,RANIKHET SOUTH,0,AEUP170913,CHANDRA BHANU GUPTA,2,1,1,M,INC,22516,27640,GEN,4,32.38,81.46,no,19993,72.33,1.49,TRUE,1,NA,NA,NA,NA,1,FALSE,FALSE,FALSE,cosine
-407,13-03-1967,1,Ms Sucheta Kriplani,Uttar Pradesh,http://up.gov.in/upexcms.aspx,1258,02-10-1963,no,no,1963,3,185,MENDHWAL,0,AEUP1062,SUCHETA KRIPALANI,2,1,1,F,INC,24424,47199,GEN,5,58.95,51.75,no,3948,8.36,2.17,TRUE,1,NA,NA,NA,NA,1,FALSE,FALSE,FALSE,cosine
-408,02-04-1967,1,Sri Chandrabhanu Gupta,Uttar Pradesh,http://up.gov.in/upexcms.aspx,19,14-03-1967,no,no,1967,4,14,RANIKHET,0,AEUP173843,C. B. GUPTA,2,2,1,M,INC,17335,35669,GEN,3,37.58,48.6,no,70,0.2,2.13,TRUE,1,,,,,1,FALSE,FALSE,FALSE,
-409,25-02-1968,1,Sri Charan Singh,Uttar Pradesh,http://up.gov.in/upexcms.aspx,328,03-04-1967,no,no,1967,4,405,CHAPRAULI,0,AEUP176671,C.SINGH,2,2,1,M,INC,59199,69353,GEN,4,62.77,85.36,no,52188,75.25,1.35,TRUE,1,,,,,1,FALSE,FALSE,FALSE,
-410,17-02-1970,367,Sri Chandrabhanu Gupta,Uttar Pradesh,http://up.gov.in/upexcms.aspx,356,26-02-1969,no,no,1969,5,14,RANIKHET,0,AEUP5712,CHANDRA BHANU GUPTA,2,2,1,M,INC,22163,45756,GEN,4,44.99,48.44,no,843,1.84,2.22,TRUE,1,NA,NA,NA,NA,1,FALSE,FALSE,FALSE,cosine
-411,01-10-1970,0,Sri Charan Singh,Uttar Pradesh,http://up.gov.in/upexcms.aspx,226,17-02-1970,no,no,1970,5,405,CHAPRAULI,0,AEUP166820,CHARAN SINGH,2,2,1,M,BKD,62419,79229,GEN,4,69.38,78.78,no,47940,60.51,1.54,TRUE,2,NA,NA,FALSE,FALSE,2,TRUE,FALSE,FALSE,cosine
-412,03-04-1971,17,Sri T N Singh,Uttar Pradesh,http://up.gov.in/upexcms.aspx,167,18-10-1970,no,no,1970,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-413,12-06-1973,1,Pt. Kamlapati?Tripathi,Uttar Pradesh,http://up.gov.in/upexcms.aspx,800,04-04-1971,no,no,1971,5,243,CHANDAULI,0,AEUP172395,KAMLAPATI,2,2,1,M,INC,38310,79554,GEN,7,70.91,48.16,no,18558,23.33,3.03,TRUE,1,NA,NA,NA,NA,1,FALSE,FALSE,FALSE,cosine
-414,04-03-1974,149,Sri Hemvati Nandan Bahuguna,Uttar Pradesh,http://up.gov.in/upexcms.aspx,116,08-11-1973,no,no,1973,5,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-415,29-11-1975,11,Sri Hemvati Nandan Bahuguna,Uttar Pradesh,http://up.gov.in/upexcms.aspx,624,15-03-1974,no,no,1974,6,269,BARA,0,AEUP169224,HEMVATI NANDAN BAHUGUNA,2,3,1,M,INC,36238,67519,GEN,11,59.45,53.67,no,24054,35.63,2.94,TRUE,4,NA,NA,TRUE,TRUE,3,FALSE,FALSE,TRUE,cosine
-416,30-04-1977,53,Sri N.D. Tiwari,Uttar Pradesh,http://up.gov.in/upexcms.aspx,465,21-01-1976,no,no,1976,6,16,KASHIPUR,0,AEUP26324,NARAYAN DATT TEWARI,2,3,1,M,INC,33384,62904,GEN,10,64.82,53.07,no,24808,39.44,3.03,TRUE,1,,,,,1,FALSE,FALSE,FALSE,
-417,27-02-1979,54,Sri Ram Naresh yadav,Uttar Pradesh,http://up.gov.in/upexcms.aspx,614,23-06-1977,no,no,1977,7,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-418,17-02-1980,1,Sri Banarasi Das,Uttar Pradesh,http://up.gov.in/upexcms.aspx,354,28-02-1979,no,no,1979,7,391,HAPUR,0,AEUP31814,BANARSI DAS,10,3,1,M,JNP,34625,63019,SC,5,53.21,54.94,no,7215,11.45,2.04,TRUE,1,NA,NA,NA,NA,1,FALSE,FALSE,FALSE,cosine
-419,18-07-1982,113,Sri V.P. Singh,Uttar Pradesh,http://up.gov.in/upexcms.aspx,769,09-06-1980,no,no,1980,8,318,TINDWARI,1,AEUP100433,V.P.SINGH,5,3,1,,INC(I),62738,69714,GEN,7,53.7,89.99,no,59625,85.53,1.23,TRUE,1,NA,NA,NA,NA,1,FALSE,FALSE,FALSE,cosine
-420,03-08-1984,1,Sri Sripati Misra,Uttar Pradesh,http://up.gov.in/upexcms.aspx,746,19-07-1982,no,no,1982,8,124,ISSAULI,0,AEUP160336,SHREEPAT MISRA,5,3,1,M,INC(I),11410,40106,GEN,15,29.11,28.45,no,1895,4.72,5.88,TRUE,3,,,FALSE,FALSE,2,TRUE,FALSE,FALSE,
-421,10-03-1985,0,Sri N.D. Tiwari,Uttar Pradesh,http://up.gov.in/upexcms.aspx,219,03-08-1984,no,no,1984,8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-422,24-09-1985,1,Sri N.D. Tiwari,Uttar Pradesh,http://up.gov.in/upexcms.aspx,197,11-03-1985,no,no,1985,9,16,KASHIPUR,0,AEUP5735,NARAYAN DUTT,2,3,1,M,INC,59083,84204,GEN,10,53.85,70.17,no,48808,57.96,1.96,FALSE,2,,,FALSE,FALSE,1,TRUE,FALSE,FALSE,
-423,24-06-1988,0,Sri Vir Bahadur Singh,Uttar Pradesh,http://up.gov.in/upexcms.aspx,1004,24-09-1985,no,no,1985,9,188,PANIARA,0,AEUP6820,BIR BAHADUR SINGH,2,3,1,M,INC,53996,97077,GEN,16,61.01,55.62,no,42543,43.82,3.12,TRUE,3,NA,NA,TRUE,TRUE,3,FALSE,FALSE,FALSE,cosine
-424,05-12-1989,1,Sri N.D. Tiwari,Uttar Pradesh,http://up.gov.in/upexcms.aspx,528,25-06-1988,no,no,1988,9,16,KASHIPUR,0,AEUP5735,NARAYAN DUTT,2,3,1,M,INC,59083,84204,GEN,10,53.85,70.17,no,48808,57.96,1.96,FALSE,2,,,FALSE,FALSE,1,TRUE,FALSE,FALSE,
-425,24-06-1991,0,Sri Mulayam Singh Yadav,Uttar Pradesh,http://up.gov.in/upexcms.aspx,566,05-12-1989,no,no,1989,10,305,JASWANTNAGAR,0,AEUP30604,MULAYAM SINGH YADAV S/O SUDHAR SINGH,11,3,1,M,JD,65597,110690,GEN,15,61.34,59.26,no,26437,23.88,2.08,TRUE,1,,,,,1,FALSE,FALSE,FALSE,
-426,06-12-1992,0,Sri Kalyan Singh,Uttar Pradesh,http://up.gov.in/upexcms.aspx,531,24-06-1991,no,no,1991,11,372,ATRAULI,0,AEUP145891,KALYAN SINGH MADHOLI,5,3,1,M,BJP,58640,107047,GEN,24,56.7,54.78,no,27377,25.57,2.56,TRUE,1,,,,,1,FALSE,FALSE,FALSE,
-427,03-06-1995,363,Sri Mulayam Singh Yadav,Uttar Pradesh,http://up.gov.in/upexcms.aspx,546,04-12-1993,no,no,1993,12,339,SHIKOHABAD,0,AEUP47646,MULAYAM SINGH YADAV S/O SUGHAR SINGH,11,3,1,M,SP,55249,130197,GEN,27,63.93,42.43,no,15691,12.05,3.12,TRUE,1,NA,NA,NA,NA,1,FALSE,FALSE,FALSE,cosine
-428,17-10-1995,0,Ms. Mayawati,Uttar Pradesh,http://up.gov.in/upexcms.aspx,136,03-06-1995,no,no,1995,12,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-429,21-09-1997,521,Ms. Mayawati,Uttar Pradesh,http://up.gov.in/upexcms.aspx,184,21-03-1997,no,no,1997,13,417,HARORA,0,AEUP60512,MAYA WATI,7,3,1,F,BSP,84647,170748,SC,5,75.8,49.57,no,27418,16.06,2.56,FALSE,2,NA,NA,TRUE,FALSE,1,FALSE,FALSE,FALSE,cosine
-430,11-11-1999,0,Sri Kalyan Singh,Uttar Pradesh,http://up.gov.in/upexcms.aspx,781,21-09-1997,no,no,1997,13,372,ATRAULI,0,AEUP123873,KALYAN SINGH,7,3,1,M,BJP,73329,126053,GEN,11,56.33,58.17,no,30695,24.35,2.22,TRUE,2,NA,NA,TRUE,TRUE,1,FALSE,FALSE,FALSE,cosine
-431,28-10-2000,1,Sri. Ram Prakash Gupta,Uttar Pradesh,http://up.gov.in/upexcms.aspx,351,12-11-1999,no,yes,1999,13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-432,07-03-2002,0,Sri Rajnath Singh,Uttar Pradesh,http://up.gov.in/upexcms.aspx,495,28-10-2000,no,no,2000,13,141,HAIDARGARH,1,AEUP156645,RAJNATH SINGH,7,3,1,M,BJP,70231,140028,GEN,20,66.98,50.15,no,40364,28.83,2.94,TRUE,4,NA,NA,TRUE,FALSE,2,FALSE,FALSE,TRUE,cosine
-433,28-08-2003,57,Ms. Mayawati,Uttar Pradesh,http://up.gov.in/upexcms.aspx,482,03-05-2002,no,no,2002,14,401,HARORA,0,AEUP113051,MAYAWATI,2,3,1,F,BSP,70800,148235,SC,11,60.72,47.76,no,28901,19.5,3.03,FALSE,3,NA,NA,TRUE,FALSE,2,FALSE,FALSE,TRUE,cosine
-434,12-05-2007,1,Sri Mulayam Singh Yadav,Uttar Pradesh,http://up.gov.in/upexcms.aspx,1352,29-08-2003,no,no,2003,14,25,Gunnur,1,GEUP13257,Mulayam Singh Yadav,2,3,1,M,SP,195213,213468,GEN,3,84.91,91.45,no,183899,86.15,1.19,TRUE,3,NA,NA,TRUE,FALSE,3,FALSE,FALSE,FALSE,cosine
-435,14-03-2012,1,Ms. Mayawati,Uttar Pradesh,http://up.gov.in/upexcms.aspx,1767,13-05-2007,no,yes,2007,15,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-436,19-03-2017,1,Sri Akhilesh Yadav,Uttar Pradesh,http://up.gov.in/upexcms.aspx,1830,15-03-2012,no,yes,2012,16,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-437,29-10-2001,NA,Shri Nityanand Swami,Uttarakhand,https://cm.uk.gov.in/pages/display/1160-exchief-ministers,354,09-11-2000,no,no,2000,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-438,01-03-2002,1,Shri Bhagat Singh koshiyari,Uttarakhand,https://cm.uk.gov.in/pages/display/1160-exchief-ministers,122,30-10-2001,no,no,2001,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
-439,07-03-2007,1,Shri Narayan Dutt Tiwari,Uttarakhand,https://cm.uk.gov.in/pages/display/1160-exchief-ministers,1831,02-03-2002,no,no,2002,1,56,RAMNAGAR,1,AEUP153033,NARAYAN DATT TIWARI,2,3,1,M,INC,32913,44033,GEN,6,52.79,74.75,no,23220,52.73,1.64,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-440,26-06-2009,0,Maj.General.B.C.Khanduri,Uttarakhand,https://cm.uk.gov.in/pages/display/1160-exchief-ministers,842,07-03-2007,no,no,2007,2,30,Dhumakote,1,AEUK100833,Major General Bhuwan Chandra Khandoori ABSM,2,3,1,M,BJP,22708,32093,GEN,3,59.45,70.76,no,14171,44.16,1.75,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-441,10-09-2011,1,"Dr.Ramesh Pokhriyal\\""Nishank\""\""""",Uttarakhand,https://cm.uk.gov.in/pages/display/1160-exchief-ministers,805,27-06-2009,no,no,2009,2,35,THALISAIN,0,AEUP74612,DR. RAMESH POKHARIYAL NISHANK,2,3,1,M,BJP,19582,41707,GEN,10,66.76,46.95,no,1803,4.32,2.5,TRUE,2,BJP,THALISAIN,TRUE,TRUE,1,FALSE,FALSE,TRUE,cosine
-442,13-03-2012,1,Maj.General.B.C.Khanduri,Uttarakhand,https://cm.uk.gov.in/pages/display/1160-exchief-ministers,184,11-09-2011,no,no,2011,2,30,Dhumakote,1,AEUK100833,Major General Bhuwan Chandra Khandoori ABSM,2,3,1,M,BJP,22708,32093,GEN,3,59.45,70.76,no,14171,44.16,1.75,TRUE,1,,,NA,NA,1,FALSE,FALSE,FALSE,cosine
-443,31-01-2014,0,Shri Vijaya Bahuguna,Uttarakhand,https://cm.uk.gov.in/pages/display/1160-exchief-ministers,689,13-03-2012,no,no,2012,3,68,SITARGANJ,1,AEUK100814,V. Bahuguna,3,4,1,,INC,53766,69695,GEN,6,76.19,77.14,no,39954,57.33,1.56,TRUE,1,,,,,1,FALSE,FALSE,FALSE,
-444,27-03-2016,1,Shri Harish Rawat,Uttarakhand,https://cm.uk.gov.in/pages/display/1160-exchief-ministers,785,01-02-2014,no,no,2014,3,42,DHARCHULA,1,AEUK100498,Harish Chandra Singh Rawat,3,4,1,,INC,31214,41824,GEN,2,57.49,74.63,no,20604,49.26,1.61,TRUE,2,IND,DHARCHULA,FALSE,TRUE,1,FALSE,FALSE,FALSE,cosine
-445,22-04-2016,25,Shri Harish Rawat,Uttarakhand,https://cm.uk.gov.in/pages/display/1160-exchief-ministers,1,21-04-2016,no,no,2016,3,42,DHARCHULA,1,AEUK100498,Harish Chandra Singh Rawat,3,4,1,,INC,31214,41824,GEN,2,57.49,74.63,no,20604,49.26,1.61,TRUE,2,IND,DHARCHULA,FALSE,TRUE,1,FALSE,FALSE,FALSE,cosine
-446,18-03-2017,19,Shri Harish Rawat,Uttarakhand,https://cm.uk.gov.in/pages/display/1160-exchief-ministers,311,11-05-2016,no,no,2016,3,42,DHARCHULA,1,AEUK100498,Harish Chandra Singh Rawat,3,4,1,,INC,31214,41824,GEN,2,57.49,74.63,no,20604,49.26,1.61,TRUE,2,IND,DHARCHULA,FALSE,TRUE,1,FALSE,FALSE,FALSE,cosine
+State_Name,Assembly_No,Sequence_No,Name,start_date,end_date,days_in_off,delay_apt,Administrative_rule,MLC,Caretaker_CM,Constituency_No,Poll_No,Position,pid,Party,No_Terms,Turncoat,Incumbent,Recontest
+Andhra_Pradesh,3,1,Sri (Dr)Neelam Sanjeeva Reddy,12/3/62,28/2/64,718,,no,no,0,185,0,1,AEAP26190,INC,1,FALSE,FALSE,FALSE
+Andhra_Pradesh,3,2,Sri Kasu Bramhananda Reddy,29/2/64,28/2/67,1095,1,no,no,0,110,0,1,AEAP25948,INC,1,FALSE,FALSE,FALSE
+Andhra_Pradesh,4,1,Sri Kasu Bramhananda Reddy,1/3/67,30/9/71,1674,1,no,no,0,105,0,1,AEAP24868,INC,1,FALSE,FALSE,FALSE
+Andhra_Pradesh,4,2,Sri P.V.Narasimha Rao,30/9/71,14/3/72,166,0,no,no,0,243,0,1,AEAP25359,INC,1,FALSE,FALSE,FALSE
+Andhra_Pradesh,5,1,Sri P.V.Narasimha Rao,14/3/72,18/1/73,310,0,no,no,0,243,0,1,AEAP24287,INC,1,FALSE,FALSE,FALSE
+Andhra_Pradesh,NA,1,President's rule,18/1/73,10/12/73,326,0,yes,no,0,,,,,,,,,
+Andhra_Pradesh,5,2,Sri. Jalagam Vengala Rao,10/12/73,5/3/78,1546,0,no,no,0,271,0,1,GEAP30734,INC,2,FALSE,FALSE,FALSE
+Andhra_Pradesh,6,1,Dr Marri Chenna Reddy,6/3/78,10/10/80,949,1,no,no,0,219,0,1,AEAP23024,INC(I),1,FALSE,FALSE,FALSE
+Andhra_Pradesh,6,2,Sri Tanguturi Anjaiah,11/10/80,24/2/82,501,1,no,yes,0,,,,,,,,,
+Andhra_Pradesh,6,3,Sri Bhavanam Venkataram,24/2/82,20/9/82,208,0,no,yes,0,,,,,,,,,
+Andhra_Pradesh,6,4,Sri K.Vijaya Bhaskara Reddy,20/9/82,8/1/83,110,0,no,no,1,,,,,,,,,
+Andhra_Pradesh,7,1,Sri N.T.Rama Rao,9/1/83,16/8/84,585,1,no,no,0,149,0,1,AEAP14941,IND,1,FALSE,FALSE,FALSE
+Andhra_Pradesh,7,2,Sri N.Bhaskara rao,16/8/84,16/9/84,31,0,no,no,0,94,0,1,AEAP13877,IND,1,FALSE,FALSE,FALSE
+Andhra_Pradesh,7,3,Sri N.T.Rama Rao,16/9/84,7/3/85,172,0,no,no,0,149,0,1,AEAP14941,IND,1,FALSE,FALSE,FALSE
+Andhra_Pradesh,8,1,Sri N.T.Rama Rao,8/3/85,2/12/89,1730,1,no,no,0,289,0,1,AEAP20050,TDP,1,FALSE,FALSE,FALSE
+Andhra_Pradesh,9,1,Dr.Marri Chenna Reddy,3/12/89,7/12/90,369,1,no,no,0,208,0,1,AEAP17516,INC,1,FALSE,FALSE,FALSE
+Andhra_Pradesh,9,2,Sri N.Janardhana Reddy,17/12/90,9/10/92,662,10,no,no,0,134,0,1,GEAP64950,INC,1,FALSE,FALSE,FALSE
+Andhra_Pradesh,9,3,Sri K.VijayaBhaskara Reddy,10/10/92,11/12/94,792,1,no,no,0,184,1,1,AEAP17377,INC,1,FALSE,FALSE,FALSE
+Andhra_Pradesh,10,1,Sri N.T.Rama Rao,12/12/94,31/8/95,262,1,no,no,0,3,0,1,AEAP12952,TDP,1,FALSE,FALSE,FALSE
+Andhra_Pradesh,10,2,Sri N. Chandra Babu Naidu,1/9/95,9/10/99,1499,1,no,no,0,142,0,1,AEAP14475,TDP,2,TRUE,FALSE,FALSE
+Andhra_Pradesh,11,1,Sri N. Chandra Babu Naidu,10/10/99,13/5/04,1677,1,no,no,0,142,0,1,AEAP11737,TDP,1,FALSE,FALSE,FALSE
+Andhra_Pradesh,12,1,Dr.Y.S. Rajasekhara Reddy,14/5/04,19/5/09,1831,1,no,no,0,160,0,1,AEAP9640,INC,1,FALSE,FALSE,FALSE
+Andhra_Pradesh,13,1,Dr.Y.S. Rajasekhara Reddy,19/5/09,2/9/09,106,0,no,no,0,248,0,1,AEAP7966,INC,1,FALSE,FALSE,FALSE
+Andhra_Pradesh,13,2,Sri. K. Rosaiah,3/9/09,24/11/10,447,1,no,yes,0,,,,,,,,,
+Andhra_Pradesh,13,3,Sri. N.Kiran Kumar Reddy,25/11/10,28/2/14,1191,1,no,no,0,282,0,1,AEAP8495,INC,2,FALSE,FALSE,FALSE
+Andhra_Pradesh,NA,2,President's Rule,1/3/14,2/6/14,93,1,yes,no,0,,,,,,,,,
+Andhra_Pradesh,14,1,Chandrababu Naidu,2/6/14,29/5/19,1822,0,no,no,0,175,0,1,AEAP4236,TDP,1,FALSE,FALSE,FALSE
+Andhra_Pradesh,15,1,Y. S. Jaganmohan Reddy,30/5/19,,,1,no,no,0,129,0,1,AEAP83077,YSRCP,1,FALSE,FALSE,FALSE
+Arunachal_Pradesh,0,1,P.K. Thungon,16/8/75,20/3/78,947,,no,no,1,,,,,,,,,
+Arunachal_Pradesh,1,1,P.K. Thungon,21/3/78,6/9/79,534,1,no,no,0,3,0,1,AEAR82169,JNP,1,FALSE,FALSE,FALSE
+Arunachal_Pradesh,1,2,Late Tomo Riba,18/9/79,3/11/79,46,12,no,no,0,17,0,1,AEAR81689,PPA,1,FALSE,FALSE,FALSE
+Arunachal_Pradesh,NA,3,President's Rule,3/11/79,18/1/80,76,0,,,0,,,,,,,,,
+Arunachal_Pradesh,2,1,Gegong Apang,18/1/80,2/2/85,1842,0,no,no,0,19,0,1,AEAR82217,INC(I),2,TRUE,TRUE,TRUE
+Arunachal_Pradesh,3,1,Gegong Apang,2/2/85,5/3/90,1857,0,no,no,0,19,0,1,AEAR82217,INC,3,TRUE,TRUE,TRUE
+Arunachal_Pradesh,4,1,Gegong Apang,6/3/90,18/3/95,1838,1,no,no,0,34,0,1,AEAR82217,INC,4,FALSE,TRUE,TRUE
+Arunachal_Pradesh,5,1,Gegong Apang,19/3/95,18/1/99,1401,1,no,no,0,34,0,1,AEAR82217,INC,5,FALSE,TRUE,TRUE
+Arunachal_Pradesh,5,2,Mukut Mithi,19/1/99,9/10/99,263,1,no,no,0,43,0,1,AEAR82223,INC,3,FALSE,TRUE,TRUE
+Arunachal_Pradesh,6,1,Mukut Mithi,10/10/99,2/8/03,1392,1,no,no,0,43,0,1,AEAR82223,INC,4,FALSE,TRUE,TRUE
+Arunachal_Pradesh,6,2,Gegong Apang,3/8/03,23/10/04,447,1,no,no,0,34,0,1,AEAR82217,AC,6,FALSE,TRUE,TRUE
+Arunachal_Pradesh,7,1,Gegong Apang,24/10/04,9/4/07,897,1,no,no,0,34,0,1,AEAR82217,INC,7,TRUE,TRUE,TRUE
+Arunachal_Pradesh,7,2,Dorjee Khandu,10/4/07,22/10/09,926,1,no,no,0,,,,,,,,,
+Arunachal_Pradesh,8,1,Dorjee Khandu,23/10/09,31/10/11,738,1,no,no,0,3,0,1,AEAR81614,INC,4,FALSE,FALSE,FALSE
+Assam,3,1,B.P. Chaliha,3/3/62,1/3/67,1824,,no,no,0,90,0,1,AEAS197674,INC,1,FALSE,FALSE,FALSE
+Assam,4,1,B.P. Chaliha,1/3/67,6/11/70,1346,0,no,no,0,110,0,1,AEAS197241,INC,1,FALSE,FALSE,FALSE
+Assam,4,2,Mohendra Mohan Choudhury,11/11/70,30/1/72,445,5,no,no,0,58,0,1,AEAS196859,INC,1,FALSE,FALSE,FALSE
+Assam,5,1,Shri Sarat Chandra Sinha,31/1/72,12/3/78,2232,1,no,no,0,39,0,1,AEAS196428,INC,1,FALSE,FALSE,FALSE
+Assam,6,1,Shri Golap Borbora,12/3/78,4/9/79,541,0,no,no,0,122,0,1,AEAS196808,JNP,1,TRUE,FALSE,TRUE
+Assam,6,2,Shri Jogendra Nath Hazarika,9/9/79,11/12/79,93,5,no,no,0,118,0,1,AEAS194829,JNP,1,FALSE,FALSE,FALSE
+Assam,NA,1,President's Rule,12/12/79,5/12/80,359,1,yes,no,0,,,,,,,,,
+Assam,6,3,Shrimati Anowara Taimur,6/12/80,30/6/81,206,1,no,no,0,68,0,1,AEAS195878,INC(I),1,FALSE,FALSE,FALSE
+Assam,NA,2,President's Rule,30/6/81,13/1/82,197,0,yes,no,0,,,,,,,,,
+Assam,6,4,Shri Kesab Chandra Gogoi,13/1/82,19/3/82,65,0,no,no,0,116,0,1,AEAS195369,JNP,1,FALSE,FALSE,FALSE
+Assam,NA,3,President's Rule,19/3/82,27/2/83,345,0,yes,no,0,,,,,,,,,
+Assam,7,1,Shri Hiteswar Saikia,27/2/83,23/12/85,1030,0,no,no,0,104,0,1,AEAS195303,INC,3,FALSE,TRUE,TRUE
+Assam,8,1,Shri Prafulla Kumar Mahanta,24/12/85,27/11/90,1799,1,no,no,0,86,0,1,AEAS193203,IND,1,FALSE,FALSE,FALSE
+Assam,NA,4,President's Rule,28/11/90,30/6/91,214,1,yes,no,0,,,,,,,,,
+Assam,9,1,Shri Hiteswar Saikia,30/6/91,22/4/96,1758,0,no,no,0,104,0,1,AEAS195303,INC,5,FALSE,FALSE,TRUE
+Assam,10,1,Dr. Bhumidhar Barman,22/4/96,14/5/96,22,0,no,no,0,60,0,2,,,,,,
+Assam,10,2,Shri Prafulla Kumar Mahanta,15/5/96,17/5/01,1828,1,no,no,0,87,0,1,AEAS187558,AGP,2,FALSE,TRUE,TRUE
+Assam,11,1,Shri Tarun Gogoi,17/5/01,11/5/06,1820,0,no,no,0,100,1,1,AEAS188688,INC,1,FALSE,FALSE,FALSE
+Assam,12,1,Shri Tarun Gogoi,12/5/06,16/5/11,1830,1,no,no,0,100,0,1,AEAS188688,INC,2,FALSE,TRUE,TRUE
+Assam,13,1,Shri Tarun Gogoi,17/5/11,21/5/16,1831,1,no,no,0,100,0,1,AEAS188688,INC,3,FALSE,TRUE,TRUE
+Assam,14,1,Shri Sarbananda Sonowal,24/5/16,,,3,no,no,0,99,0,1,GEAS74852,BJP,1,FALSE,FALSE,FALSE
+Goa,1,1,Shri Pratapsingh R. Rane,9/1/90,27/3/90,77,,no,no,0,18,0,1,,INC,,,,
+Goa,1,2,Shri Churchill Alemao,27/3/90,14/4/90,18,0,no,no,0,28,0,1,,INC,,,,
+Goa,1,3,Dr. Luis Proto Barbosa,14/4/90,14/12/90,244,0,no,no,0,27,0,1,,INC,,,,
+Goa,NA,1,President's Rule,14/12/90,25/1/91,42,0,yes,no,0,,,,,,,,,
+Goa,1,4,Shri Ravi S. Naik,25/1/91,18/5/93,844,0,no,no,0,22,0,1,,MAG,,,,
+Goa,1,5,Dr. Wilfred de Souza,18/5/93,2/4/94,319,0,no,no,0,8,0,1,,INC,,,,
+Goa,1,6,Shri Ravi S. Naik,2/4/94,8/4/94,6,0,no,no,0,22,0,2,,,,,,
+Goa,1,7,Dr. Wilfred de Souza,8/4/94,16/12/94,252,0,no,no,0,8,0,1,,INC,,,,
+Goa,2,1,Shri Pratapsingh R. Rane,16/12/94,29/7/98,1321,0,no,no,0,18,0,1,,INC,,,,
+Goa,2,2,Dr. Wilfred de Souza,29/7/98,23/11/98,117,0,no,no,0,8,0,1,,INC,,,,
+Goa,2,3,Shri Luizinho Faleiro,26/11/98,8/2/99,74,3,no,no,0,32,0,1,,INC,,,,
+Goa,2,4,Presidents Rule,10/2/99,9/6/99,119,2,yes,no,0,,,,,,,,,
+Goa,3,1,Shri Luizinho Faleiro,9/6/99,24/11/99,168,0,no,no,0,32,0,1,,INC,,,,
+Goa,3,2,Shri Francisco Sardinha,24/11/99,23/10/00,334,0,no,no,0,31,0,1,,INC,,,,
+Goa,3,3,Shri Manohar Parrikar,24/10/00,31/5/02,584,1,no,no,0,10,0,1,,BJP,,,,
+Goa,4,1,Shri Manohar Parrikar,1/6/02,2/2/05,977,1,no,no,0,10,0,1,,BJP,,,,
+Goa,4,2,Shri Pratapsingh R. Rane,3/2/05,4/3/05,29,1,no,no,0,18,0,1,,INC,,,,
+Goa,NA,2,Presidents Rule,4/3/05,6/6/05,94,0,yes,no,0,,,,,,,,,
+Goa,4,3,Shri Pratapsingh R. Rane,7/6/05,7/6/07,730,1,no,no,0,18,0,1,,INC,,,,
+Goa,5,1,Shri Digambar Kamat,8/6/07,8/3/12,1735,1,no,no,0,30,0,1,,INC,,,,
+Goa,6,1,Shri Manohar Parrikar,9/3/12,8/11/14,974,1,no,no,0,11,0,1,,BJP,,,,
+Goa,6,2,Shri Laxmikant Parsekar,8/11/14,11/3/17,854,0,no,no,0,1,0,1,,BJP,,,,
+Goa,7,1,Shri Manohar Parrikar,14/3/17,17/9/19,917,3,no,no,0,,,,,,,,,
+Gujarat,1,1,Dr. Jivraj Narayan Mehta,3/3/62,19/9/63,565,,no,no,0,37,0,1,AEGJ122,INC,1,FALSE,FALSE,FALSE
+Gujarat,1,2,Shri Balwantray Mehta,19/9/63,19/9/65,731,0,no,no,0,,,,,,,,,
+Gujarat,1,3,Shri Hitendra K. Desai,19/9/65,28/2/67,527,0,no,no,0,141,0,1,AEGJ1092,INC,1,FALSE,FALSE,FALSE
+Gujarat,2,1,Shri Hitendra K. Desai,1/3/67,13/5/71,1534,1,no,no,0,155,0,1,AEGJ1092,INC,2,FALSE,TRUE,TRUE
+Gujarat,NA,1,President's Rule,13/5/71,17/3/72,309,0,yes,,0,,,,,,,,,
+Gujarat,3,1,Shri Ghanshyambhai C. Oza,17/3/72,17/7/73,487,0,no,no,0,113,0,1,AEGJ1698,INC,1,FALSE,FALSE,FALSE
+Gujarat,3,2,Shri Chimanbhai J. Patel,17/7/73,9/2/74,207,0,no,no,0,131,0,1,AEGJ2948,INC,1,FALSE,FALSE,FALSE
+Gujarat,NA,2,President's Rule,9/2/74,18/6/75,494,0,,,0,,,,,,,,,
+Gujarat,4,1,Shri Babubhai J. Patel,18/6/75,12/3/76,268,0,no,no,0,67,0,1,AEGJ962,NCO,2,FALSE,FALSE,TRUE
+Gujarat,NA,3,President's Rule,12/3/76,24/12/76,287,0,yes,,0,,,,,,,,,
+Gujarat,4,2,Shri Madhavsinh F. Solanki,24/12/76,11/4/77,108,0,no,no,0,139,0,1,AEGJ974,INC,4,FALSE,TRUE,TRUE
+Gujarat,4,3,Shri Babubhai J. Patel,11/4/77,17/2/80,1042,0,,,0,67,0,1,AEGJ962,NCO,2,FALSE,FALSE,TRUE
+Gujarat,NA,4,President's Rule,17/2/80,6/6/80,110,0,,,0,,,,,,,,,
+Gujarat,5,1,Shri Madhavsinh F. Solanki,7/6/80,8/3/85,1735,1,,,0,139,0,1,AEGJ974,INC(I),5,TRUE,TRUE,TRUE
+Gujarat,6,1,Shri Madhavsinh F. Solanki,9/3/85,6/7/85,119,1,,,0,139,0,1,AEGJ974,INC,6,TRUE,TRUE,TRUE
+Gujarat,6,2,Shri Amarsinh Chaudhary,6/7/85,9/12/89,1617,0,no,no,0,164,0,1,AEGJ8397,INC,4,TRUE,TRUE,TRUE
+Gujarat,6,3,Shri Madhavsinh F. Solanki,10/12/89,3/3/90,83,1,,,0,139,0,1,AEGJ974,INC,6,TRUE,TRUE,TRUE
+Gujarat,7,1,Shri Chimanbhai Patel,3/3/90,17/2/94,1447,0,,,0,88,0,1,AEGJ2948,JD,4,TRUE,TRUE,TRUE
+Gujarat,7,2,Shri Chhabildas Mehta,17/2/94,13/3/95,389,0,no,no,0,54,0,1,AEGJ696,JD,4,TRUE,FALSE,TRUE
+Gujarat,8,1,Shri Keshubhai Savdasbhai Patel,14/3/95,20/10/95,220,1,no,no,0,40,0,1,AEGJ2902,BJP,4,FALSE,TRUE,TRUE
+Gujarat,8,2,Shri Sureshchandra Rupshanker Mehta,21/10/95,19/9/96,334,1,no,no,0,2,0,1,AEGJ1144,BJP,4,FALSE,TRUE,TRUE
+Gujarat,NA,5,President's Rule,19/9/96,23/10/96,34,0,,,0,,,,,,,,,
+Gujarat,8,3,Shri Shankersinhji Laxmansinhji Vaghela,23/10/96,27/10/97,369,0,no,no,0,94,1,1,,RJP(G),7,FALSE,FALSE,TRUE
+Gujarat,8,4,Shri Dilipbhai Ramanbhai Parikh,28/10/97,4/3/98,127,1,no,no,0,59,0,1,AEGJ5575,BJP,2,FALSE,TRUE,TRUE
+Gujarat,9,1,Shri Keshubhai Savdasbhai Patel,4/3/98,6/10/01,1312,0,no,,0,40,0,1,AEGJ2902,BJP,5,FALSE,TRUE,TRUE
+Gujarat,9,2,Shri Narendra Modi,7/10/01,26/12/02,445,1,no,no,0,18,1,1,,,,,,
+Gujarat,10,1,Shri Narendra Modi,27/12/02,17/1/08,1847,1,no,no,0,77,0,1,AEGJ10969,BJP,1,FALSE,FALSE,FALSE
+Gujarat,11,1,Shri Narendra Modi,18/1/08,22/1/13,1831,1,no,no,0,77,0,1,AEGJ10969,BJP,2,FALSE,TRUE,TRUE
+Gujarat,12,1,Shri Narendra Modi,23/1/13,22/5/14,484,1,no,no,0,53,0,1,AEGJ10969,BJP,3,FALSE,TRUE,TRUE
+Gujarat,12,2,Smt. Anandiben Patel,22/5/14,7/8/16,808,0,no,no,0,41,0,1,AEGJ11043,BJP,4,FALSE,TRUE,TRUE
+Gujarat,12,3,Shri Vijaybhai R. Rupani,7/8/16,,,0,no,no,0,69,1,1,,BJP,11,FALSE,FALSE,TRUE
+Haryana,0,1,Shri Bhagwat Dayal Sharma,1/11/66,10/3/67,129,,no,no,0,,,,,,,,,
+Haryana,1,1,Shri Bhagwat Dayal Sharma,11/3/67,23/3/67,12,1,no,no,0,,,,,,,,,
+Haryana,1,2,Rao Birender Singh,24/3/67,20/11/67,241,1,no,no,0,55,0,1,AEHR307,INC,1,FALSE,FALSE,FALSE
+Haryana,NA,1,President's Rule,21/11/67,22/5/68,183,1,yes,no,0,,,,,,,,,
+Haryana,2,1,SHRI BANSI LAL,21/5/68,14/3/72,1393,-1,no,no,0,66,0,1,AEHR792,INC,1,FALSE,FALSE,FALSE
+Haryana,3,1,SHRI BANSI LAL,14/3/72,30/11/75,1356,0,no,no,0,66,0,1,AEHR792,INC,2,FALSE,TRUE,TRUE
+Haryana,3,2,Shri Banarsi Das Gupta,1/12/75,30/4/77,516,1,no,no,0,67,0,1,AEHR799,INC,2,FALSE,TRUE,TRUE
+Haryana,NA,2,President's Rule,30/4/77,21/6/77,52,0,yes,no,0,,,,,,,,,
+Haryana,4,1,Chaudhary Devi Lal,21/6/77,28/6/79,737,0,no,no,0,73,0,1,AEHR1791,JNP,1,FALSE,FALSE,FALSE
+Haryana,4,2,Shri Bhajan Lal,28/6/79,23/5/82,1060,0,no,no,0,79,0,1,AEHR828,JNP,3,TRUE,TRUE,TRUE
+Haryana,5,1,Shri Bhajan Lal,23/5/82,4/6/86,1473,0,no,no,0,79,0,1,AEHR828,INC,4,TRUE,TRUE,TRUE
+Haryana,5,2,SHRI BANSI LAL,5/6/86,20/6/87,380,1,no,no,0,67,1,1,AEHR100316,INC,1,FALSE,FALSE,FALSE
+Haryana,6,1,Chaudhary Devi Lal,20/6/87,2/12/89,896,0,no,no,0,31,0,1,AEHR2267,LKD,2,FALSE,FALSE,TRUE
+Haryana,6,2,Shri Om Parkash Chautala,2/12/89,22/5/90,171,0,no,no,0,,,,,,,,,
+Haryana,6,3,Shri Banarsi Das Gupta,23/5/90,12/7/90,50,1,no,no,0,66,0,1,AEHR3969,LKD,1,FALSE,FALSE,FALSE
+Haryana,6,4,Shri Om Parkash Chautala,12/7/90,17/7/90,5,0,no,no,0,,,,,,,,,
+Haryana,6,5,Shri Hukam Singh,17/7/90,22/3/91,248,0,no,no,0,64,0,1,AEHR353,LKD,3,FALSE,TRUE,TRUE
+Haryana,6,6,Shri Om Parkash Chautala,22/3/91,5/4/91,14,0,no,no,0,33,0,1,AEHR6928,LKD,1,TRUE,FALSE,FALSE
+Haryana,NA,3,President's Rule,6/4/91,23/6/91,78,1,yes,no,0,,,,,,,,,
+Haryana,7,1,Shri Bhajan Lal,23/6/91,10/5/96,1783,0,no,no,0,79,0,1,AEHR5955,INC,1,FALSE,FALSE,FALSE
+Haryana,8,1,SHRI BANSI LAL,11/5/96,21/7/99,1166,1,no,no,0,67,0,1,AEHR792,HVP,4,FALSE,TRUE,TRUE
+Haryana,8,2,Shri Om Parkash Chautala,24/7/99,2/3/00,222,3,no,no,0,,,,,,,,,
+Haryana,9,1,Shri Om Parkash Chautala,2/3/00,5/3/05,1829,0,no,no,0,45,0,1,AEHR2416,INLD,3,TRUE,TRUE,TRUE
+Haryana,10,1,Shri Bhupinder Singh Hooda,5/3/05,25/10/09,1695,0,no,no,0,29,1,1,AEHR2236,INC,2,FALSE,FALSE,TRUE
+Haryana,11,1,Shri Bhupinder Singh Hooda,25/10/09,25/10/14,1826,0,no,no,0,61,0,1,AEHR2236,INC,3,FALSE,TRUE,TRUE
+Jammu_&_Kashmir,1,1,Bakshi Ghulam Mohammad,20/2/62,12/10/63,599,,no,no,0,,,,,,,,,
+Jammu_&_Kashmir,1,2,Khwaja Shamsuddin,12/10/63,29/2/64,140,,no,no,0,,,,,,,,,
+Jammu_&_Kashmir,1,3,Ghulam Mohammed Sadiq,29/2/64,30/3/65,395,0,no,no,0,,,,,,,,,
+Jammu_&_Kashmir,1,4,Shri Ghulam Mohammed Sadiq,30/3/65,22/2/67,694,0,no,no,0,,,,,,,,,
+Jammu_&_Kashmir,2,1,Shri Ghulam Mohammed Sadiq,23/2/67,12/12/71,1753,1,no,no,0,,,,,,,,,
+Jammu_&_Kashmir,2,2,Syed Mir Qasim,12/12/71,25/2/75,1171,0,no,no,0,41,0,1,,INC,,,,
+Jammu_&_Kashmir,3,1,Sheikh Mohammad Abdullah,25/2/75,26/3/77,760,0,no,yes,0,,,,,,,,,
+Jammu_&_Kashmir,NA,1,Governor's Rule (Lakshmi Kanth Jha),26/3/77,9/7/77,105,0,yes,no,0,,,,,,,,,
+Jammu_&_Kashmir,4,1,Sheikh Mohammad Abdullah,9/7/77,8/9/82,1887,0,no,no,0,15,0,1,,JKN,,,,
+Jammu_&_Kashmir,4,2,Dr Farooq Abdullah,8/9/82,4/5/83,238,0,no,no,0,,,,,,,,,
+Jammu_&_Kashmir,5,1,Dr Farooq Abdullah,5/5/83,2/7/84,424,1,no,no,0,,,,,,,,,
+Jammu_&_Kashmir,5,2,Shri Ghulam Mohammad Shah,2/7/84,6/3/86,612,0,no,yes,0,,,,,,,,,
+Jammu_&_Kashmir,NA,2,Governor's Rule (Shri Jagmohan),6/3/86,7/11/86,246,0,yes,no,0,,,,,,,,,
+Jammu_&_Kashmir,5,3,Dr Farooq Abdullah,7/11/86,24/3/87,137,0,no,no,0,15,0,1,,JKN,,,,
+Jammu_&_Kashmir,6,1,Dr Farooq Abdullah,25/3/87,19/1/90,1031,1,no,no,0,15,0,1,,JKN,,,,
+Jammu_&_Kashmir,NA,3,Governor's Rule (Shri Jagmohan),19/1/90,9/10/96,2455,0,yes,no,0,,,,,,,,,
+Jammu_&_Kashmir,7,1,Dr Farooq Abdullah,9/10/96,18/10/02,2200,0,no,no,0,17,0,1,,JKN,,,,
+Jammu_&_Kashmir,8,1,Mufti Mohammad Sayeed,2/11/02,2/11/05,1096,15,no,no,0,46,1,1,,JKPDP,,,,
+Jammu_&_Kashmir,8,2,Shri Ghulam Nabi Azad,2/11/05,11/7/08,982,0,no,no,0,54,1,1,,,,,,
+Jammu_&_Kashmir,NA,4,Governor's Rule (Shri N N Vora),11/7/08,5/1/09,178,0,yes,no,0,,,,,,,,,
+Jammu_&_Kashmir,9,1,Shri Omar Abdullah,5/1/09,8/1/15,2194,0,no,no,0,17,0,1,,JKN,,,,
+Jammu_&_Kashmir,10,1,Mufti Mohammad Sayeed 0,3/3/15,7/1/16,310,54,no,no,0,40,0,1,,JKPDP,,,,
+Jammu_&_Kashmir,NA,5,Governor's Rule (Shri N N Vora),8/1/16,3/4/16,86,1,yes,no,0,,,,,,,,,
+Jammu_&_Kashmir,10,2,Ms Mehbooba Mufti,4/4/16,19/6/18,806,1,no,no,0,40,1,1,,JPDP,,,,
+Jammu_&_Kashmir,NA,6,Governor's Rule (Shri Satya Pal Malik),23/8/18,31/10/19,434,65,yes,no,0,,,,,,,,,
+Jammu_&_Kashmir,NA,7,Lt. Governor's Rule (Shri Girish Chandra Murmu),31/10/19,5/8/20,279,0,yes,no,0,,,,,,,,,
+Karnataka,0,1,Sri B.D.JATTI,16/5/58,9/3/62,1393,,no,no,0,,,,,,,,,
+Karnataka,0,1,Sri S.R.KANTHI,14/3/62,20/6/62,98,5,no,no,0,,,,,,,,,
+Karnataka,0,2,Sri S.NIJALINGAPPA,21/6/62,14/3/67,1727,1,no,no,0,,,,,,,,,
+Karnataka,0,1,Sri S.NIJALINGAPPA,15/3/67,28/5/68,440,1,no,no,0,,,,,,,,,
+Karnataka,0,2,Sri VEERENDRA PATIL,29/5/68,18/3/71,1023,1,no,no,0,,,,,,,,,
+Karnataka,NA,1,PRESIDENT`S RULE,19/3/71,20/3/72,367,1,yes,no,0,,,,,,,,,
+Karnataka,0,1,Sri D.DEVRAJ URS,20/3/72,31/12/77,2112,0,no,no,0,,,,,,,,,
+Karnataka,NA,2,PRESIDENTS RULE,31/12/77,28/2/78,59,0,yes,no,0,,,,,,,,,
+Karnataka,1,1,Sri D.DEVARAJ URS,28/2/78,7/1/80,678,0,no,no,0,123,0,1,AEKA107930,INC(I),1,FALSE,FALSE,FALSE
+Karnataka,1,2,Sri R.GUNDU RAO,12/1/80,6/1/83,1090,5,no,no,0,128,0,1,AEKA106140,INC(I),1,FALSE,FALSE,FALSE
+Karnataka,1,3,Sri RAMAKRISHNA HEGDE,10/1/83,23/7/83,194,4,no,no,0,171,0,1,AEKA13380,JNP,1,FALSE,FALSE,FALSE
+Karnataka,2,1,Sri RAMAKRISHNA HEGDE,24/7/83,29/12/84,524,1,no,no,0,171,0,1,AEKA13379,INC,1,FALSE,FALSE,FALSE
+Karnataka,3,1,Sri RAMAKRISHNA HEGDE,8/3/85,13/2/86,342,69,no,no,0,82,0,1,AEKA10205,JNP,1,FALSE,FALSE,FALSE
+Karnataka,3,2,Sri RAMAKRISHNA HEGDE,16/2/86,10/8/88,906,3,no,no,0,82,0,1,AEKA10205,JNP,1,FALSE,FALSE,FALSE
+Karnataka,3,3,Sri S.R.BOMMAI,13/8/88,21/4/89,251,3,no,no,0,177,0,1,AEKA10869,JNP,1,FALSE,FALSE,FALSE
+Karnataka,NA,3,PRESIDENT`S RULE,21/4/89,30/11/89,223,0,yes,no,0,,,,,,,,,
+Karnataka,4,1,Sri VEERENDRA PATIL,30/11/89,10/10/90,314,0,no,no,0,7,0,1,AEKA107272,INC,1,FALSE,FALSE,FALSE
+Karnataka,NA,4,PRESIDENT`S RULE,10/10/90,17/10/90,7,0,yes,no,0,,,,,,,,,
+Karnataka,4,2,Sri S.BANGARAPPA,17/10/90,19/11/92,764,0,no,no,0,166,0,1,AEKA107071,INC,4,FALSE,TRUE,TRUE
+Karnataka,4,3,Sri VEERAPPA MOILY,19/11/92,11/12/94,752,0,no,no,0,150,0,1,AEKA106234,INC,4,FALSE,TRUE,TRUE
+Karnataka,5,1,Sri H.D.DEVEGOWDA,11/12/94,31/5/96,537,0,no,no,0,94,0,1,AEKA106161,JD,4,TRUE,FALSE,TRUE
+Karnataka,5,2,Sri J.H.PATEL,31/5/96,7/10/99,1224,0,no,no,0,158,0,1,GENA18881,JD,4,FALSE,FALSE,TRUE
+Karnataka,6,1,Sri S.M.KRISHNA,11/10/99,28/5/04,1691,4,no,no,0,102,0,1,AEKA107872,INC,2,FALSE,FALSE,TRUE
+Karnataka,7,1,Sri DHARAM SINGH,28/5/04,2/2/06,615,0,no,no,0,15,0,1,AEKA108,INC,7,FALSE,TRUE,TRUE
+Karnataka,7,2,Sri H.D.KUMARA SWAMY,3/2/06,8/10/07,612,1,no,no,0,94,0,1,GEKA3026,JD(S),1,FALSE,FALSE,TRUE
+Karnataka,NA,5,PRESIDENT`S RULE,8/10/07,12/11/07,35,0,yes,no,0,,,,,,,,,
+Karnataka,7,3,Sri B.S.YEDDYURAPPA,12/11/07,19/11/07,7,0,no,no,0,167,0,1,AEKA2060,BJP,5,FALSE,FALSE,TRUE
+Karnataka,NA,6,PRESIDENT`S RULE,20/11/07,29/5/08,191,1,yes,no,0,,,,,,,,,
+Karnataka,8,1,Dr B.S.YEDDYURAPPA,30/5/08,4/8/11,1161,1,no,no,0,115,0,1,AEKA2060,BJP,6,FALSE,TRUE,TRUE
+Karnataka,8,2,Sri D.V.SADANANDA GOWDA,5/8/11,11/7/12,341,1,no,yes,0,,,,,,,,,
+Karnataka,8,3,Sri JAGADISH SHETTAR,12/7/12,,,1,no,no,0,73,0,1,AEKA1493,BJP,4,FALSE,TRUE,TRUE
+Kerela,NA,1,President's Rule,10/9/64,6/3/67,907,,yes,no,0,,,,,,,,,
+Kerela,4,1,Shri. E. M. S. Namboodiripad,6/3/67,1/11/69,971,0,no,no,0,37,0,1,,,,,,
+Kerela,4,2,Shri. C. Achutha Menon,1/11/69,1/8/70,273,0,no,no,0,111,1,1,,,,,,
+Kerela,NA,2,President's Rule,1/8/70,4/10/70,64,0,,,0,,,,,,,,,
+Kerela,5,1,Shri. C. Achutha Menon,4/10/70,25/3/77,2364,0,no,no,0,56,0,1,,,,,,
+Kerela,6,1,Shri. K. Karunakaran,25/3/77,25/4/77,31,0,no,no,0,62,0,1,,,,,,
+Kerela,6,2,Shri. A. K. Antony,27/4/77,27/10/78,548,2,no,no,0,,,,,,,,,
+Kerela,6,3,Shri. P. K. Vasudevan Nair,29/10/78,7/10/79,343,2,no,no,0,100,0,1,,,,,,
+Kerela,6,4,Shri. C. H. Mohammed Koya,12/10/79,1/12/79,50,5,no,no,0,34,0,1,,,,,,
+Kerela,NA,3,President's Rule,1/12/79,25/1/80,55,0,yes,no,0,,,,,,,,,
+Kerela,7,1,Shri. E. K. Nayanar,25/1/80,20/10/81,634,0,no,no,0,48,0,1,,,,,,
+Kerela,7,2,Shri. K. Karunakaran,28/12/81,17/3/82,79,69,no,no,0,62,0,1,,,,,,
+Kerela,8,1,Shri. K. Karunakaran,24/5/82,25/3/87,1766,68,no,no,0,62,0,1,,,,,,
+Kerela,9,1,Shri. E. K. Nayanar,26/3/87,17/6/91,1544,1,no,no,0,5,0,1,,,,,,
+Kerela,10,1,Shri. K. Karunakaran,24/6/91,16/3/95,1361,7,no,no,0,62,0,1,,,,,,
+Kerela,10,2,Shri. A. K. Antony,22/3/95,9/5/96,414,6,no,no,0,36,1,1,,,,,,
+Kerela,11,1,Shri. E. K. Nayanar,20/5/96,13/5/01,1819,11,no,no,0,12,1,1,,,,,,
+Kerela,12,1,Shri. A. K. Antony,17/5/01,29/8/04,1200,4,no,no,0,98,0,1,,,,,,
+Kerela,12,2,Shri. Oommen Chandy,31/8/04,12/5/06,619,2,no,no,0,92,0,1,,,,,,
+Kerela,13,1,Shri. V. S. Achuthanandan,18/5/06,14/5/11,1822,6,no,no,0,48,0,1,,,,,,
+Kerela,14,1,Shri. Oommen Chandy,18/5/11,20/5/16,1829,4,no,no,0,98,0,1,,,,,,
+Kerela,15,1,Shri. Pinarayi Vijayan,25/5/16,,,5,no,no,0,12,0,1,,,,,,
+Madhya_Pradesh,3,1,Shri Bhagwantrao Mandloi,12/3/62,29/9/63,566,,no,no,0,258,0,1,AEMP1231,INC,1,FALSE,FALSE,FALSE
+Madhya_Pradesh,3,2,Shri Dwarka Prasad Mishra,30/9/63,8/3/67,1255,1,no,no,0,,,,,,,,,
+Madhya_Pradesh,4,1,Shri Dwarka Prasad Mishra,9/3/67,29/7/67,142,1,no,no,0,174,0,1,AEMP2313,INC,1,FALSE,FALSE,FALSE
+Madhya_Pradesh,4,2,Shri Govindnarayan Singh,30/7/67,12/3/69,591,1,no,no,0,48,0,1,AEMP1664,INC,1,FALSE,FALSE,FALSE
+Madhya_Pradesh,4,3,Shri Raja Nareshchandra Singh,13/3/69,25/3/69,12,1,no,no,0,87,0,1,AEMP1877,INC,1,FALSE,FALSE,FALSE
+Madhya_Pradesh,4,4,Shri Shyamacharan Shukla,26/3/69,28/1/72,1038,1,no,no,0,121,0,1,AEMP2052,INC,1,FALSE,FALSE,FALSE
+Madhya_Pradesh,4,5,Shri Prakash Chandra Sethi,29/1/72,22/3/72,53,1,no,no,0,245,0,1,AEMP2704,BJS,1,FALSE,FALSE,FALSE
+Madhya_Pradesh,5,1,Shri Prakash Chandra Sethi,23/3/72,22/12/75,1369,1,no,no,0,245,0,1,GEMP19195,INC,1,FALSE,FALSE,FALSE
+Madhya_Pradesh,5,2,Shri Shyamacharan Shukla,23/12/75,29/4/77,493,1,no,no,0,121,0,1,AEMP631,INC,2,FALSE,FALSE,FALSE
+Madhya_Pradesh,NA,1,Presidents Rule,30/4/77,25/6/77,56,1,yes,no,0,,,,,,,,,
+Madhya_Pradesh,6,1,Shri Kailsh Chandra Joshi,26/6/77,17/1/78,205,1,no,no,0,279,0,1,AEMP6173,JNP,1,FALSE,FALSE,FALSE
+Madhya_Pradesh,6,2,Shri Virendra Kumar Sakhlecha,18/1/78,19/1/80,731,1,no,no,0,320,0,1,AEMP4304,JNP,1,TRUE,FALSE,TRUE
+Madhya_Pradesh,6,3,Shri Sunderlal Patwa,20/1/80,17/2/80,28,1,no,no,0,237,0,1,AEMP14084,JNP,1,FALSE,FALSE,FALSE
+Madhya_Pradesh,NA,2,Presidents Rule,18/2/80,8/6/80,111,1,yes,no,0,,,,,,,,,
+Madhya_Pradesh,7,1,Shri Arjun Singh,9/6/80,10/3/85,1735,1,no,no,0,73,0,1,AEMP4869,INC(I),2,TRUE,TRUE,TRUE
+Madhya_Pradesh,8,1,Shri Arjun Singh,11/3/85,12/3/85,1,1,no,no,0,73,0,1,AEMP4869,INC,3,TRUE,TRUE,TRUE
+Madhya_Pradesh,8,2,Shri Motilal Vora,13/3/85,13/2/88,1067,1,no,no,0,162,0,1,AEMP3657,INC,4,TRUE,TRUE,TRUE
+Madhya_Pradesh,8,3,Shri Arjun Singh,14/2/88,24/1/89,345,1,no,no,0,73,0,1,AEMP4869,INC,3,TRUE,TRUE,TRUE
+Madhya_Pradesh,8,4,Shri Motilal Vora,25/1/89,8/12/89,317,1,no,no,0,162,0,1,AEMP3657,INC,4,TRUE,TRUE,TRUE
+Madhya_Pradesh,8,5,Shri Shyamacharan Shukla,9/12/89,4/3/90,85,1,no,no,1,,,,,,,,,
+Madhya_Pradesh,9,1,Shri Sunderlal Patwa,5/3/90,15/12/92,1016,1,no,no,0,145,0,1,AEMP17107,BJP,1,FALSE,FALSE,FALSE
+Madhya_Pradesh,NA,3,Presidents Rule,16/12/92,6/12/93,355,1,yes,no,0,,,,,,,,,
+Madhya_Pradesh,10,1,Shri Digvijay Singh,7/12/93,1/12/98,1820,1,no,no,0,30,1,1,AEMP100526,INC,1,FALSE,FALSE,FALSE
+Madhya_Pradesh,11,1,Shri Digvijay Singh,1/12/98,8/12/03,1833,0,no,no,0,31,0,1,AEMP84686,INC,3,TRUE,FALSE,FALSE
+Madhya_Pradesh,12,1,Sushri Uma Bharti,8/12/03,23/8/04,259,0,no,no,0,47,0,1,AEMP21726,BJP,1,FALSE,FALSE,FALSE
+Madhya_Pradesh,12,2,Shri Babulal Gaur,23/8/04,29/11/05,463,0,no,no,0,148,0,1,AEMP7817,BJP,5,FALSE,TRUE,TRUE
+Madhya_Pradesh,12,3,Shri Shivraj Singh Chouhan,29/11/05,12/12/08,1109,0,no,no,0,144,1,1,AEMP100740,BJP,1,FALSE,FALSE,FALSE
+Madhya_Pradesh,13,1,Shri Shivraj Singh Chouhan,12/12/08,13/12/13,1827,0,no,no,0,156,0,1,AEMP13961,BJP,2,FALSE,FALSE,FALSE
+Madhya_Pradesh,14,1,Shri Shivraj Singh Chouhan,14/12/13,16/12/18,1828,1,no,no,0,156,0,1,AEMP28651,BJP,1,FALSE,FALSE,FALSE
+Madhya_Pradesh,15,1,Shri Kamal Nath,17/12/18,22/3/20,461,1,no,no,0,,,,,,,,,
+Madhya_Pradesh,15,2,Shri Shivraj Singh Chouhan,23/3/20,,,1,no,no,0,156,0,1,AEMP28651,BJP,2,FALSE,TRUE,TRUE
+Meghalaya,0,1,Capt. W.A. Sangma,2/4/70,18/3/72,716,,no,no,1,,,,,,,,,
+Meghalaya,1,1,Capt. W.A. Sangma,18/3/72,3/3/78,2176,0,no,no,0,,,,,,,,,
+Meghalaya,2,1,Shri D.D. Pugh,10/3/78,6/5/79,422,7,no,no,0,20,0,1,AEML5196209,AHL,1,FALSE,FALSE,FALSE
+Meghalaya,2,2,Shri B.B. Lyngdoh,7/5/79,7/5/81,731,1,no,no,0,27,0,1,AEML333,AHL,2,FALSE,TRUE,TRUE
+Meghalaya,2,3,Capt. W.A. Sangma,7/5/81,24/2/83,658,0,no,no,0,37,0,1,AEAS197408,INC,1,FALSE,FALSE,FALSE
+Meghalaya,3,1,Shri B.B. Lyngdoh,2/3/83,31/3/83,29,6,no,no,0,27,0,1,AEML333,AHL,3,FALSE,TRUE,TRUE
+Meghalaya,3,2,Shri W.A. Sangma,2/4/83,5/2/88,1770,2,no,no,0,37,0,1,AEAS197408,INC,2,FALSE,TRUE,TRUE
+Meghalaya,4,1,Shri Purno A. Sangma,6/2/88,25/3/90,778,1,no,no,0,52,0,1,AEML1013,INC,1,FALSE,FALSE,FALSE
+Meghalaya,4,2,Shri B.B. Lyngdoh,26/3/90,10/10/91,563,1,no,no,0,27,0,1,AEML333,HPU,4,TRUE,TRUE,TRUE
+Meghalaya,NA,1,President's Rule,11/10/91,5/2/92,117,1,yes,no,0,,,,,,,,,
+Meghalaya,4,3,Shri D.D. Lapang,5/2/92,19/2/93,380,0,no,no,0,10,0,1,AEML55,INC,4,FALSE,TRUE,TRUE
+Meghalaya,5,1,Shri S.C. Marak,19/2/93,10/3/98,1845,0,no,no,0,42,0,1,AEML642,INC,5,FALSE,TRUE,TRUE
+Meghalaya,6,1,Shri B.B. Lyngdoh,10/3/98,8/3/00,729,0,no,no,0,27,0,1,AEML333,UDP,6,TRUE,TRUE,TRUE
+Meghalaya,6,2,Shri E.K. Mawlong,8/3/00,8/12/01,640,0,no,no,0,9,0,1,AEML84,UDP,5,TRUE,TRUE,TRUE
+Meghalaya,6,3,Dr. F.A. Khonglam,8/12/01,4/3/03,451,0,no,no,0,29,0,1,AEML343,IND,3,FALSE,TRUE,TRUE
+Meghalaya,7,1,Shri D.D. Lapang,4/3/03,15/6/06,1199,0,no,no,0,10,0,1,AEML55,INC,6,FALSE,TRUE,TRUE
+Meghalaya,7,2,Shri J. D. Rymbai,15/6/06,10/3/07,268,0,no,no,0,11,0,1,AEML5195487,INC,4,FALSE,TRUE,TRUE
+Meghalaya,7,3,Shri D. D. Lapang,10/3/07,19/3/08,375,0,no,no,0,10,0,1,AEML55,INC,6,FALSE,TRUE,TRUE
+Meghalaya,8,1,Dr. Donkupar Roy,19/3/08,19/3/09,365,0,no,no,0,30,0,1,AEML472,UDP,5,FALSE,TRUE,TRUE
+Meghalaya,NA,2,PRESIDENT'S RULE,19/3/09,13/4/09,25,0,yes,no,0,,,,,,,,,
+Meghalaya,8,2,Shri D. D. Lapang,13/5/09,18/4/10,340,30,no,no,0,10,0,1,AEML55,INC,7,FALSE,TRUE,TRUE
+Meghalaya,8,3,Shri Mukul Sangma,20/4/10,,,2,no,no,0,58,0,1,GEML5195848,INC,4,FALSE,TRUE,TRUE
+Mizoram,1,1,Ch Chhunga,3/5/72,10/5/77,1833,,no,no,0,27,0,1,AEMZ1851,IND,1,FALSE,FALSE,FALSE
+Mizoram,1,2,President's Rule,11/5/77,1/6/78,386,1,yes,no,0,,,,,,,,,
+Mizoram,2,1,Brig T Sailo,2/6/78,10/11/78,161,1,no,no,0,27,0,1,AEMZ5195732,PPC,1,FALSE,FALSE,FALSE
+Mizoram,NA,1,President's Rule,11/11/78,7/5/79,177,1,yes,no,0,,,,,,,,,
+Mizoram,3,1,Brig T Sailo,8/5/79,4/5/84,1823,1,no,no,0,27,0,1,AEMZ5195732,PPC,2,FALSE,TRUE,TRUE
+Mizoram,4,1,Lal Thanhawla,5/5/84,20/8/86,837,1,no,no,0,24,0,1,AEMZ5196116,INC,2,TRUE,TRUE,TRUE
+Mizoram,4,2,Laldenga,21/8/86,19/2/87,182,1,no,no,1,,,,,,,,,
+Mizoram,5,1,Laldenga,20/2/87,7/10/88,595,1,no,no,0,34,0,1,AEMZ5196127,IND,1,FALSE,FALSE,FALSE
+Mizoram,NA,2,President's Rule,8/10/88,23/1/89,107,1,yes,no,0,,,,,,,,,
+Mizoram,6,1,Lal Thanhawla,24/1/89,7/12/93,1778,1,no,no,0,25,0,1,AEMZ5196115,INC,2,FALSE,FALSE,FALSE
+Mizoram,7,1,Lal Thanhawla,8/12/93,3/12/98,1821,1,no,no,0,30,0,1,AEMZ5196116,INC,5,FALSE,TRUE,TRUE
+Mizoram,8,1,Zoramthanga,4/12/98,1/12/03,1823,1,no,no,0,14,0,1,GEMZ5196270,MNF,4,FALSE,TRUE,TRUE
+Mizoram,9,1,Zoramthanga,2/12/03,9/12/08,1834,1,no,no,0,15,0,1,GEMZ5196270,MNF,5,FALSE,TRUE,TRUE
+Mizoram,10,1,Lal Thanhawla,10/12/08,11/12/13,1827,1,no,no,0,26,0,1,AEMZ5196116,INC,7,FALSE,TRUE,TRUE
+Mizoram,11,1,Lal Thanhawla,12/12/13,14/12/18,1828,1,no,no,0,26,0,1,AEMZ5196116,INC,8,FALSE,TRUE,TRUE
+Mizoram,12,1,Zoramthanga,15/12/18,,,1,no,no,0,13,0,1,GEMZ5196270,MNF,6,FALSE,FALSE,TRUE
+Nagaland,1,1,P.Shilu Ao,11/2/64,14/8/66,915,,no,no,1,,,,,,,,,
+Nagaland,1,2,T.N. Angami,14/8/66,22/2/69,923,0,no,no,0,6,0,1,AENL245,IND,1,FALSE,FALSE,FALSE
+Nagaland,2,1,Hokishe Sema,22/2/69,26/2/74,1830,0,no,no,0,30,0,1,AENL5196035,NNO,2,FALSE,TRUE,TRUE
+Nagaland,3,1,Vizol Angami,26/2/74,10/3/75,377,0,no,no,0,15,0,1,AENL1117,UDF,2,FALSE,FALSE,FALSE
+Nagaland,3,2,John Bosco Jasokie,10/3/75,20/3/75,10,0,no,no,0,9,0,1,AENL16,NNO,3,FALSE,TRUE,TRUE
+Nagaland,NA,1,President's rule,20/3/75,25/11/77,981,0,yes,no,0,,,,,,,,,
+Nagaland,4,1,Vizol Angami,25/11/77,18/4/80,875,0,no,no,0,15,0,1,AENL1117,UDF,3,FALSE,TRUE,TRUE
+Nagaland,4,2,S.C. Jamir,18/4/80,4/6/80,47,0,no,no,0,26,0,1,AENL526,UDF,1,FALSE,FALSE,FALSE
+Nagaland,4,3,John Bosco Jasokie,5/6/80,18/11/82,896,1,no,no,0,9,0,1,AENL16,INC,4,TRUE,TRUE,TRUE
+Nagaland,5,1,S.C. Jamir,18/11/82,28/10/86,1440,0,no,no,0,26,0,1,AENL526,INC,2,TRUE,TRUE,TRUE
+Nagaland,5,2,Hokishe Sema,29/10/86,21/11/87,388,1,no,no,0,4,0,1,AENL449,INC,2,FALSE,TRUE,TRUE
+Nagaland,6,1,Hokishe Sema,21/11/87,7/8/88,260,0,no,no,0,4,0,1,AENL449,INC,3,FALSE,TRUE,TRUE
+Nagaland,NA,2,President's rule,7/8/88,25/1/89,171,0,yes,no,0,,,,,,,,,
+Nagaland,7,1,S.C. Jamir,25/1/89,10/5/90,470,0,no,no,0,27,0,1,AENL526,INC,3,FALSE,FALSE,FALSE
+Nagaland,7,2,K.L. Chishi,16/5/90,19/6/90,34,6,no,no,0,32,0,1,AENL279,NPC,4,TRUE,TRUE,TRUE
+Nagaland,7,3,Vamuzo Phesao,19/6/90,2/4/92,653,0,no,no,0,,,,,,,,,
+Nagaland,7,4,President's rule,2/4/92,22/2/93,326,0,yes,no,0,,,,,,,,,
+Nagaland,8,1,S.C. Jamir,22/2/93,4/3/98,1836,0,no,no,0,27,0,1,AENL526,INC,4,FALSE,TRUE,TRUE
+Nagaland,9,1,S.C. Jamir,4/3/98,6/3/03,1828,0,no,no,0,26,0,1,AENL526,INC,5,FALSE,TRUE,TRUE
+Nagaland,10,1,Neiphiu Rio,6/3/03,3/1/08,1764,0,no,no,0,11,0,1,AENL104,NPF,4,TRUE,TRUE,TRUE
+Nagaland,NA,3,President's rule,3/1/08,12/3/08,69,0,yes,no,0,,,,,,,,,
+Nagaland,11,2,Neiphiu Rio,12/3/08,27/2/13,1813,0,no,no,0,11,0,1,AENL104,NPF,5,FALSE,TRUE,TRUE
+Nagaland,12,1,Neiphiu Rio,28/2/13,23/5/14,449,1,no,no,0,11,0,1,AENL104,NPF,6,FALSE,TRUE,TRUE
+Nagaland,12,2,T.R. Zeliang,24/5/14,19/2/17,1002,1,no,no,0,7,0,1,AENL71,NPF,2,FALSE,TRUE,TRUE
+Nagaland,12,3,Dr.Shurhozelie Liezietsu,22/2/17,18/7/17,146,3,no,no,0,,,,,,,,,
+Nagaland,12,4,T.R. Zeliang,19/7/17,7/3/18,231,1,no,no,0,7,0,1,AENL71,NPF,2,FALSE,TRUE,TRUE
+Nagaland,13,1,Neiphiu Rio,8/3/18,,,1,no,no,0,11,0,1,AENL104,NDPP,7,TRUE,FALSE,TRUE
+Odisha,4,1,Shri Rajendra Narayan Singh Deo,8/3/67,9/1/71,1403,,no,no,0,103,0,1,AEOD11198,SWA,1,FALSE,FALSE,FALSE
+Odisha,NA,1,President's rule,11/1/71,3/4/71,82,2,yes,no,0,,,,,,,,,
+Odisha,5,1,Shri Biswanath Das,3/4/71,14/6/72,438,0,no,no,0,125,1,1,AEOD10658,IND,1,FALSE,FALSE,FALSE
+Odisha,5,2,Smt. Nandini Satapathy,14/6/72,3/3/73,262,0,no,no,0,41,1,1,AEOD10177,INC,1,FALSE,FALSE,FALSE
+Odisha,NA,2,President's rule,3/3/73,6/3/74,368,0,,,0,,,,,,,,,
+Odisha,6,1,Smt. Nandini Satapathy,6/3/74,16/12/76,1016,0,no,no,0,41,1,1,,,,,,
+Odisha,NA,3,President's rule,16/12/76,29/12/76,13,0,yes,no,0,,,,,,,,,
+Odisha,6,2,Shri Binayak Acharya,29/12/76,30/4/77,122,0,no,no,0,75,0,1,AEOD10342,INC,2,FALSE,TRUE,TRUE
+Odisha,NA,4,President's rule,30/4/77,26/6/77,57,0,yes,no,0,,,,,,,,,
+Odisha,7,1,Shri Nilamani Routray,26/6/77,17/2/80,966,0,no,no,0,22,0,1,AEOD8671,JNP,1,FALSE,FALSE,FALSE
+Odisha,NA,5,President's rule,17/2/80,9/6/80,113,0,yes,no,0,,,,,,,,,
+Odisha,8,1,Shri Janaki Ballav Patnaik,9/6/80,9/3/85,1734,0,no,no,0,47,1,1,AEOD8061,INC(I),1,FALSE,FALSE,FALSE
+Odisha,9,1,Shri Janaki Ballav Patnaik,9/3/85,7/12/89,1734,0,no,no,0,47,0,1,GEOD00000163,INC,1,FALSE,FALSE,FALSE
+Odisha,9,2,Shri Hemananda Biswal,7/12/89,4/3/90,87,0,no,no,0,131,0,1,GEOD70941,INC,3,TRUE,TRUE,TRUE
+Odisha,10,1,Shri Biju Patnaik,5/3/90,15/3/95,1836,1,no,no,0,50,0,1,AEOD10214,JD,3,TRUE,TRUE,TRUE
+Odisha,11,1,Shri Janaki Ballav Patnaik,15/3/95,17/2/99,1435,0,no,no,0,6,1,1,AEOD8061,INC,2,TRUE,FALSE,FALSE
+Odisha,11,2,Dr. Giridhar Gamang,17/2/99,6/12/99,292,0,no,no,0,,,,,,,,,
+Odisha,11,3,Shri Hemananda Biswal,6/12/99,5/3/00,90,0,no,no,0,131,0,1,GEOD70941,INC,5,FALSE,TRUE,TRUE
+Rajasthan,3,1,Mohan Lal Sukhadia,12/3/62,13/3/67,1827,,no,no,0,108,0,1,AERJ568,INC,1,FALSE,FALSE,FALSE
+Rajasthan,NA,1,President's rule,13/3/67,26/4/67,44,0,yes,no,0,,,,,,,,,
+Rajasthan,4,1,Mohan Lal Sukhadia,26/4/67,9/7/71,1535,0,no,no,0,130,0,1,AERJ568,INC,2,FALSE,TRUE,TRUE
+Rajasthan,4,2,Barkatullah Khan,9/7/71,15/3/72,250,0,no,no,0,,,,,,,,,
+Rajasthan,5,1,Barkatullah Khan,15/3/72,11/10/73,575,0,no,no,0,147,0,1,AERJ2502,INC,1,FALSE,FALSE,FALSE
+Rajasthan,5,2,Hari Dev Joshi,11/10/73,29/4/77,1296,0,no,no,0,119,0,1,AERJ2389,INC,2,FALSE,FALSE,FALSE
+Rajasthan,NA,2,President's rule,29/4/77,22/6/77,54,0,yes,no,0,,,,,,,,,
+Rajasthan,6,1,Bhairon Singh Shekhawat,22/6/77,16/2/80,969,0,no,no,0,,,,,,,,,
+Rajasthan,NA,3,President's rule,16/2/80,6/6/80,111,0,yes,no,0,,,,,,,,,
+Rajasthan,7,1,Jagannath Pahadia,6/6/80,13/7/81,402,0,no,no,0,75,1,1,AERJ3391,INC(I),1,FALSE,FALSE,FALSE
+Rajasthan,7,2,Shiv Charan Mathur,14/7/81,23/2/85,1320,1,no,no,0,154,0,1,AERJ3580,INC(I),2,TRUE,FALSE,TRUE
+Rajasthan,7,3,Heera Lal Devpura,23/2/85,10/3/85,15,0,no,no,0,149,0,1,AERJ34,INC(I),3,TRUE,FALSE,FALSE
+Rajasthan,8,1,Hari Dev Joshi,10/3/85,20/1/88,1046,0,no,no,0,131,0,1,AERJ2389,INC,5,TRUE,TRUE,TRUE
+Rajasthan,8,2,Shiv Charan Mathur,20/1/88,4/12/89,684,0,no,no,0,154,0,1,AERJ3580,INC,3,TRUE,TRUE,TRUE
+Rajasthan,8,3,Hari Dev Joshi,4/12/89,4/3/90,90,0,no,no,0,131,0,1,AERJ2389,INC,5,TRUE,TRUE,TRUE
+Rajasthan,9,1,Bhairon Singh Shekhawat,4/3/90,15/12/92,1017,0,no,no,0,114,0,1,AERJ9885,BJP,3,FALSE,TRUE,TRUE
+Rajasthan,NA,4,President's rule,15/12/92,4/12/93,354,0,yes,no,0,,,,,,,,,
+Rajasthan,10,1,Bhairon Singh Shekhawat,4/12/93,1/12/98,1823,0,no,no,0,166,0,1,AERJ9885,BJP,4,FALSE,TRUE,TRUE
+Rajasthan,11,1,Ashok Gehlot,1/12/98,8/12/03,1833,0,no,no,0,82,0,1,AERJ12982,INC,1,FALSE,FALSE,FALSE
+Rajasthan,12,1,Smt. Vasundhara Raje,8/12/03,13/12/08,1832,0,no,no,0,118,0,1,AERJ5913,BJP,2,FALSE,FALSE,FALSE
+Rajasthan,13,1,Ashok Gehlot,13/12/08,13/12/13,1826,0,no,no,0,127,0,1,GERJ27768,INC,2,FALSE,TRUE,TRUE
+Rajasthan,14,1,Smt. Vasundhara Raje,13/12/13,17/12/18,1830,0,no,no,0,198,0,1,AERJ5913,BJP,4,FALSE,TRUE,TRUE
+Sikkim,0,1,Kazi Lhendup Dorjee,16/5/75,18/8/79,1555,,no,no,1,,,,,,,,,
+Sikkim,NA,1,President's rule,18/8/79,18/10/79,61,0,yes,no,0,,,,,,,,,
+Sikkim,1,1,Nar Bahadur Bhandari,18/10/79,11/5/84,1667,0,no,no,0,8,0,1,AESK83554,SJP,1,FALSE,FALSE,FALSE
+Sikkim,1,2,B. B. Gurung,11/5/84,25/5/84,14,0,no,no,0,7,0,1,AESK84064,SCR,1,FALSE,FALSE,FALSE
+Sikkim,NA,2,President's rule,25/5/84,8/3/85,287,0,yes,no,0,,,,,,,,,
+Sikkim,2,1,Nar Bahadur Bhandari,8/3/85,30/11/89,1728,0,no,no,0,8,0,1,AESK83554,SSP,2,TRUE,TRUE,TRUE
+Sikkim,3,1,Nar Bahadur Bhandari,30/11/89,17/6/94,1660,0,no,no,0,8,0,1,AESK83554,SSP,3,FALSE,TRUE,TRUE
+Sikkim,3,2,Sanchaman Limboo,17/6/94,12/12/94,178,0,no,no,1,,,,,,,,,
+Sikkim,4,1,Pawan Kumar Chamling,12/12/94,1/10/99,1754,0,no,no,0,13,0,1,AESK83199,SDF,3,TRUE,TRUE,TRUE
+Sikkim,5,1,Pawan Kumar Chamling,1/10/99,21/5/04,1694,0,no,no,0,13,0,1,AESK83199,SDF,4,FALSE,TRUE,TRUE
+Sikkim,6,1,Pawan Kumar Chamling,21/5/04,20/5/09,1825,0,no,no,0,,,,,,,,,
+Sikkim,7,1,Pawan Kumar Chamling,20/5/09,21/5/14,1827,0,no,no,0,10,0,1,AESK83199,SDF,5,FALSE,FALSE,FALSE
+Sikkim,8,1,Pawan Kumar Chamling,21/5/14,27/5/19,1832,0,no,no,0,11,0,1,AESK83199,SDF,6,FALSE,TRUE,TRUE
+Sikkim,10,1,Prem Singh Tamang,27/5/19,,,0,no,no,0,28,0,1,,,,,,
+Tamil_Nadu,0,2,Thiru K Kamaraj,3/3/62,2/10/63,578,,no,no,0,,,,,,,,,
+Tamil_Nadu,0,3,Thiru M Bakthavatsalam,2/10/63,6/3/67,1251,0,no,no,0,,,,,,,,,
+Tamil_Nadu,0,4,Dr. C.N. Annadurai,6/3/67,3/2/69,700,0,no,yes,0,,,,,,,,,
+Tamil_Nadu,0,5,Dr. Kalaignar M Karunanidhi,10/2/69,4/1/71,693,7,no,no,0,,,,,,,,,
+Tamil_Nadu,1,1,Dr. Kalaignar M Karunanidhi,15/3/71,31/1/76,1783,70,no,no,0,12,0,1,AETN189483,DMK,1,FALSE,FALSE,FALSE
+Tamil_Nadu,NA,1,President's Rule,31/1/76,29/6/77,515,0,yes,no,0,,,,,,,,,
+Tamil_Nadu,2,1,Dr. M G Ramachandran,30/6/77,17/2/80,962,1,no,no,0,204,0,1,AETN211897,ADK,2,TRUE,TRUE,TRUE
+Tamil_Nadu,NA,2,President's Rule,17/2/80,8/6/80,112,0,yes,no,0,,,,,,,,,
+Tamil_Nadu,3,1,Dr. M G Ramachandran,9/6/80,15/11/84,1620,1,no,no,0,142,0,1,AETN211897,ADK,3,FALSE,TRUE,TRUE
+Tamil_Nadu,4,1,Dr. M G Ramachandran,10/2/85,24/12/87,1047,87,no,no,0,135,0,1,AETN211897,ADK,4,FALSE,TRUE,TRUE
+Tamil_Nadu,4,2,Thirumathi Janaki Ramachandran,7/1/88,30/1/88,23,14,no,no,1,,,,,,,,,
+Tamil_Nadu,NA,3,President's Rule,30/1/88,26/1/89,362,0,yes,,0,,,,,,,,,
+Tamil_Nadu,5,1,Dr. Kalaignar M Karunanidhi,27/1/89,30/1/91,733,1,no,no,0,2,0,1,AETN189483,DMK,4,FALSE,FALSE,FALSE
+Tamil_Nadu,NA,4,President's Rule,30/1/91,23/6/91,144,0,yes,no,0,,,,,,,,,
+Tamil_Nadu,6,1,Dr. Selvi J Jayalalithaa,24/6/91,12/5/96,1784,1,no,no,0,78,0,1,AETN192262,ADK,2,TRUE,TRUE,TRUE
+Tamil_Nadu,7,1,Dr. Kalaignar M Karunanidhi,13/5/96,13/5/01,1826,1,no,no,0,11,0,1,AETN189483,DMK,6,FALSE,FALSE,TRUE
+Tamil_Nadu,8,1,Dr. Selvi J Jayalalithaa,14/5/01,21/9/01,130,1,no,no,0,135,1,1,AETN192262,ADMK,3,FALSE,FALSE,TRUE
+Tamil_Nadu,8,2,Thiru O. Panneerselvam,21/9/01,1/3/02,161,0,no,no,0,131,0,1,AETN189985,ADMK,1,FALSE,FALSE,FALSE
+Tamil_Nadu,8,3,Dr. Selvi J Jayalalithaa,2/3/02,12/5/06,1532,1,no,no,0,135,1,1,AETN192262,ADMK,3,FALSE,FALSE,TRUE
+Tamil_Nadu,9,1,Dr. Kalaignar M. Karunanidhi,13/5/06,15/5/11,1828,1,no,no,0,11,0,1,AETN189483,DMK,8,FALSE,TRUE,TRUE
+Tamil_Nadu,10,1,Dr. Selvi J Jayalalithaa,16/5/11,27/9/14,1230,1,no,no,0,139,0,1,AETN192262,ADMK,5,FALSE,TRUE,TRUE
+Tamil_Nadu,10,2,Thiru O. Panneerselvam,29/9/14,22/5/15,235,2,no,no,0,200,0,1,AETN189985,ADMK,3,FALSE,TRUE,TRUE
+Tamil_Nadu,10,3,Dr. Selvi J Jayalalithaa,23/5/15,19/5/16,362,1,no,no,0,11,1,1,AETN192262,ADMK,5,FALSE,TRUE,TRUE
+Tamil_Nadu,11,1,Dr. Selvi J Jayalalithaa,20/5/16,5/12/16,199,1,no,no,0,11,0,1,AETN192262,ADMK,6,FALSE,TRUE,TRUE
+Tamil_Nadu,11,2,Thiru O. Panneerselvam,6/12/16,15/2/17,71,1,no,no,0,200,0,1,AETN189985,ADMK,4,FALSE,TRUE,TRUE
+Tripura,1,1,Sachindra Lal Singh,1/7/63,28/2/67,1338,,no,no,0,,,,,,,,,
+Tripura,2,1,Sachindra Lal Singh,1/3/67,1/11/71,1706,1,no,no,0,3,0,1,AETR5195902,INC,1,FALSE,FALSE,FALSE
+Tripura,NA,1,President's Rule,1/11/71,20/3/72,140,0,yes,no,0,,,,,,,,,
+Tripura,3,1,Sukhamoy Sen Gupta,20/3/72,31/3/77,1837,0,no,no,0,7,0,1,AETR352,CPM,1,FALSE,FALSE,FALSE
+Tripura,3,2,Prafulla Kumar Das,1/4/77,25/7/77,115,1,no,no,0,3,0,2,,,,,,
+Tripura,3,3,Radhika Ranjan Gupta,26/7/77,4/11/77,101,1,no,no,0,51,0,3,,,,,,
+Tripura,NA,2,President's Rule,5/11/77,5/1/78,61,1,yes,no,0,,,,,,,,,
+Tripura,4,1,Nripen Chakraborty,5/1/78,9/1/83,1830,0,no,no,0,26,0,1,AETR5195500,CPM,3,FALSE,TRUE,TRUE
+Tripura,5,1,Nripen Chakraborty,10/1/83,5/2/88,1852,1,no,no,0,26,0,1,AETR5195500,CPM,4,FALSE,TRUE,TRUE
+Tripura,6,1,Sudhir Ranjan Majumdar,5/2/88,19/2/92,1475,0,no,no,0,8,0,1,AETR676,FBL,2,FALSE,FALSE,TRUE
+Tripura,6,2,Samir Ranjan Barman,19/2/92,10/3/93,385,0,no,no,0,16,0,1,AETR157,INC,3,FALSE,TRUE,TRUE
+Tripura,NA,3,President's Rule,11/3/93,10/4/93,30,1,no,no,0,,,,,,,,,
+Tripura,7,1,Dasarath Deb,10/4/93,11/3/98,1796,0,no,no,0,23,0,1,AETR5195326,CPM,1,FALSE,FALSE,FALSE
+Tripura,8,1,Manik Sarkar,11/3/98,3/3/03,1818,0,no,no,0,22,0,1,AETR1069,CPM,4,FALSE,TRUE,TRUE
+Tripura,9,1,Manik Sarkar,4/3/03,9/3/08,1832,1,no,no,0,22,0,1,AETR1069,CPM,5,FALSE,TRUE,TRUE
+Tripura,10,1,Manik Sarkar,10/3/08,1/3/13,1817,1,no,no,0,22,0,1,AETR444,CPM,1,FALSE,FALSE,FALSE
+Tripura,11,1,Manik Sarkar,2/3/13,9/3/18,1833,1,no,no,0,23,0,1,AETR39559,CPM,1,FALSE,FALSE,FALSE
+Tripura,12,1,Biplab Kumar Deb,9/3/18,,,0,no,no,0,9,0,1,,,,,,
+Uttar_Pradesh,2,1,Sri Chandrabhanu Gupta,7/12/60,14/3/62,462,,no,no,0,,,,,,,,,
+Uttar_Pradesh,3,1,Sri Chandrabhanu Gupta,14/3/62,1/10/63,566,0,no,no,0,14,0,1,AEUP170913,INC,1,FALSE,FALSE,FALSE
+Uttar_Pradesh,3,2,Ms Sucheta Kriplani,2/10/63,13/3/67,1258,1,no,no,0,185,0,1,AEUP1062,INC,1,FALSE,FALSE,FALSE
+Uttar_Pradesh,4,1,Sri Chandrabhanu Gupta,14/3/67,2/4/67,19,1,no,no,0,14,0,1,AEUP173843,INC,1,FALSE,FALSE,FALSE
+Uttar_Pradesh,4,2,Sri Charan Singh,3/4/67,25/2/68,328,1,no,no,0,405,0,1,AEUP176671,INC,1,FALSE,FALSE,FALSE
+Uttar_Pradesh,NA,1,President's Rule,25/2/68,26/2/69,367,0,yes,no,0,,,,,,,,,
+Uttar_Pradesh,5,1,Sri Chandrabhanu Gupta,26/2/69,17/2/70,356,0,no,no,0,14,0,1,AEUP5712,INC,1,FALSE,FALSE,FALSE
+Uttar_Pradesh,5,2,Sri Charan Singh,17/2/70,1/10/70,226,0,no,no,0,405,0,1,AEUP166820,BKD,2,TRUE,FALSE,FALSE
+Uttar_Pradesh,NA,2,President's Rule,1/10/70,18/10/70,17,0,yes,no,0,,,,,,,,,
+Uttar_Pradesh,5,4,Sri T N Singh,18/10/70,3/4/71,167,0,no,no,0,,,,,,,,,
+Uttar_Pradesh,5,5,Pt. KamlapatiTripathi,4/4/71,12/6/73,800,1,no,no,0,243,0,1,AEUP172395,INC,1,FALSE,FALSE,FALSE
+Uttar_Pradesh,NA,3,President's Rule,13/6/73,8/11/73,148,1,yes,no,0,,,,,,,,,
+Uttar_Pradesh,5,6,Sri Hemvati Nandan Bahuguna,8/11/73,4/3/74,116,0,no,no,0,,,,,,,,,
+Uttar_Pradesh,6,1,Sri Hemvati Nandan Bahuguna,15/3/74,29/11/75,624,11,no,no,0,269,0,1,AEUP169224,INC,3,FALSE,FALSE,TRUE
+Uttar_Pradesh,NA,4,President's Rule,30/11/75,21/1/76,52,1,yes,no,0,,,,,,,,,
+Uttar_Pradesh,6,2,Sri N.D. Tiwari,21/1/76,30/4/77,465,0,no,no,0,16,0,1,AEUP26324,INC,1,FALSE,FALSE,FALSE
+Uttar_Pradesh,NA,5,President's Rule,30/4/77,23/6/77,54,0,yes,no,0,,,,,,,,,
+Uttar_Pradesh,7,1,Sri Ram Naresh yadav,23/6/77,27/2/79,614,0,no,no,0,,,,,,,,,
+Uttar_Pradesh,7,2,Sri Banarasi Das,28/2/79,17/2/80,354,1,no,no,0,391,0,1,AEUP31814,JNP,1,FALSE,FALSE,FALSE
+Uttar_Pradesh,NA,6,President's Rule,17/2/80,9/6/80,113,0,yes,no,0,,,,,,,,,
+Uttar_Pradesh,8,1,Sri V.P. Singh,9/6/80,18/7/82,769,0,no,no,0,318,1,1,AEUP100433,INC(I),1,FALSE,FALSE,FALSE
+Uttar_Pradesh,8,2,Sri Sripati Misra,19/7/82,3/8/84,746,1,no,no,0,124,0,1,AEUP160336,INC(I),2,TRUE,FALSE,FALSE
+Uttar_Pradesh,8,3,Sri N.D. Tiwari,3/8/84,10/3/85,219,0,no,no,0,,,,,,,,,
+Uttar_Pradesh,9,1,Sri N.D. Tiwari,11/3/85,24/9/85,197,1,no,no,0,16,0,1,AEUP5735,INC,1,TRUE,FALSE,FALSE
+Uttar_Pradesh,9,2,Sri Vir Bahadur Singh,24/9/85,24/6/88,1004,0,no,no,0,188,0,1,AEUP6820,INC,3,FALSE,FALSE,FALSE
+Uttar_Pradesh,9,3,Sri N.D. Tiwari,25/6/88,5/12/89,528,1,no,no,0,16,0,1,AEUP5735,INC,1,TRUE,FALSE,FALSE
+Uttar_Pradesh,10,1,Sri Mulayam Singh Yadav,5/12/89,24/6/91,566,0,no,no,0,305,0,1,AEUP30604,JD,1,FALSE,FALSE,FALSE
+Uttar_Pradesh,11,1,Sri Kalyan Singh,24/6/91,6/12/92,531,0,no,no,0,372,0,1,AEUP145891,BJP,1,FALSE,FALSE,FALSE
+Uttar_Pradesh,NA,7,President's Rule,6/12/92,4/12/93,363,0,yes,no,0,,,,,,,,,
+Uttar_Pradesh,12,1,Sri Mulayam Singh Yadav,4/12/93,3/6/95,546,0,no,no,0,339,0,1,AEUP47646,SP,1,FALSE,FALSE,FALSE
+Uttar_Pradesh,12,2,Ms. Mayawati,3/6/95,17/10/95,136,0,no,no,0,,,,,,,,,
+Uttar_Pradesh,NA,8,President's Rule,18/10/95,21/3/97,520,1,yes,no,0,,,,,,,,,
+Uttar_Pradesh,13,1,Ms. Mayawati,21/3/97,21/9/97,184,0,no,no,0,417,0,1,AEUP60512,BSP,1,FALSE,FALSE,FALSE
+Uttar_Pradesh,13,2,Sri Kalyan Singh,21/9/97,11/11/99,781,0,no,no,0,372,0,1,AEUP123873,BJP,1,FALSE,FALSE,FALSE
+Uttar_Pradesh,13,3,Sri. Ram Prakash Gupta,12/11/99,28/10/00,351,1,no,yes,0,,,,,,,,,
+Uttar_Pradesh,13,4,Sri Rajnath Singh,28/10/00,7/3/02,495,0,no,no,0,141,1,1,AEUP156645,BJP,2,FALSE,FALSE,TRUE
+Uttar_Pradesh,NA,9,President's Rule,8/3/02,3/5/02,56,1,yes,no,0,,,,,,,,,
+Uttar_Pradesh,14,1,Ms. Mayawati,3/5/02,28/8/03,482,0,no,no,0,401,0,1,AEUP113051,BSP,2,FALSE,FALSE,TRUE
+Uttar_Pradesh,14,2,Sri Mulayam Singh Yadav,29/8/03,12/5/07,1352,1,no,no,0,25,1,1,GEUP13257,SP,3,FALSE,FALSE,FALSE
+Uttar_Pradesh,15,1,Ms. Mayawati,13/5/07,14/3/12,1767,1,no,yes,0,,,,,,,,,
+Uttar_Pradesh,16,1,Sri Akhilesh Yadav,15/3/12,19/3/17,1830,1,no,yes,0,,,,,,,,,
+Uttarakhand,0,1,Shri Nityanand Swami,9/11/00,29/10/01,354,,no,no,1,,,,,,,,,
+Uttarakhand,0,2,Shri Bhagat Singh koshiyari,30/10/01,1/3/02,122,1,no,no,1,,,,,,,,,
+Uttarakhand,1,1,Shri Narayan Dutt Tiwari,2/3/02,7/3/07,1831,1,no,no,0,56,1,1,AEUP153033,INC,1,FALSE,FALSE,FALSE
+Uttarakhand,2,1,Maj.General.B.C.Khanduri,7/3/07,26/6/09,842,0,no,no,0,30,1,1,AEUK100833,BJP,1,FALSE,FALSE,FALSE
+Uttarakhand,2,2,"Dr.Ramesh Pokhriyal\\""Nishank\""\""""",27/6/09,10/9/11,805,1,no,no,0,35,0,1,AEUP74612,BJP,1,FALSE,FALSE,TRUE
+Uttarakhand,2,3,Maj.General.B.C.Khanduri,11/9/11,13/3/12,184,1,no,no,0,30,1,1,AEUK100833,BJP,1,FALSE,FALSE,FALSE
+Uttarakhand,3,1,Shri Vijaya Bahuguna,13/3/12,31/1/14,689,0,no,no,0,68,1,1,AEUK100814,INC,1,FALSE,FALSE,FALSE
+Uttarakhand,3,2,Shri Harish Rawat,1/2/14,27/3/16,785,1,no,no,0,42,1,1,AEUK100498,INC,1,FALSE,FALSE,FALSE
+Uttarakhand,NA,1,President's Rule,27/3/16,21/4/16,25,0,yes,no,0,,,,,,,,,
+Uttarakhand,3,3,Shri Harish Rawat,21/4/16,22/4/16,1,0,no,no,0,42,1,1,AEUK100498,INC,1,FALSE,FALSE,FALSE
+Uttarakhand,NA,2,President's Rule,22/4/16,11/5/16,19,0,yes,no,0,,,,,,,,,
+Uttarakhand,3,4,Shri Harish Rawat,11/5/16,18/3/17,311,0,no,no,0,42,1,1,AEUK100498,INC,1,FALSE,FALSE,FALSE
